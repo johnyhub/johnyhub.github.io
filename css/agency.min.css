@@ -835,8 +835,14 @@ fieldset[disabled] .btn-xl:hover {
 ul.dropdown-menu.coment {
     border-radius: 10px;
     margin-top: 10px;
-    padding: 7px 12px;
+    padding: 11px 20px;
     background-color: #1b1e21    
+}
+ul.dropdown-menu.coment li,
+ul.dropdown-menu.coment a{
+    
+    line-height: 1.7;
+    padding: 0;
 }
 .userbtn{
     background-color: #0081FF;
