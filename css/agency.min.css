@@ -187,12 +187,21 @@ ul.blue-list  {
     margin-left: 8px;
     font-size: 18px;
 }
-.slider-prev p{
-display: inline-block;
+.slider-prev button {
+    display: inline-block;
     text-align: left;
     margin-left: 18px;
     line-height: 1.3;
-    }
+    cursor: pointer;
+    background: transparent;
+    font-family: "montsterrat";
+    font-weight: 700;
+    color: #4c4c4c;
+    text-transform: uppercase;
+    border: none;
+    padding: 0;
+}
+
 .game-holder-first {
     background: #1B1E21;
     height: 440px;
@@ -874,6 +883,11 @@ ul.dropdown-menu.coment {
 }
 .carousel-btn {
    margin-top:50px;
+}
+.carousel-btn a:hover {
+    color: #fcfcfc;
+    background: #FD8408;
+    box-shadow: 0 0 50px #FD8408;
 }
 
 .carousel-inner>.item>img {

@@ -9,7 +9,8 @@
 	height: 510px;
 	line-height: 1;
 	overflow: hidden;
-    
+    margin-left: -274px;
+    z-index: 0;
 }
 .frame ul {
 	list-style: none;
@@ -84,8 +85,14 @@
 }
 
 /* Controls */
-.controls { margin: 25px 0; text-align: center;
-visibility: hidden}
+.controls {
+    margin: 0;
+    text-align: center;
+    visibility: visible;
+    z-index: 1;
+    padding: 0;
+    margin-left: 14%;
+}
 
 /* One Item Per Frame example*/
 .oneperframe { height: 300px; line-height: 300px; }
