@@ -2,6 +2,7 @@
 .wrap {
 	position: relative;
 	margin: 3em 0;
+    margin-left: 12%;
 }
 
 /* Frame */
@@ -9,7 +10,7 @@
 	height: 510px;
 	line-height: 1;
 	overflow: hidden;
-    margin-left: -219px;
+/*    margin-left: -219px;*/
     z-index: 0;
 }
 .frame ul {
@@ -91,7 +92,8 @@
     visibility: visible;
     z-index: 1;
     padding: 0;
-    margin-left: 14%;
+    position: absolute;
+    width: 249px;
 }
 
 /* One Item Per Frame example*/
