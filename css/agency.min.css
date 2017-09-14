@@ -18,6 +18,14 @@ body {
     webkit-tap-highlight-color: #fed136;
     background-color: #1B1E21;
 }
+.leftin, 
+.rightin,
+.fadedown,
+.fadeup,
+.bouncein
+{
+    visibility: hidden;
+}
 .btn-primary,
 .btn-xl,
 h1,
@@ -311,6 +319,10 @@ ul.blue-list  {
 .statmap-right {
     background-image: url(../img/background/worldmap.png);
     height: 343px;
+    visibility: hidden;
+}
+.statmap-left {
+    visibility: hidden;
 }
 .btn-statmap-circle {
     width: 20px;
@@ -354,6 +366,7 @@ background: #fc8311;
 }
 .stat-list {
     margin-top: 10%;
+    visibility: hidden;
 }
 
 .stat-list .item {
@@ -440,14 +453,13 @@ background: #fc8311;
     height: 362px; 
     padding: 7% 1% 0 2%;
 }
-/*
-.featured-games:hover {
-   background:  linear-gradient(
-      rgba(255, 0, 0, 0.45), 
-      rgba(255, 0, 0, 0.45)
-    ),  url(../img/games/game1.png);
+
+.featured-game1,
+.featured-game2,
+.featured-game3,
+.featured-game4 {
+    visibility: hidden;
 }
-*/
 .featured-game1 {background-image: url(../img/games/game1.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -784,7 +796,8 @@ fieldset[disabled] .btn-xl:hover {
 }
 .navbar-custom .navbar-brand {
     color: #fed136;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    
 }
 .navbar-custom .navbar-brand.active,
 .navbar-custom .navbar-brand:active,

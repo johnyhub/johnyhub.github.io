@@ -3,6 +3,7 @@
 	position: relative;
 	margin: 3em 0;
     margin-left: 12%;
+    
 }
 
 /* Frame */
@@ -89,7 +90,7 @@
 .controls {
     margin: 0;
     text-align: center;
-    visibility: visible;
+    visibility: hidden;
     z-index: 1;
     padding: 0;
     position: absolute;

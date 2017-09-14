@@ -26,7 +26,7 @@
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/slider.css">
-
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,7 +46,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>  
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logos/Logo.png" style="margin-top: -24px;"></a>
+                <a class="navbar-brand page-scroll animated  jackInTheBox" href="#page-top"><img src="img/logos/Logo.png" style="margin-top: -24px;"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -149,9 +149,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-5 col-sm-5 bottom-btn-right">
+                <div class="col-md-5 col-sm-5 bottom-btn-right ">
                     <a class="btn-black btn-icon report" href="">REPORT A PROBLEM</a>
-                    <a class="btn-black btn-icon star" href="">LATEST NEWS <img src="img/icon/Robot.png"></a>
+                    <a class="btn-black btn-icon star" href="">LATEST NEWS <img class="animated2 fadeInUp"src="img/icon/Robot.png"></a>
                     
                 </div>
             </div>
@@ -205,18 +205,23 @@
 <section id="services" class="games">
     <div class="container-fluid">
         <div class="container">
-            <div class="col-md-6 ">
+            <div class="col-md-6 leftin">
                 <p class="header-black"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; Quality servers for
                     <br> &nbsp;&nbsp;&nbsp;&nbsp; awesome <span class="orange-text">prices</span>.</p>
             </div>
-            <div class="col-md-6 ">
+            <div class="col-md-6 rightin">
                 <div class="carousel-btn"><a class="orderbtn btn-white" href=""> GAME & VOICE HOSTING</a> <a class="orderbtn btn-white" href=""> WEB & DOMAIN HOSTING</a></div>
             </div>
         </div>
+        
+        
+        
+        
+        
 
         <!-- Slide code-->
         <div class="wrap">
-            <div class="controls center">
+            <div class="controls center rightin">
                <div class="game-holder scroll-left">
                             <div class="slider-prev">
                                 <button class="btn next">Scroll<br />to the left</button>
@@ -230,7 +235,7 @@
             
           
 
-            <div class="frame" id="forcecentered" style="overflow: hidden;">
+            <div class="frame leftin" id="forcecentered" style="overflow: hidden;">
                 <ul class="clearfix" style="-webkit-transform: translateZ(0px) translateX(0px); width: 6840px;">
                     <li>
                         <div class="game-holder">
@@ -261,7 +266,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="game-holder">
+                        <div class="game-holder ">
                             <div class="game-logo">
                                 <img src="img/games/Game.png">
                             </div>
@@ -433,7 +438,7 @@
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
-            <div class="col-md-6">
+            <div class="col-md-6 fadedown">
                 <p class="header-black"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; Stay safe and in control
                     <br> &nbsp;&nbsp;&nbsp;&nbsp; with <span class="black-text">NEO Servers</span>.</p>
                 <p class="blue-section-text">Absolutely the easiest way to manage your Servers with
@@ -463,7 +468,7 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <div class="screen">
+                <div class="screen fadeup">
                     <div class="screen-header">
                         <img src="img/icon/dots.png">
                     </div>
@@ -484,7 +489,7 @@
     <section class="statmap">
 
         <div class="container">
-            <div class="col-md-5 col-xs-12 pull-left">
+            <div class="col-md-5 col-xs-12 statmap-left">
                 <p class="header-black"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; So, why would you
                     <br> &nbsp;&nbsp;&nbsp;&nbsp; not <span class="orange-text">trust us</span>?</p>
 
@@ -497,7 +502,7 @@
             </div>
             <div class="col-md-7 col-xs-12 statmap-right">
                 <div class="dropdown statmap-dropdown">
-                    <button class="btn-statmap-circle dropdown-toggle" type="button" data-toggle="dropdown"></button>
+                    <button class="btn-statmap-circle dropdown-toggle bouncein" type="button" data-toggle="dropdown"></button>
 
                     <ul class="dropdown-menu statmap">
                         <li>
@@ -683,7 +688,7 @@
                     <li><a href="">Sign up to our newsletter to get the latest news and offers.</a>
                     </li>
                 </ul>
-                <button class="links-btn newsletter"> <span class="links-blue">Subscribe to our Newsletter</span><a href=""><img src="img/icon/arroworange.png"></a></button>
+                <button class="links-btn newsletter animated infinite pulse"> <span class="links-blue">Subscribe to our Newsletter</span><a href=""><img src="img/icon/arroworange.png"></a></button>
 
                 <li> </li>
                 <li class="links-social"><span class="link-line">-------------------------------------</span> &nbsp;&nbsp;&nbsp; SOCIAL NETWORK &nbsp;&nbsp; <span class="link-line">--------------------------------------</span>
@@ -734,7 +739,10 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-
+    
+    <!-- waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
@@ -759,6 +767,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/sly.min.js"></script>
     <script src="js/forcecenter.js"></script>
+     <script src="js/animatedobjects.js"></script>
 
 </body>
 

@@ -4,7 +4,7 @@ $(document).ready(function () {
 
         var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
-        if (scrollTop >= 1990 && fired === false) {
+        if (scrollTop >= 2400 && fired === false) {
 
             // progressbar.js@1.0.0 version is used
             // Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
@@ -16,7 +16,7 @@ $(document).ready(function () {
                 strokeWidth: 12,
                 trailWidth: 11,
                 easing: 'easeInOut',
-                duration: 1400,
+                duration: 2400,
                 text: {
                     autoStylestat1: false
                 },
@@ -58,7 +58,7 @@ $(document).ready(function () {
                 strokeWidth: 12,
                 trailWidth: 11,
                 easing: 'easeInOut',
-                duration: 1400,
+                duration: 3400,
                 text: {
                     autoStylestat2: false
                 },
@@ -100,7 +100,7 @@ $(document).ready(function () {
                 strokeWidth: 12,
                 trailWidth: 11,
                 easing: 'easeInOut',
-                duration: 1400,
+                duration: 4400,
                 text: {
                     autoStylestat3: false
                 },
@@ -142,7 +142,7 @@ $(document).ready(function () {
                 strokeWidth: 12,
                 trailWidth: 11,
                 easing: 'easeInOut',
-                duration: 1400,
+                duration: 4000,
                 text: {
                     autoStylestat4: false
                 },
@@ -184,7 +184,7 @@ $(document).ready(function () {
                 strokeWidth: 12,
                 trailWidth: 11,
                 easing: 'easeInOut',
-                duration: 1400,
+                duration: 5400,
                 text: {
                     autoStylestat5: false
                 },
