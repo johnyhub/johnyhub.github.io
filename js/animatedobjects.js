@@ -4,13 +4,13 @@ $(document).ready(function() {
 //        $('#quality').css('opacity', 0);
 
         $('.leftin').waypoint(function() {
-            $('.leftin').addClass('animated bounceInLeft');
+            $('.leftin').addClass('animated fadeInLeft');
         },                          
                               {
             offset: '70%'
         });
         $('.rightin').waypoint(function() {
-            $('.rightin').addClass('animated2 bounceInRight');
+            $('.rightin').addClass('animated fadeInRight');
         },                          
                               {
             offset: '70%'
@@ -21,6 +21,14 @@ $(document).ready(function() {
                               {
             offset: '70%'
         });
+    $('.controls').waypoint(function() {
+            $('.controls').addClass('animated5 bounceInRight');
+        },                          
+                              {
+            offset: '70%'
+        });
+    
+    
     $('.fadeup').waypoint(function() {
             $('.fadeup').addClass('animated fadeInRight');
         },                          

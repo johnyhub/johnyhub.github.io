@@ -22,8 +22,7 @@ body {
 .rightin,
 .fadedown,
 .fadeup,
-.bouncein
-{
+.bouncein {
     visibility: hidden;
 }
 .btn-primary,

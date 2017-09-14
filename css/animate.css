@@ -18,6 +18,11 @@
   animation-fill-mode: both;
   visibility: visible;
 }
+.animated5 {
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  visibility: visible;
+}
 .infinite {
    animation-iteration-count: infinite; 
 }
