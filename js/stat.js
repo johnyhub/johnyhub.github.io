@@ -13,8 +13,8 @@ $(document).ready(function () {
                 color: '#FC8311',
                 // This has to be the same size as the maximum width to
                 // prevent clipping
-                strokeWidth: 12,
-                trailWidth: 11,
+                strokeWidth: 8,
+                trailWidth: 8,
                 easing: 'easeInOut',
                 duration: 2400,
                 text: {
@@ -22,11 +22,11 @@ $(document).ready(function () {
                 },
                 from: {
                     color: '#FC8311',
-                    width: 11
+                    width: 7
                 },
                 to: {
                     color: '#FC8311',
-                    width: 12
+                    width: 8
                 },
                 // Set default step function for all animate calls
                 step: function (state, circle) {
@@ -55,8 +55,8 @@ $(document).ready(function () {
                 color: '#F51736',
                 // This has to be the same size as the maximum width to
                 // prevent clipping
-                strokeWidth: 12,
-                trailWidth: 11,
+                strokeWidth: 8,
+                trailWidth: 8,
                 easing: 'easeInOut',
                 duration: 3400,
                 text: {
@@ -64,11 +64,11 @@ $(document).ready(function () {
                 },
                 from: {
                     color: '#0F81FD',
-                    width: 11
+                    width: 7
                 },
                 to: {
                     color: '#3367D6',
-                    width: 12
+                    width: 8
                 },
                 // Set default step function for all animate calls
                 step: function (state, circle) {
@@ -97,8 +97,8 @@ $(document).ready(function () {
                 color: '#F51736',
                 // This has to be the same size as the maximum width to
                 // prevent clipping
-                strokeWidth: 12,
-                trailWidth: 11,
+                strokeWidth: 8,
+                trailWidth: 8,
                 easing: 'easeInOut',
                 duration: 4400,
                 text: {
@@ -106,11 +106,11 @@ $(document).ready(function () {
                 },
                 from: {
                     color: '#3367D6',
-                    width: 11
+                    width: 7
                 },
                 to: {
                     color: '#0F81FD',
-                    width: 12
+                    width: 8
                 },
                 // Set default step function for all animate calls
                 step: function (state, circle) {
@@ -139,8 +139,8 @@ $(document).ready(function () {
                 color: '#F51736',
                 // This has to be the same size as the maximum width to
                 // prevent clipping
-                strokeWidth: 12,
-                trailWidth: 11,
+                strokeWidth: 8,
+                trailWidth: 8,
                 easing: 'easeInOut',
                 duration: 4000,
                 text: {
@@ -148,11 +148,11 @@ $(document).ready(function () {
                 },
                 from: {
                     color: '#3367D6',
-                    width: 11
+                    width: 7
                 },
                 to: {
                     color: '#0F81FD',
-                    width: 12
+                    width: 8
                 },
                 // Set default step function for all animate calls
                 step: function (state, circle) {
@@ -181,8 +181,8 @@ $(document).ready(function () {
                 color: '#F51736',
                 // This has to be the same size as the maximum width to
                 // prevent clipping
-                strokeWidth: 12,
-                trailWidth: 11,
+                strokeWidth: 8,
+                trailWidth: 8,
                 easing: 'easeInOut',
                 duration: 5400,
                 text: {
@@ -190,11 +190,11 @@ $(document).ready(function () {
                 },
                 from: {
                     color: '#3367D6',
-                    width: 11
+                    width: 7
                 },
                 to: {
                     color: '#0F81FD',
-                    width: 12
+                    width: 8
                 },
                 // Set default step function for all animate calls
                 step: function (state, circle) {

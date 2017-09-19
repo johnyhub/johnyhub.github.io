@@ -6505,7 +6505,12 @@ button.close {
     width: 6px;
     height: 6px;
    
-    background-color: #A4A4A4
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.carousel-indicators li:hover{
+     background-color: #ffffff;
+    border: 1px solid #ffffff;
 }
 .carousel-caption {
     position: absolute;

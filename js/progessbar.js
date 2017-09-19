@@ -2196,7 +2196,7 @@ Shape.prototype._createTrail = function _createTrail(opts) {
 
     // Defaults for parameters which modify trail path
     if (!newOpts.trailColor) {
-        newOpts.trailColor = '#eee';
+        newOpts.trailColor = '#5A646A';
     }
     if (!newOpts.trailWidth) {
         newOpts.trailWidth = newOpts.strokeWidth;
