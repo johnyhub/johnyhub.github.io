@@ -24,11 +24,11 @@
 .frame ul li {
 	float: left;
 	width: 275px;
-    opacity: 0.5;
+    opacity: 0.3;
 	height: 100%;
 	margin: 0 22px 0 0;
 	padding: 0;
-	background: #333;
+	
 	color: #ddd;
 	text-align: center;
 	cursor: pointer;

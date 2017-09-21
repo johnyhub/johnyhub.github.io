@@ -73,6 +73,7 @@ a:hover {
 .orange-text{
     color: #FD8408 !important;
 }
+
 .blue-text{
     color: #0E5EE1;
 }
@@ -175,7 +176,29 @@ ul.blue-list  {
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;    
+  background-size: cover;   
+    border-radius: 5px 
+}
+.game-one {
+    background: url(../img/games/game4small.png) no-repeat center center;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+.game-three {
+    background: url(../img/games/game3small.png) no-repeat center center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+.game-four {
+    background: url(../img/games/game1small.png) no-repeat center center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
 }
 .scroll-left {
     background: #1b1e21;
@@ -186,11 +209,15 @@ ul.blue-list  {
     display: inline-block;
     width: 33px;
     height: 23px;
+    margin-bottom: -7px;
     background-image: url(../img/games/scrollleft.png);
+}
+.slider-prev:hover::before {
+    opacity: 0.5;
     
 }
 .slider-prev {
-    font-family: "montsterrat"; 
+    font-family: Montserrat; 
     font-weight: 700;
     color: aliceblue;
     text-transform: uppercase;
@@ -201,11 +228,11 @@ ul.blue-list  {
 .slider-prev button {
     display: inline-block;
     text-align: left;
-    margin-left: 18px;
+    margin-left: 28px;
     line-height: 1.3;
     cursor: pointer;
     background: transparent;
-    font-family: "montsterrat";
+    font-family: Montserrat;
     font-weight: 700;
     color: #4c4c4c;
     text-transform: uppercase;
@@ -240,11 +267,13 @@ ul.blue-list  {
     width: 100%;
 }
 .game-inner{
-    position: relative;
+    position: absolute;
     background-color: #202223;
     color: wheat;
     text-align: center;
     padding: 30px 0;
+    bottom: 18px;
+    width: 275px;
 }
 .game-inner h4 {
     font-size: 16px;
@@ -255,7 +284,7 @@ ul.blue-list  {
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
-    line-height: 0.5;
+    line-height: 0.6;
     margin: 22px 0;
 }
 .game-inner small {
@@ -267,11 +296,12 @@ ul.blue-list  {
     padding: 13px 50px;
     background-color: #FD8408;
     border-radius: 50px;
-    border: 1px solid;
+    border: none;
     display: block;
     margin: 0 auto;
     font-size: 12px;
     font-weight: bold;
+    font-family: Montserrat;
     
 }
 .screen {
@@ -307,7 +337,16 @@ ul.blue-list  {
     background-image: url(../img/background/screenimage1.png);
 }
 .screen-img2 {
-    background-image: url(../img/background/bluebackground.png);
+    background-image: url(../img/background/server2.jpg);
+}
+.screen-img3 {
+    background-image: url(../img/background/server3.jpg);
+}
+.screen-img4 {
+    background-image: url(../img/background/server4.jpg);
+}
+.screen-img5 {
+    background-image: url(../img/background/server5.jpg);
 }
 
 .bg-darkest-gray {
@@ -341,7 +380,7 @@ ul.blue-list  {
     background: #fc8311;
     color: #ffffff !important;
     border: #fc8311;
-    font-family: "montsterrat";
+    font-family: Montserrat;
     font-weight: 900 !important;
     padding: 7px 25px !important;
     border-radius: 50px;
@@ -361,8 +400,6 @@ background: #fc8311;
 .dropdown a:active,
 .dropdown a:focus{
     border-bottom: none !important;
-    color: white !important;
-    opacity: 0.8;
 }
 .statmap ul{
     background: transparent;
@@ -413,7 +450,7 @@ background: #fc8311;
     width: 55%;
     text-align: center;
     color: #A8ACB9;
-    font-family: "montsterrat";
+    font-family: Montserrat;
     font-weight: 900;
     font-size: 12px;
     line-height: 1.4;
@@ -462,7 +499,7 @@ background: #fc8311;
 }
 .featured-games {
     height: 362px; 
-    padding: 7% 1% 0 2%;
+    padding: 7% 1% 0 1%;
 }
 
 .featured-game1,
@@ -590,12 +627,24 @@ background: #fc8311;
     background: #fd8408;
     box-shadow: 0px 2px 50px #fc8311;;
     font-size: 12px;
-    font-family: "Montserrat";
+    font-family: Montserrat;
     font-weight: 700;
 }
 .btn-games-play img {
 margin-top: -2px;
     }
+button:hover.btn.btn-games {
+    background-color: #0081FF;
+    box-shadow: 0px 7px 42px #0081FF;
+    color: white
+}
+button.btn.btn-games.red{
+    background-color: #FF454F;
+}
+button:hover.btn.btn-games.red{
+    background-color: #FF454F;
+    box-shadow: 0px 7px 42px  #FF454F;
+}
 .game1-logo {
     width: 120px;
     height: 106px;
@@ -687,6 +736,22 @@ li.link-line:hover
     text-align: center;
     padding-top: 20px;
     color: #989BAB;
+}
+
+li.links-social-btn a {
+    color: #505050;
+}
+i:hover.fa.fa-twitter.fa-2x {
+    color: #00aced;
+    text-shadow: 0px 0px 10px #00aced;
+}
+i:hover.fa.fa-facebook.fa-2x {
+    color: #3b5998;
+    text-shadow: 0px 0px 10px #3b5998;
+}
+i:hover.fa.fa-google-plus.fa-2x {
+    color: #dd4b39;
+    text-shadow: 0px 0px 10px #dd4b39;
 }
 .payment img{
     width: 100%;
@@ -821,7 +886,7 @@ fieldset[disabled] .btn-xl:hover {
 }
 .navbar-custom .nav li a,
 .navbar-custom .navbar-toggle {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     padding: 0;
     padding-bottom: 2px
@@ -843,7 +908,7 @@ fieldset[disabled] .btn-xl:hover {
     
 }
 .navbar-nav li {
-    font-family: "Montserrat";
+    font-family: Montserrat;
     padding: 15px;
 }
 .navbar-nav li:last-child {
@@ -873,6 +938,13 @@ ul.dropdown-menu.coment a{
     line-height: 2.1;
     padding: 0;
 }
+ul.dropdown-menu.coment li a:hover,
+ul.dropdown-menu.coment li a:active,
+ul.dropdown-menu.coment li a:focus
+{
+    opacity: 0.8;
+    color: white;
+}
 .dropdown-menu.coment img {
     width: 20px;
 }
@@ -881,7 +953,7 @@ ul.dropdown-menu.coment a{
     border-radius: 50px;
     color: white;
     margin-left: 20px;
-    font-family: montserrat;
+    font-family: Montserrat;
 }
 .userbtn a {
     padding: 9px;
@@ -998,12 +1070,20 @@ min-height: 700px;
 .btn-white {
     border: 2px solid;
     background-color: transparent;
+    margin-right: 20px;
 }
 a:hover.btn-white  {
 border: 2px solid #FD8408;
 }
 a.dropdown-toggle.userbtn {
     background: #0081FF !important;
+}
+a:hover.dropdown-toggle.userbtn,
+a:focus.dropdown-toggle.userbtn,
+a:active.dropdown-toggle.userbtn
+a:visited.dropdown-toggle.userbtn{
+    color: white !important;
+    opacity: 0.8;
 }
 .userimg {
     width: 36px;
@@ -1084,7 +1164,8 @@ a.dropdown-toggle.userbtn {
 }
 .navbar-custom .navbar-nav>.active>a:focus,
 .navbar-custom .navbar-nav>.active>a:hover {
-    color: #fff;
+    color: #FD8408;
+    border-bottom: 3px solid;
     background-color: transparent;
 }
 li.dropdown-last {
@@ -1106,7 +1187,7 @@ li.dropdown-last {
         transition: all .3s
     }
     .navbar-custom .navbar-nav>.active>a {
-        border-radius: 3px
+        
     }
     .navbar-custom.affix {
         background-color: #1b1e21;
@@ -1761,7 +1842,7 @@ img::-moz-selection {
     float: right;
     margin-left: 25px;
     font-size: 14px;
-    font-family: "Montserrat";
+    font-family: Montserrat;
     font-weight: bold;
 
 }
