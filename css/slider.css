@@ -2,7 +2,7 @@
 .wrap {
 	position: relative;
 	margin: 3em 0;
-    margin-left: 12%;
+   
     
 }
 
@@ -20,6 +20,8 @@
 	padding: 0;
 	height: 100%;
 	font-size: 50px;
+   margin-left: 13%;
+   padding-right: 13%;
 }
 .frame ul li {
 	float: left;
@@ -33,10 +35,11 @@
 	text-align: center;
 	cursor: pointer;
 }
-.frame ul li.active {
+.frame ul li.active,
+.frame ul li:hover{
 	color: #fff;
-	
     opacity: 1;
+    transition: 0.3s
 }
 
 /* Scrollbar */

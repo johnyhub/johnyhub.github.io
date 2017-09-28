@@ -81,9 +81,15 @@ a:hover {
     color: black;
 }
 .blue-section-text {
+    font-size: 20px;
+    line-height: 1.75;
+    color: #758792;
+}
+
+.blue-section-text1{
     font-size: 18px;
     line-height: 1.75;
-    color: #B9CCFF;
+    color: #c5d1ff;
 }
 .blue-list li, 
 .blue-list li a {
@@ -91,10 +97,16 @@ a:hover {
     font-size: 12px;
     margin-bottom: 30px;
     color: #ffffff;
+    font-weight: bold;
+    opacity: 0.7;
 }
+.blue-list li:hover,
 .blue-list li a:hover, 
 .blue-list li a:active {
     font-weight: bold;
+    opacity: 1;
+    color: #ffffff;
+    transition: 0.3s
 }
 ul.blue-list  {
     padding: 40px 0;
@@ -166,8 +178,10 @@ ul.blue-list  {
     display: inline-block;
     width: 16%;
     height: auto;
-    padding: 5px;
-    
+    padding: 5px;   
+}
+.scroll {
+    opacity: 1 !important;
 }
 .game-holder {
     height: 100%;
@@ -212,9 +226,17 @@ ul.blue-list  {
     margin-bottom: -7px;
     background-image: url(../img/games/scrollleft.png);
 }
+/*
 .slider-prev:hover::before {
-    opacity: 0.5;
-    
+    opacity: 0.5;    
+}
+*/
+.slider-prev:hover {
+    opacity: 0.6;
+    transition: 0.3s
+}
+button.btn.next1:hover {
+    color: #4c4c4c;
 }
 .slider-prev {
     font-family: Montserrat; 
@@ -225,7 +247,7 @@ ul.blue-list  {
     margin-left: 8px;
     font-size: 18px;
 }
-.slider-prev button {
+ p.btn.next1 {
     display: inline-block;
     text-align: left;
     margin-left: 28px;
@@ -360,6 +382,8 @@ ul.blue-list  {
 }
 .statmap-right {
     background-image: url(../img/background/worldmap.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 343px;
     visibility: hidden;
 }
@@ -429,7 +453,7 @@ background: #fc8311;
     position: relative;
     display: inline-block;
     background: transparent;
-/*    box-shadow: 0px 0px 55px #0F81FD;*/
+    box-shadow: 0px 0px 55px #0F81FD;
     border-radius: 100px;
 }
 #stat5 {
@@ -882,13 +906,15 @@ fieldset[disabled] .btn-xl:hover {
     color: #fec503
 }
 .navbar-brand img:hover {
-    opacity: 0.7;
+    opacity: 0.5;
+    transition: 0.3s
 }
 .navbar-custom .nav li a,
 .navbar-custom .navbar-toggle {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     padding: 0;
+    font-weight: bold;
     padding-bottom: 2px
     
 }
@@ -942,8 +968,8 @@ ul.dropdown-menu.coment li a:hover,
 ul.dropdown-menu.coment li a:active,
 ul.dropdown-menu.coment li a:focus
 {
-    opacity: 0.8;
-    color: white;
+    color: #006fdc;
+    transition: 0.3s;
 }
 .dropdown-menu.coment img {
     width: 20px;
@@ -1007,7 +1033,8 @@ a:hover.featured-btn,
 .carousel-btn span{
 margin: 0 20px;    
 }
-.carousel-btn a:hover {
+.carousel-btn a:hover,
+.game-inner button:hover {
     color: #fcfcfc;
     background: #FD8408;
     box-shadow: 0 0 50px #FD8408;
@@ -1015,10 +1042,10 @@ margin: 0 20px;
 }
 
 .carousel-inner>.item>img {
-min-height: 700px;
+    min-height: 700px;
     width: 100%;
     min-width: 1600px;
-    max-height: 900px;
+    max-height: 100%;
     max-width: 1900px;
     height: auto;
     height: 100vh;
@@ -1073,7 +1100,10 @@ min-height: 700px;
     margin-right: 20px;
 }
 a:hover.btn-white  {
-border: 2px solid #FD8408;
+border: 2px solid #fefefe;
+    color: #1b1e21;
+    background: #ffffff;
+    box-shadow: none;
 }
 a.dropdown-toggle.userbtn {
     background: #0081FF !important;
@@ -1144,14 +1174,16 @@ a:visited.dropdown-toggle.userbtn{
     letter-spacing: 1px;
     font-size: 18px;
     padding: 0 !important;
+    font-weight: bold;
 }
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:hover {
     color: #FD8408;
-    border-bottom: 3px solid;
+    border-bottom: none;
+    transition: 0.3s;
     outline: 0;
     background: none;
-    
+    font-weight: bold;
 }
 .dropdown-toggle. order a:hover {
     border-bottom: none;
@@ -1165,7 +1197,7 @@ a:visited.dropdown-toggle.userbtn{
 .navbar-custom .navbar-nav>.active>a:focus,
 .navbar-custom .navbar-nav>.active>a:hover {
     color: #FD8408;
-    border-bottom: 3px solid;
+    border-bottom: none;
     background-color: transparent;
 }
 li.dropdown-last {

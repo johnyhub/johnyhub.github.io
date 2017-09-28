@@ -16,16 +16,16 @@ $(document).ready(function () {
                 strokeWidth: 8,
                 trailWidth: 8,
                 easing: 'easeInOut',
-                duration: 2400,
+                duration: 6400,
                 text: {
                     autoStylestat1: false
                 },
                 from: {
-                    color: '#FC8311',
+                    color: '#0F81FD',
                     width: 7
                 },
                 to: {
-                    color: '#FC8311',
+                    color: '#3367D6',
                     width: 8
                 },
                 // Set default step function for all animate calls
@@ -42,7 +42,7 @@ $(document).ready(function () {
 
                 }
             });
-            bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+            bar.text.style.fontFamily = '"Montserrat", Helvetica, sans-serif';
             bar.text.style.fontSize = '32px';
             bar.text.style.color = '#FFFFFF';
 
@@ -58,7 +58,7 @@ $(document).ready(function () {
                 strokeWidth: 8,
                 trailWidth: 8,
                 easing: 'easeInOut',
-                duration: 3400,
+                duration: 4400,
                 text: {
                     autoStylestat2: false
                 },
@@ -84,7 +84,7 @@ $(document).ready(function () {
 
                 }
             });
-            bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+            bar.text.style.fontFamily = '"Montserrat", Helvetica, sans-serif';
             bar.text.style.fontSize = '32px';
             bar.text.style.color = '#FFFFFF';
 
@@ -100,7 +100,7 @@ $(document).ready(function () {
                 strokeWidth: 8,
                 trailWidth: 8,
                 easing: 'easeInOut',
-                duration: 4400,
+                duration: 5400,
                 text: {
                     autoStylestat3: false
                 },
@@ -126,7 +126,7 @@ $(document).ready(function () {
 
                 }
             });
-            bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+            bar.text.style.fontFamily = '"Montserrat", Helvetica, sans-serif';
             bar.text.style.fontSize = '32px';
             bar.text.style.color = '#FFFFFF';
 
@@ -142,7 +142,7 @@ $(document).ready(function () {
                 strokeWidth: 8,
                 trailWidth: 8,
                 easing: 'easeInOut',
-                duration: 4000,
+                duration: 5000,
                 text: {
                     autoStylestat4: false
                 },
@@ -168,7 +168,7 @@ $(document).ready(function () {
 
                 }
             });
-            bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+            bar.text.style.fontFamily = '"Montserrat", Helvetica, sans-serif';
             bar.text.style.fontSize = '32px';
             bar.text.style.color = '#FFFFFF';
 
@@ -210,7 +210,7 @@ $(document).ready(function () {
 
                 }
             });
-            bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+            bar.text.style.fontFamily = '"Montserrat", Helvetica, sans-serif';
             bar.text.style.fontSize = '32px';
             bar.text.style.color = '#FFFFFF';
 

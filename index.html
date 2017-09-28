@@ -153,7 +153,8 @@
                 </div>
                 <div class="col-md-5 col-sm-5 bottom-btn-right ">
                     <a class="btn-black btn-icon report" href="">REPORT A PROBLEM</a>
-                    <a class="btn-black btn-icon star" href="">LATEST NEWS <img src="img/icon/Robot.png"></a>
+                    <a class="btn-black btn-icon star" href="">LATEST NEWS</a>
+                    <img src="img/icon/Robot.png">
                     
                 </div>
             </div>
@@ -223,10 +224,28 @@
 
         <!-- Slide code-->
         <div class="wrap">
+<!--
             <div class="controls center">
                <div class="game-holder scroll-left">
                             <div class="slider-prev">
                                 <button class="btn next">Scroll<br />to the left</button>
+                            </div>
+                        </div>
+                <button class="btn prev"><img src="img/icon/arrowleft.png"></button>
+                <button class="btn next">next <i class="icon-chevron-right"></i></button>
+            </div>
+-->
+            
+          
+
+            <div class="frame leftin" id="forcecentered" style="overflow: hidden;">
+                <ul class="clearfix" style="-webkit-transform: translateZ(0px) translateX(0px); width: 6840px;">
+                    
+                    <li class="scroll">
+                         <div class="controls center">
+               <div class="game-holder scroll-left">
+                            <div class="slider-prev">
+                                <p class="btn next1">Scroll<br />to the left</p>
                             </div>
                         </div>
 <!--
@@ -234,12 +253,9 @@
                 <button class="btn next">next <i class="icon-chevron-right"></i></button>
 -->
             </div>
-            
-          
-
-            <div class="frame leftin" id="forcecentered" style="overflow: hidden;">
-                <ul class="clearfix" style="-webkit-transform: translateZ(0px) translateX(0px); width: 6840px;">
-                    <li>
+                    </li>
+                      
+                       <li>
                         <div class="game-holder game-one">
                             <div class="game-logo">
                                 <img src="img/games/ARKLOGO940.png" width="100%">
@@ -556,7 +572,7 @@
             <div class="col-md-6 fadedown">
                 <p class="header-black"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; Stay safe and in control
                     <br> &nbsp;&nbsp;&nbsp;&nbsp; with <span class="black-text">NEO Servers</span>.</p>
-                <p class="blue-section-text">Absolutely the easiest way to manage your Servers with
+                <p class="blue-section-text2">Absolutely the easiest way to manage your Servers with
                     <br> our user friendly and secure control panels,
                     <br> built just for you!</p>
                 <ul class="blue-list">
@@ -604,7 +620,7 @@
     <section class="statmap">
 
         <div class="container">
-            <div class="col-md-5 col-xs-12 statmap-left">
+            <div class="col-md-6 col-xs-12 statmap-left">
                 <p class="header-black"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; So, why would you
                     <br> &nbsp;&nbsp;&nbsp;&nbsp; not <span class="orange-text">trust us</span>?</p>
 
@@ -615,11 +631,11 @@
                 <div class="carousel-btn"><a class="orderbtn btn-white" href=""> ORDER YOUR SERVER NOW</a></div>
 
             </div>
-            <div class="col-md-7 col-xs-12 statmap-right">
+            <div class="col-md-6 col-xs-12 statmap-right">
                 <div class="dropdown statmap-dropdown">
                     <button class="btn-statmap-circle dropdown-toggle bouncein" type="button" data-toggle="dropdown"></button>
 
-                    <ul class="dropdown-menu statmap">
+                    <ul class="dropdown-menu statmap" style="display: block;">
                         <li>
                             <a class="btn-statmap" href="" onclick="return false;"><img src="img/icon/iconpin2.png" style="margin: -4px 24px 0 0;"> SERVER 1 - PARIS, FRANCE</a>
                         </li>
@@ -631,7 +647,7 @@
                     <div id="stat1">
                     </div>
                     
-                        <div class="stat-title orange-text">
+                        <div class="stat-title">
                             <p>SATISFIED CLIENTS</p>
                         </div>
                 </div>
