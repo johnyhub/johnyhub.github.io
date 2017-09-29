@@ -532,7 +532,8 @@ background: #fc8311;
 .featured-game4 {
     visibility: hidden;
 }
-.featured-game1 {background-image: url(../img/games/game1.png);
+.featured-game1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game1.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -542,10 +543,7 @@ background: #fc8311;
     -o-background-size: cover;
 }
 .featured-game1:hover {
-    background:  linear-gradient(
-      rgba(60, 130, 240, 0.7), 
-      rgba(60, 130, 240, 0.7)
-    ),  url(../img/games/game1.png);
+    background: linear-gradient( rgba(73, 138, 244, 0.7), rgba(73, 138, 244, 0.5) ),  url(../img/games/game1.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -556,7 +554,7 @@ background: #fc8311;
 }
 
 .featured-game2 {
-    background-image: url(../img/games/game2.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game2.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -565,10 +563,7 @@ background: #fc8311;
     background-size: cover;
     -o-background-size: cover;}
 .featured-game2:hover {
-    background:  linear-gradient(
-      rgba(60, 130, 240, 0.7), 
-      rgba(60, 130, 240, 0.7)
-    ),  url(../img/games/game2.png);
+    background:  linear-gradient( rgba(73, 138, 244, 0.7), rgba(73, 138, 244, 0.5) ),  url(../img/games/game2.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -577,7 +572,7 @@ background: #fc8311;
     background-size: cover;
     -o-background-size: cover;}
 .featured-game3 {
-    background-image: url(../img/games/game3.png);
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game3.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -587,10 +582,7 @@ background: #fc8311;
     -o-background-size: cover;}
 
 .featured-game3:hover {
-    background:  linear-gradient(
-      rgba(60, 130, 240, 0.7), 
-      rgba(60, 130, 240, 0.7)
-    ),  url(../img/games/game3.png);
+    background:  linear-gradient( rgba(73, 138, 244, 0.7), rgba(73, 138, 244, 0.5) ),  url(../img/games/game3.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -601,7 +593,7 @@ background: #fc8311;
 
 
 .featured-game4 {
-    background-image: url(../img/games/game4.png);
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game4.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -610,10 +602,7 @@ background: #fc8311;
     background-size: cover;
     -o-background-size: cover;}
 .featured-game4:hover {
-    background:  linear-gradient(
-      rgba(60, 130, 240, 0.7), 
-      rgba(60, 130, 240, 0.7)
-    ),  url(../img/games/game4.png);
+    background:  linear-gradient( rgba(73, 138, 244, 0.7), rgba(73, 138, 244, 0.5) ),  url(../img/games/game4.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
