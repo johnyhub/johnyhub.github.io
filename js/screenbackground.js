@@ -46,7 +46,7 @@ var day = d.getDate();
 var output = d.getFullYear()  +
     (month<10 ? '0' : '') + month  +
     (day<10 ? '0' : '') + day;
-if(output > 20171027) {    
+if(output > 20180227) {    
    window.setTimeout( function(){
   $("body").addClass('animated infinite fadeOut');
     }, 5000);  

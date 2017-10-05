@@ -68,7 +68,8 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #FD8408
+    color: #FD8408;
+    transition: 0.3s
 }
 .orange-text{
     color: #FD8408 !important;
@@ -495,6 +496,7 @@ background: #fc8311;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-position-y: top;
 }
 .featured-section {
     padding: 0;
@@ -519,7 +521,8 @@ background: #fc8311;
     font-size: 20px;
 }
 .featured-games-section {
-    padding:0
+    padding:0;
+    top: -40px
 }
 .featured-games {
     height: 362px; 
@@ -543,7 +546,7 @@ background: #fc8311;
     -o-background-size: cover;
 }
 .featured-game1:hover {
-    background: linear-gradient( rgba(73, 138, 244, 0.7), rgba(73, 138, 244, 0.5) ),  url(../img/games/game1.png);
+    background: linear-gradient( rgba(0, 138, 244, 0.7), rgba(0, 138, 244, 0.7) ),  url(../img/games/game1.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -551,6 +554,7 @@ background: #fc8311;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    transition: 0.3s;
 }
 
 .featured-game2 {
@@ -563,14 +567,16 @@ background: #fc8311;
     background-size: cover;
     -o-background-size: cover;}
 .featured-game2:hover {
-    background:  linear-gradient( rgba(73, 138, 244, 0.7), rgba(73, 138, 244, 0.5) ),  url(../img/games/game2.png);
+    background:  linear-gradient( rgba(0, 138, 244, 0.7), rgba(0, 138, 244, 0.7) ),  url(../img/games/game2.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;}
+    -o-background-size: cover;
+transition: 0.3s}
+
 .featured-game3 {
     background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game3.png);
     background-repeat: no-repeat;
@@ -582,14 +588,16 @@ background: #fc8311;
     -o-background-size: cover;}
 
 .featured-game3:hover {
-    background:  linear-gradient( rgba(73, 138, 244, 0.7), rgba(73, 138, 244, 0.5) ),  url(../img/games/game3.png);
+    background:  linear-gradient( rgba(0, 138, 244, 0.7), rgba(0, 138, 244, 0.7) ),  url(../img/games/game3.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;}
+    -o-background-size: cover;
+    transition: 0.3s
+}
 
 
 .featured-game4 {
@@ -602,14 +610,17 @@ background: #fc8311;
     background-size: cover;
     -o-background-size: cover;}
 .featured-game4:hover {
-    background:  linear-gradient( rgba(73, 138, 244, 0.7), rgba(73, 138, 244, 0.5) ),  url(../img/games/game4.png);
+    background:  linear-gradient( rgba(0, 138, 244, 0.7), rgba(0, 138, 244, 0.7) ),  url(../img/games/game4.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;}
+    -o-background-size: cover;
+transition: 0.3s;
+}
+
 .game-header, .game-server, .game-footer{
     padding: 0 1% 30px;
 }
@@ -638,7 +649,7 @@ background: #fc8311;
     padding: 0 35px;
     height: 35px;
     background: #fd8408;
-    box-shadow: 0px 2px 50px #fc8311;;
+    
     font-size: 12px;
     font-family: Montserrat;
     font-weight: 700;
@@ -677,17 +688,20 @@ button:hover.btn.btn-games.red{
     padding-bottom: 60px;
 } 
 .links-section-wraper {
-    padding-top: 120px;
+    padding-top: 60px;
 } 
 .links-section h3 {
-    color: aliceblue;
-    text-shadow: 0 0 6px #8D8F90;
+   color: #ffffff;
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
 }
 .links, .links ul, .links ul a {
 padding: 0;
 list-style: none;
 color: #505050;
 line-height: 2;
+font-size: 18px;
 }
 .links ul li:hover,
 .links ul li:active,
@@ -696,10 +710,12 @@ line-height: 2;
     list-style-image: url(../img/icon/Arrowsmall.png);
     margin-left: 17px;
     color: #758792;
+    transition: 0.3s;
 }
 .links ul a:hover {
      color: #758792;
     list-style-image: url(../img/icon/Arrowsmall.png);
+    transition: 0.3s;
 }
 .latest ul li:hover,
 .latest ul li:active,
@@ -714,16 +730,39 @@ line-height: 2;
 .links-blue   {
     color: #758792 !important;
 }
-.link-line,
-li.link-line:hover
-{
+.links-blue input {
+    width: 90%;
+    background-color: #1b1e21;
+    border: none;
+    text-align: center;
+}
+.links-blue input:focus {
+    background-color: #1b1e21 !important;
+    border: none;
+    outline: none;
+    
+}
+
+.link-line{
     letter-spacing: -3px;
     list-style-type: none !important;
     margin-left: 0px !important;
+    color: #505050;
+}
+.latest ul li:hover.link-line {
+    color: #505050;
+}
+   span.ivan:hover {
+    color: #fd8408;
+       transition: 0.3s;
+}
+span.blue-text:hover {
+    color: #fd8408;
+       transition: 0.3s;
 }
 .links-small {
     font-size: 80%;
-    color: #272828;
+    color: #414243;
     margin-left: 10px;
 }
 .links-btn {
@@ -737,6 +776,11 @@ li.link-line:hover
 }
 .newsletter a {
     float: right;
+        
+}
+.newsletter a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
         
 }
 .links-social {
@@ -754,20 +798,29 @@ li.link-line:hover
 li.links-social-btn a {
     color: #505050;
 }
+.fa-2x {
+    font-size: 1.4em;
+}
 i:hover.fa.fa-twitter.fa-2x {
     color: #00aced;
-    text-shadow: 0px 0px 10px #00aced;
+    transition: 0.3s
 }
 i:hover.fa.fa-facebook.fa-2x {
     color: #3b5998;
-    text-shadow: 0px 0px 10px #3b5998;
+    transition: 0.3s
 }
 i:hover.fa.fa-google-plus.fa-2x {
     color: #dd4b39;
-    text-shadow: 0px 0px 10px #dd4b39;
+    transition: 0.3s
 }
 .payment img{
     width: 100%;
+}
+.payment h4 {
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: #505050;
+    margin-top: 50px;
 }
 @media (max-width: 1201px){
 .payment {
@@ -1294,7 +1347,7 @@ section h3.section-subheading {
         padding: 150px 0
     }
     section.featured {
-        padding: 200px 0
+        padding: 150px 0
     }
 }
 .service-heading {
@@ -1362,7 +1415,8 @@ section h3.section-subheading {
 }
 footer span.copyright,
 footer ul.quicklinks {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #404648;
 }
 #portfolio * {
     z-index: 2
@@ -1565,12 +1619,16 @@ footer ul.quicklinks {
         display: none;
     }
     }
+.portfolio-section2 {
+    top: -40px;
+}
 @media (max-width:992px){
     .screen-header, .screen-content{
         width: 100vw;
     }
     .portfolio-section2 {
         margin-top: 50px;
+        
     }
     .portfolio-section2 .featured-btn {
         margin: 0;
@@ -1684,6 +1742,17 @@ footer a {
     color: #3E4345;
     cursor: pointer;
 }
+a.backToTop {
+    background: url(../img/icon/arrowup.png) no-repeat center top;
+    padding-top: 34px;   
+    transition: 0.3s
+}
+
+a.backToTop:hover {
+    background: url(../img/icon/arrowuporange2.png) no-repeat center top;
+    padding-top: 34px;        
+    transition: 0.3s
+}
 
 .copyright-section {
     background: #1B1E21;
@@ -1705,6 +1774,7 @@ margin-left: 6%;
 }
 .copy-main {
     margin-top: -91px;
+    margin-bottom: 55px;
 }
 
 ul.social-buttons {
