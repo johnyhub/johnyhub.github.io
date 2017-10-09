@@ -1728,6 +1728,84 @@ section#contact:-ms-input-placeholder {
 section#contact .text-danger {
     color: #e74c3c
 }
+#contact-box .container {
+ background: url(../img/icon/contactelements.png) no-repeat 43% 27%;
+  
+}
+.contactbox {
+    text-align: center;
+    background-color:  #202223;
+    padding: 60px 30px;
+    border-radius: 5px;
+    margin: 60px 20% 0;
+    box-shadow: 2px 8px 30px black;
+}
+.contactbox button {
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    border: 1px solid #272B30;
+}
+.contactbox button:focus {
+    outline: none;
+    cursor: initial;
+}
+a.report-btn {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 25px auto;
+    padding-top: 25px;
+    padding-left: auto;
+    background-color: #FD8408;
+    display: block;
+    max-width: 270px;
+    margin: 60px auto 0 !important;
+    box-shadow: 2px 2px 50px black;
+}
+ .contactbox .textfield img {
+     vertical-align: top;
+margin-top: 6px;
+}
+.textfield {
+    border-radius: 30px;
+}
+
+   .textfield textarea::-webkit-input-placeholder {
+    color: #758792;
+}
+.contactbox textarea {
+        outline: none;
+    resize: none;
+    background: #202223;
+    border: none;
+    width: 95%;
+    overflow: hidden;
+    text-align: center;
+    min-height: 150px;
+    padding-right: 5%;
+}
+.contactbox h3{
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+}
+.contactbox p {
+    color: #505050;
+}
+.contactbox input {
+    color: #758792;
+    width: 95%;
+    background-color: #202223;
+    padding-right: 5%;
+}
+.contactbox input:focus {
+    background-color: #202223 !important;
+}
+.contact-header {
+    float: none;
+}
+
 footer {
     padding:0 0 50px;
     text-align: center;
