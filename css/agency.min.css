@@ -1755,13 +1755,17 @@ a.report-btn {
     color: #ffffff;
     font-weight: bold;
     padding: 25px auto;
-   
+   transition: 0.3s;
     padding-left: auto;
     background-color: #FD8408;
     display: block;
     max-width: 270px;
     margin: 60px auto 0 !important;
     box-shadow: 2px 2px 50px black;
+}
+a:hover.report-btn {
+    box-shadow: 2px 2px 22px #FD8408;
+    transition: 0.3sS
 }
  .contactbox .textfield img {
      vertical-align: top;
@@ -1842,6 +1846,9 @@ section#faq-box {
     font-weight: 300;
     letter-spacing: 4px;
     padding: 30px 0 50px
+}
+.faq-btn a {
+    font-weight: bold;
 }
 .faq-header {
     font-size: 18px;
