@@ -1730,8 +1730,10 @@ section#contact .text-danger {
 }
 #contact-box .container {
  background: url(../img/icon/contactelements.png) no-repeat 43% 27%;
-  
 }
+section#contact-box {
+    padding-bottom: 40px;
+} 
 .contactbox {
     text-align: center;
     background-color:  #202223;
@@ -1753,7 +1755,7 @@ a.report-btn {
     color: #ffffff;
     font-weight: bold;
     padding: 25px auto;
-    padding-top: 25px;
+   
     padding-left: auto;
     background-color: #FD8408;
     display: block;
@@ -1804,6 +1806,121 @@ margin-top: 6px;
 }
 .contact-header {
     float: none;
+}
+#faq-box div.frame {
+    height: auto;
+}
+.frame.faq ul li {
+    height: 120px;
+    overflow: hidden;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+.frame.faq ul {
+    margin-left:0; 
+    padding-right: 0; 
+}
+.game-faq-logo {
+    line-height: 120px;
+    background: #242527;
+    box-shadow: 0px 2px 30px black;
+    padding: 0 18px;
+}
+li.active .game-faq-logo, 
+div:hover.game-faq-logo {
+    background: #fd8712;
+    transition: 0.3s;
+}
+
+section#faq-box {
+    padding: 150px 0 60px;
+}
+.faq-mainheader p {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 4px;
+    padding: 30px 0 50px
+}
+.faq-header {
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-align: center;
+    box-shadow: 2px 6px 15px black;
+    height: 65px;
+    color: #ffffff;  
+    margin-bottom: 20px;
+    background: #202223;
+}
+.faq-header p {
+    line-height: 65px;
+    font-size: 18px;
+}
+div.faq-header.categories {
+    height: 315px;
+    font-size: 16px;
+    text-align: left;
+    padding: 60px 40px;
+    line-height: 3;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin-top: 10px;
+}
+.padding-off {
+    padding-right: 0;
+}
+div.faq-header.categories a {
+    color: #505050;
+    display: block;
+}
+div.faq-header.categories a:hover {
+    color: #fd8712;
+    transition: 0.3s;
+} 
+.answers {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 10px;
+    height: auto;
+    box-shadow: none
+}
+.answers p {
+    letter-spacing: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0 25px 0 40px;
+    box-shadow: 2px 6px 15px black;
+    background-image: url(../img/icon/faqicondown.png);
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+.answers .answer-text p {
+    font-size: 14px;
+    line-height: 2;
+    color: #4c4c4c;
+    box-shadow: none;
+    background-image: none !important;
+    background-color: #1b1e21;
+    margin: 0;
+    padding: 34px;
+}
+.answers p:hover {
+    color: #fd8712;
+    transition: 0.3s;
+        }
+.answers p.active {
+   
+    transition: 0.3s;
+    background-image: url(../img/icon/faqiconup.png);
+    }
+.answers .answer-text p:hover{
+    color: #4c4c4c;
+}
+.faq-btn {
+    text-align: center;
+    margin-top: 60px;
 }
 
 footer {

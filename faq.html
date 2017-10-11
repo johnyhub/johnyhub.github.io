@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NEO - Game Server</title>
+<link rel="icon" href="img/Logo.png" type="image/gif" sizes="16x16">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>  
+                </button>
+                <a class="navbar-brand page-scroll animated  jackInTheBox" href="index.html"><img src="img/logos/Logo.png" style="margin-top: -24px;"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle order" data-toggle="dropdown" href="#">Order <br><img src="img/logos/Arrow.png">
+            
+          </a>
+<!--
+                        <ul class="dropdown-menu">
+                            <li><a href="#">MY CHART</a></li>
+                            <li><a href="#">WEB PANEL</a></li>
+                            <li><a href="#">GAME PANEL</a></li>
+                            <li><a href="#">MY ACCOUNT</a></li>
+                            <li><a href="#">LOG OUT</a></li>
+
+                        </ul>
+-->
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Forum</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="contact.html">Contact us</a>
+                    </li>
+
+                    <li class="dropdown dropdown-last">
+
+                        <a class="dropdown-toggle userbtn" data-toggle="dropdown" href="#">
+                            <div class="userimg"><img src="img/icon/iconuser2.png">
+                                <div class="userimg-number"><span class="notif">2</span>
+                                </div>
+                            </div>
+                            <span class="user-name">
+                            DAVID SNAJDER &nbsp;
+                            <img src="img/logos/Arrow.png"> &nbsp;
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu coment">
+                            <li class="triangle"></li>
+                            <li>
+                                <a href="#"><img src="img/icon/Iconchart.png" style="margin-right:25px">MY CART<img src="img/background/dropdownarrow.png" style=" width:auto; position: absolute;top: -11px;right: 4px;"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon/Iconweb.png" style="margin-right:25px">WEB PANEL
+                                    <div class="panel-number"><span class="panel-number-in">2</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon/icongame.png" style="margin-right:25px">GAME PANEL</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon/Iconuser.png" style="margin-right:25px">MY ACCOUNT</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon/Iconlogout.png" style="margin-right:25px"><span class="red">LOG OUT</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- carousel -->
+    <section id="faq-box">
+    <div class="container leftin">
+            <div class="col-md-12 leftin contact-header">
+                <p class="header-black"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; Frequently Asked Questions
+                    </p>
+            </div>
+            </div>
+            <div class="wrap">
+<!--
+            <div class="controls center">
+               <div class="game-holder scroll-left">
+                            <div class="slider-prev">
+                                <button class="btn next">Scroll<br />to the left</button>
+                            </div>
+                        </div>
+                <button class="btn prev"><img src="img/icon/arrowleft.png"></button>
+                <button class="btn next">next <i class="icon-chevron-right"></i></button>
+            </div>
+-->
+            
+          
+
+            <div class="frame faq leftin" id="forcecentered2" style="overflow: hidden;">
+                <ul class="clearfix" style="-webkit-transform: translateZ(0px) translateX(0px); width: 6840px;">
+                    
+<!--
+                    <li class="scroll">
+                         <div class="controls center">
+               <div class="game-holder scroll-left">
+                            <div class="slider-prev">
+                                <p class="btn next1">Scroll<br />to the left</p>
+                            </div>
+                        </div>
+                <button class="btn prev"><img src="img/icon/arrowleft.png"></button>
+                <button class="btn next">next <i class="icon-chevron-right"></i></button>
+            </div>
+                    </li>
+-->
+                      
+                       <li>
+                        <div class="game-holder game-faq-one">
+                            <div class="game-faq-logo">
+                                <img src="img/logos/faqlogo3.png" width="100%">
+                            </div>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="game-holder game-faq-one">
+                            <div class="game-faq-logo">
+                                <img src="img/logos/faqlogo1.png" width="100%">
+                            </div>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="game-holder game-faq-one">
+                            <div class="game-faq-logo">
+                                <img src="img/logos/faqlogo4.png" width="100%">
+                            </div>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="game-holder game-faq-one">
+                            <div class="game-faq-logo">
+                                <img src="img/logos/faqlogo2.png" width="100%">
+                            </div>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="game-holder game-faq-one">
+                            <div class="game-faq-logo">
+                                <img src="img/logos/faqlogo5.png" width="100%">
+                            </div>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="game-holder game-faq-one">
+                            <div class="game-faq-logo">
+                                <img src="img/logos/faqlogo6.png" width="100%">
+                            </div>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="game-holder game-faq-one">
+                            <div class="game-faq-logo">
+                                <img src="img/logos/faqlogo7.png" width="100%">
+                            </div>
+                        </div>
+                    </li>
+                                    </ul>
+                </div>
+            </div>
+            <div class="container faq-content">
+               <div class="col-md-12 faq-mainheader">
+                   <p>COUNTER STRIKE: GLOBAL OFFENSIVE</p>
+                    </div>
+                <div class="col-md-3 padding-off">
+                    <div class="faq-header">
+                        <p>CATEGORY</p>
+                        <div class="col-md-12 faq-header categories">
+                        <a href="#">Ordering</a>
+                         <a href="#">Admin Panel</a>
+                          <a href="#">Server Menagment</a>
+                           <a href="#">Server Banking</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="col-md-12 faq-header">
+                        <p>QUESTIONS / ANSWERS</p>
+                    </div>
+                  
+             <div class="col-md-12 faq-header answers">
+                <a  href="#faq1" data-toggle="collapse" class="faq1">
+                   <p> How do you buy a Counter Strike: Global Offensive Server?</p>
+
+                </a>
+                
+                 <div id="faq1" class="answer-text collapse">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    
+                </div>
+            </div>
+              <div class="col-md-12 faq-header answers">
+                <a  href="#faq2" data-toggle="collapse" class="faq2">
+                   <p> How do you log in to the Game Panel to manage your new Server?</p>
+
+                </a>
+                
+                 <div id="faq2" class="answer-text collapse">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    
+                </div>
+            </div>
+               <div class="col-md-12 faq-header answers">
+                <a  href="#faq3" data-toggle="collapse" class="faq3">
+                   <p>How do you install a Counter Strike: Global Offensive Server?</p>
+
+                </a>
+                
+                 <div id="faq3" class="answer-text collapse">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    
+                </div>
+            </div>
+               <div class="col-md-12 faq-header answers">
+                <a  href="#faq4" data-toggle="collapse" class="faq4">
+                   <p> I want to install a particual mod to my Server. Where should I begin?</p>
+
+                </a>
+                
+                 <div id="faq4" class="answer-text collapse">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    
+                </div>
+            </div>
+               <div class="col-md-12 faq-header answers">
+                <a  href="#faq5" data-toggle="collapse" class="faq5">
+                   <p> I want to install a particual mod to my Server. Where should I begin?</p>
+
+                </a>
+                
+                 <div id="faq5" class="answer-text collapse">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    
+                </div>
+            </div>
+               <div class="col-md-12 faq-header answers">
+                <a  href="#faq6" data-toggle="collapse" class="faq6">
+                   <p> How do I add admins?</p>
+
+                </a>
+                
+                 <div id="faq6" class="answer-text collapse">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    
+                </div>
+            </div>
+               <div class="col-md-12 faq-header answers">
+                <a  href="#faq7" data-toggle="collapse" class="faq7">
+                   <p> How do you log in to the Game Panel to manage your new Server?</p>
+
+                </a>
+                
+                 <div id="faq7" class="answer-text collapse">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    
+                </div>
+            </div>
+               <div class="col-md-12 faq-header answers">
+                <a  href="#faq8" data-toggle="collapse" class="faq8">
+                   <p>How do you install a Counter Strike: Global Offensive Server?</p>
+
+                </a>
+                
+                 <div id="faq8" class="answer-text collapse">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    
+                </div>
+            </div>
+              
+                </div>
+                <div class="col-md-12 faq-btn">
+                    <a class="orderbtn btn-white" href=""> ORDER YOUR SERVER NOW</a>
+                </div>
+            </div>
+            
+    </section>
+    
+    
+    <!-- Featured Servers Section -->
+    <section id="about" class="featured">
+        <div class="container featured-section">
+            <div class="col-md-6 portfolio-section">
+                <p class="featured-text"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; Featured Servers.</p>
+                <p class="blue-section-text featured-text2">Take a look at these servers hosted on our machines</p>
+            </div>
+            <div class="col-md-6 portfolio-section2">
+                <a class="featured-btn" href=""><img src="img/icon/iconserverlist.png"> &nbsp; VIEW SERVER LIST</a>
+
+            </div>
+        </div>
+        <div class="conainer-fluid">
+            <div class="col-md-12 featured-games-section">
+                <div class="col-md-3 col-sm-6 col-xs-12 games-hover featured-games featured-game1">
+                    <div class="game-header">
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame2.png"> &nbsp; 655/800</button>
+                    </div>
+                    <div class="game-server"><img src="img/games/United-Kingdom.png"> <span class="number-orange"> #3</span> DanskpoplifeRP [DK]|DrugLabs| Customobs|Whitelisted|
+                    </div>
+                    <div class="game-footer">
+                        <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
+                        <div class="game1-logo"></div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game2">
+                   
+                       <div class="game-header">
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame2.png"> &nbsp; 655/800</button>
+                    </div>
+                    <div class="game-server"><img src="img/games/United-Kingdom.png"> <span class="number-orange"> #3</span> DanskpoplifeRP [DK]|DrugLabs| Customobs|Whitelisted|
+                    </div>
+                    <div class="game-footer">
+                        <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
+                        <div class="game1-logo"></div>
+                    </div>
+                  
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game3">
+                    <div class="game-header">
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame2.png"> &nbsp; 655/800</button>
+                    </div>
+                    <div class="game-server"><img src="img/games/United-Kingdom.png"> <span class="number-orange"> #3</span> DanskpoplifeRP [DK]|DrugLabs| Customobs|Whitelisted|
+                    </div>
+                    <div class="game-footer">
+                        <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
+                        <div class="game1-logo"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game4">
+                    <div class="game-header">
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
+                        <button type="button" class="btn btn-games red"><img src="img/games/icongame2.png"> &nbsp; OFFLINE</button>
+                    </div>
+                    <div class="game-server"><img src="img/games/United-Kingdom.png"> <span class="number-orange"> #3</span> DanskpoplifeRP [DK]|DrugLabs| Customobs|Whitelisted|
+                    </div>
+                    <div class="game-footer">
+                        <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
+                        <div class="game1-logo"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Links Section -->
+    <section id="team" class="links-section">
+        <div class="container links-section-wraper">
+            <div class="col-md-4 col-xs-12">
+                <h3>QUICK LINKS</h3>
+                <div class="col-md-6 col-xs-6 links">
+                    <ul>
+                        <li><a href="">About us</a>
+                        </li>
+                        <li><a href="">Forum</a>
+                        </li>
+                        <li><a href="">Knowledge base</a>
+                        </li>
+                        <li><a href="">Payment</a>
+                        </li>
+                        <li><a href="">Privacy Policy</a>
+                        </li>
+                        <li><a href="">Terms &amp; Conditions</a>
+                        </li>
+                        <li><a href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-xs-6 links">
+                    <ul>
+                        <li><a href="">Game Hosting</a>
+                        </li>
+                        <li><a href="">Web Hosting</a>
+                        </li>
+                        <li><a href="">TeamSpeak3</a>
+                        </li>
+                        <li><a href="">VPS Servers</a>
+                        </li>
+                        <li><a href="">Domain Names</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 links latest">
+                <h3>LATEST NEWS</h3>
+                <ul>
+                    <li class=""><a href="">Game panel update #5</a>
+                    </li>
+                    <li><a href="">We've updete GamePanel again with..</a>
+                    </li>
+                    <li><a href=""><span class="ivan">Ivan Savic</span> <span class="links-small">3 hours ago</span></a>
+                    </li>
+                    <li class="link-line">-----------------------</li>
+
+                    <li class=""><a href="">VPS Servers not available for ordering</a>
+                    </li>
+                    <li><a href="">We are pleased to inform all of our custumers</a>
+                    </li>
+                    <li><a href=""><span class="blue-text">David Snajder</span> <span class="links-small">21.05.2017</span></a>
+                    </li>
+                    <li class="link-line">-----------------------</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 links news">
+                <h3>NEWSLETTER</h3>
+                <ul>
+                    <li><a href="">Sign up to our newsletter to get the latest news and offers.</a>
+                    </li>
+                </ul>
+                <button class="links-btn newsletter"> <span class="links-blue"><input type="text" placeholder="Subscribe to our Newsletter" name="email" required></span><a href=""><img src="img/icon/arroworange.png"></a></button>
+
+                <li> </li>
+                <li class="links-social"><span class="link-line">-----------------------</span> &nbsp;&nbsp;&nbsp; SOCIAL NETWORK &nbsp;&nbsp; <span class="link-line">-----------------------</span>
+                </li>
+                <li class="links-social-btn"><a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"> </i></a>
+                    <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                </li>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12 col-xs-12 payment">
+                    <h4 class="text-center">PAYMENT METHODS</h4>
+                </div>
+                <div class="col-md-6 col-xs-12 text-right payment">
+                    <img src="img/logos/leftpay.png">
+                </div>
+                <div class="col-md-6 col-xs-12 payment ">
+                    <img src="img/logos/rightpay.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 copyright-section copy-two">
+                    <span class="copyright">Copyright &copy; 2017 <img src="img/logos/logofoter.png"> - Ultimate Hosting Solution. Designed by David Snajder </span>
+                </div>
+                <div class="col-md-12 copyright-section copy-one">
+                    <span class="copyright">Copyright &copy; 2017 <img src="img/logos/logofoter.png"> - Ultimate Hosting Solution. Designed by David Snajder </span>
+                </div>
+                <div class="col-md-12 copyright-section copy-main">
+                    <span class="copyright">Copyright &copy; 2017 <img src="img/logos/logofoter.png"> - Ultimate Hosting Solution. Designed by David Snajder </span>
+                </div>
+                <div class="col-md-12">
+                    <a class="text-center backToTop">Back To Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    
+    <!-- waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+    <!-- Screen change backgroound -->
+    <script src="js/screenbackground.js"></script>
+
+    <!-- Plugin for stats bar -->
+    <script src="js/progessbar.js"></script>
+    <!-- Stats bar -->
+    <script src="js/stat.js"></script>
+     <!-- Plugin for slide bar -->
+    <script src="js/plugins.js"></script>
+    <script src="js/sly.min.js"></script>
+    <script src="js/forcecenter.js"></script>
+     <script src="js/animatedobjects.js"></script>
+
+</body>
+
+</html>
