@@ -51,12 +51,11 @@ $("a.faq8").on("click", function(){
 
 $(document).ready(function(){
     $('div.game-holder').click(function(){
-        $('div.faq-content').load('contact.html');
+        $('div.faq-content').load('test.html');
          $('div.faq-content').addClass('animated fadeInLeft');
                     
     });
 });
-
 
 
 
