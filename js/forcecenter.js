@@ -53,8 +53,8 @@
 			touchDragging: 1,
 			releaseSwing: 1,
 			startAt: 3,
-//			scrollBar: $wrap.find('.scrollbar'),
-			scrollBy: 1,
+			scrollBar: $wrap.find('.scrollbar'),
+			scrollBy: 0,
             scrollTrap:   false,
             keyboardNavBy: 'pages', 
 			speed: 300,
@@ -71,43 +71,7 @@
         
 	}());
 
-// FAQ page on click change arrows  
-$("a.faq1").on("click", function(){
-    $("a.faq1 p").toggleClass("active");
-     
-});
 
-$("a.faq2").on("click", function(){
-    $("a.faq2 p").toggleClass("active");
-     
-});
-
-$("a.faq3").on("click", function(){
-    $("a.faq3 p").toggleClass("active");
-     
-});
-
-$("a.faq4").on("click", function(){
-    $("a.faq4 p").toggleClass("active");
-     
-});
-
-$("a.faq5").on("click", function(){
-    $("a.faq5 p").toggleClass("active");
-     
-});
-$("a.faq6").on("click", function(){
-    $("a.faq6 p").toggleClass("active");
-     
-});
-$("a.faq7").on("click", function(){
-    $("a.faq7 p").toggleClass("active");
-     
-});
-$("a.faq8").on("click", function(){
-    $("a.faq8 p").toggleClass("active");
-     
-});
 
 
 
