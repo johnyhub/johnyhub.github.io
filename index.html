@@ -152,7 +152,7 @@
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-5 bottom-btn-right ">
-                    <a class="btn-black btn-icon report" href="">REPORT A PROBLEM</a>
+                    <a class="btn-black btn-icon report" href="" data-toggle="modal" data-target="#myModal">REPORT A PROBLEM</a>
                     <a class="btn-black btn-icon star" href="">LATEST NEWS</a>
                     <img src="img/icon/Robot.png">
                     
@@ -197,11 +197,45 @@
 
         </div>
 
-
-
-
-
     </div>
+    
+    <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+          <P>Got a problem?</P>
+          <h4 class="modal-title">REPORT A BUG</h4>
+        </div>
+        <div class="modal-body">
+         <h3>We are here to help you</h3>
+           <div class="modal-wraper">
+            <div class="left">
+                <p>Your email: <span class="orange-text">*</span> </p>
+            <button class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="text" placeholder="" name="email" required=""></span><a href=""></a></button>
+            <p>What is the problem?</p>
+            <button class="links-btn newsletter textfield"><span class="links-blue"><img src="img/icon/contacticontext.png"><textarea type="text" placeholder="Type your message...." onfocus="this.placeholder = ''" name="message" required=""></textarea></span><a href=""></a></button>
+            <a class="orderbtn report-btn" href=""> REPORT</a> 
+            </div>
+            <div class="right">
+                <p>Take a screenshot: <span class="orange-text">*</span></p>
+            <button class="links-btn newsletter textfield"><span class="links-blue"><textarea type="image" placeholder="" onfocus="this.placeholder = ''" name="message" required=""></textarea></span><a href=""></a></button>
+            <a class="" href="">TAKE A SCREENSHOT</a>
+            <a class="orderbtn report-btn" type="button" data-dismiss="modal"> CLOSE</a>
+            </div>
+            </div>
+            
+            
+        
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <!-- Modal End-->
     <!-- Buttons -->
 
     <!-- Services Section -->
