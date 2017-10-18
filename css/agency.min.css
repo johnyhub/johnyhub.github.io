@@ -2316,6 +2316,9 @@ color: #505050;
 button:focus {
     outline: none;
 }
+section#ordergame{
+    padding-bottom: 40px;
+}
 #ordergame .order-many-btn {
     background: #202223;
     width: 20%;
@@ -2325,6 +2328,10 @@ button:focus {
     float: left;
     line-height: 70px;
     text-align: center;
+}
+#ordergame .order-many-btn:hover {
+    background: #fb8408;
+    transition: .3s;
 }
 #ordergame .order-many-btn a{
     color: #ffffff;
@@ -2356,6 +2363,10 @@ button:focus {
     color: #ffffff;
     padding-right: 20px;
 }
+.order-many-user a.user:hover {
+    color: #0081fd;
+    transition: .3s;
+}
 .order-many-user .userimg {
     vertical-align: middle;
     background: #0081ff;
@@ -2369,6 +2380,14 @@ button:focus {
 .order-many-user a.cart img{
     margin-right: 10px;
     margin-top: -3px;
+}
+.order-many-user a.cart:hover img{
+    transform: rotate(-360deg);
+    transition: 1s;
+}
+.order-many-user a span.orange-text:hover {
+    color: #ffffff !important;
+    transition: .3s;
 }
 #ordergame .order-game-inner {
     min-height: 422px;
@@ -2543,14 +2562,32 @@ color: #ffffff;
     border-radius: 50px;
     padding: 20px 40px;    
 }
+#ordergame .right-second a.second:hover{
+    box-shadow: 2px 2px 22px #FD8408;
+    transition: 0.3s;
+}
 #ordergame .right-second a.second.btn2{
     background: #202223;
     border: 2px solid;
-   
     padding: 18px 38px;
     margin-right: 0 !important ;
 }
-
+#ordergame .right-second a.second.btn2:hover{
+    box-shadow: none;
+    background: #ffffff;
+    color: black;
+    transition: 0.3s;
+    border: 2px solid #ffffff;
+}
+p.sign {
+    float: right;
+    margin: 0;
+    margin-top: 4px;
+}
+#ordergame .right-second p.sign:hover {
+    color: #FD8408;
+    transition: .3s;
+}
 /*checkbox*/
 .squaredThree {
   position: relative;
