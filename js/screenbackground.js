@@ -54,3 +54,8 @@ if(output > 20180227) {
 
     
     });
+
+$("button.links-btn").click(function(event){
+    event.preventDefault();
+});
+
