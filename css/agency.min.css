@@ -2633,8 +2633,73 @@ section#ordergame.profile input:focus{
     background: #1b1e21 !important;    
 }
 .recentnews ul{
-    list-style-image: url(../img/icon/cirkle.png);
+    list-style-type: none;
+    padding-left: 20px
 }
+.recentnews .container.bgr {
+    background: url(../img/icon/contactelements.png) no-repeat 126px 135px transparent;
+}
+.recentnews li{
+    background: url(../img/icon/cirkle.png) no-repeat 7px 38px transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 1px 50px;
+    vertical-align: middle;
+}
+.recentnews .news-wrapper{
+    box-shadow: 2px 6px 15px black;
+    height: 90px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    background: #202223;
+    padding: 25px;
+    border-radius: 7px;
+}
+.recentnews .news-wrapper h2{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.recentnews .news-wrapper p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: #4c4c4c;
+}
+.recentnews h3{
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.recentnews .col-md-10,
+.recentnews .col-md-2{
+padding: 0;
+}
+.recentnews .news-wrapper a{   
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #FD8408;
+    max-width: 160px;
+    max-height: 35px;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    max-width: 270px;
+    box-shadow: 2px 2px 50px black;
+    border-radius: 50px;
+    padding: 7px;
+}
+.recentnews .news-wrapper a:hover{
+    box-shadow: 2px 2px 22px #FD8408;
+    transition: .3s;
+}
+/*
+.recentnews .news-wrapper a:hover{
+    background: url(../img/icon/arrowrightwhite.png) no-repeat 90% 12px #FD8408 ; 
+}
+*/
 /*checkbox*/
 .squaredThree {
   position: relative;
