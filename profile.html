@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>NEO - Game Server</title>
-<link rel="icon" href="img/Logo.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="img/Logo.png" type="image/gif" sizes="16x16">
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -44,7 +44,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>  
+                    <span class="sr-only">Toggle navigation</span>
                 </button>
                 <a class="navbar-brand page-scroll animated  jackInTheBox" href="index.html"><img src="img/logos/Logo.png" style="margin-top: -24px;"></a>
             </div>
@@ -62,7 +62,7 @@
                         <a class="dropdown-toggle order" data-toggle="dropdown" href="order.html">Order <br><img src="img/logos/Arrow.png">
             
           </a>
-<!--
+                        <!--
                         <ul class="dropdown-menu">
                             <li><a href="#">MY CHART</a></li>
                             <li><a href="#">WEB PANEL</a></li>
@@ -120,93 +120,102 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <!-- carousel -->
-    <section id="order-box">
-    <div class="container leftin">
-        <div class="col-md-12 leftin contact-header">
-            <p class="header-black"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; Order <span class="orange-text">Team Fortress 2</span> Server
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-md-12 order-game-header">
-                <div class="col-md-3 order-game-left">
-                    <div class="order-game-inner">
-                        <img src="img/games/Game.png">
-                        <p>TEAM FORTRESS 2</p>
-                        <a class="" href="">GAME INFO</a>
-                    </div>
-
+    <!-- Profile section -->
+    <section id="ordergame" class="profile">
+        <div class="container leftin">
+            <div class="col-md-12 many-wrapper">
+                <div class="order-many-btn">
+                    <a href="#"><img src="img/icon/icongame.png" style="margin-right:10px">GAME PANEL</a>
                 </div>
-                <div class="col-md-9 order-game-right">
-
+                <div class="order-many-btn">
+                    <a href="#"><img src="img/icon/Iconweb.png" style="margin-right:10px">WEB PANEL</a>
                 </div>
-            </div>
-            <div class="col-md-12 order-game-second">
-                <div class="col-md-9">
-                    <div class="left">
-                    <h3>ORDER A SERVER</h3>
-                    <p>Server name: <span class="orange-text">*</span> </p>
-                    <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonsub.png"><input type="text" placeholder="NEO Server - Team Fortress 2" onfocus="this.placeholder = ''" name="name" required=""></span>
-                        <a href=""></a>
-                    </button>
-                    <p>Number of slots: <span class="orange-text">*</span> </p>
-                    <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/slotsicon.png"><input type="text" placeholder="24" name="email" required="" onfocus="this.placeholder = ''"></span>
-                        <a href=""></a>
-                    </button>
-                    <p>Term: <span class="orange-text">*</span> </p>
-                    <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/termicon.png"><input type="text" placeholder="1 Month" name="text" required="" onfocus="this.placeholder = ''"></span>
-                        <a href=""></a>
-                    </button>
-                      <p>Promo code: </p>
-                    <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/promoicon.png"><input type="text" placeholder="" name="text" required="" onfocus="this.placeholder = ''"></span>
-                        <a href=""></a>
-                    </button>
-                      <p>Payment Method: <span class="orange-text">*</span> </p>
-                    <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/payicon.png"><input type="text" placeholder="PayPal" name="text" required="" onfocus="this.placeholder = ''"></span>
-                        <a href=""></a>
-                    </button>
-                    <div class="order-buttons">
-                   
-                    <a class="" href="">PUT IN MY CHART</a> 
-                    <a class="btn2" href="">CANCEL</a>
-                
-                    <div class="order-price">
-                    <h2> TOTAL PRICE</h2>
-                        <h4>7.2€</h4>
-                        <h5>per month</h5>
-                    </div>
+                <div class="order-many-btn">
+                    <a href="#"><img src="img/icon/audio.png" style="margin-right:10px">AUDIO PANEL</a>
+                </div>
+                <div class="order-many-user">
+                    <a href="ordergame.html" class="cart"><img src="img/icon/Iconchart.png"><span>MY CART</span></a>
+                    <a class="user" href="profile.html">
+                        <div class="userimg"><img src="img/icon/iconuser2.png">
                         </div>
+                        <span class="user-name orange-text" href="profile.html">
+                            DAVID SNAJDER &nbsp;
+                            </span>
+                    </a>
+
                 </div>
-                    </div>
+            </div>  
+            <div class="col-md-12">
+                <div class="col-md-9 right-second"> 
+                 <h2>MY PROFILE</h2>
+                        <p>Your name: </p>
+                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="David" onfocus="this.placeholder = ''" name="name" required=""></span>
+                            <a href=""></a>
+                        </button>
+                        <p>Your lastname: </p>
+                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="Snajder" onfocus="this.placeholder = ''" name="name" required=""></span>
+                            <a href=""></a>
+                        </button>
+                        <p>Your ussername: </p>
+                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="Daviv_Snajder" onfocus="this.placeholder = ''" name="name" required=""></span>
+                            <a href=""></a>
+                        </button>
+                        <p>Your email: </p>
+                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="mail" placeholder="david@lk-net.com" onfocus="this.placeholder = ''" name="name" required=""></span>
+                            <a href=""></a>
+                        </button>
+                        <p>Your password: </p>
+                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/pass.png"><input type="text" placeholder="Update password" onfocus="this.placeholder = ''" name="name" required=""></span>
+                            <a href=""></a>
+                        </button>
+                        <p>Your gender: </p>
+                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/gender.png"><input type="text" placeholder="Male" onfocus="this.placeholder = ''" name="name" required=""></span>
+                            <a href=""></a>
+                        </button>
+                        <p>Your country: </p>
+                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/country.png"><input type="text" placeholder="France" onfocus="this.placeholder = ''" name="name" required=""></span>
+                            <a href=""></a>
+                        </button>
+                        <a class="second" href="">update now</a> 
+                        <a class="second btn2" href="">deactivate account</a>
+                </div>
+                <div class="col-md-3 right-first">
+                    <div class="col-md-12">
+                     <h2>SETTINGS</h2>
+                  
+                     <div class="squaredThree">
+                            <h3><input type="checkbox" name="optionsRadios" id="checkOther" value="" checked >
+                            <label for="checkOther"></label> Show my status </h3>
+                        </div>
+                     <div class="squaredThree">
+                            
+                            <h3><input type="checkbox" name="optionsRadios" id="checkOther1" value="" checked>
+                            <label for="checkOther1"></label> Recive mails </h3>
+                        </div>
+                         <div class="squaredThree">
+                            
+                            <h3><input type="checkbox" name="optionsRadios" id="checkOther2" value="">
+                            <label for="checkOther2"></label> Show my name </h3>
+                        </div>
+                         <div class="squaredThree">
+                            
+                            <h3><input type="checkbox" name="optionsRadios" id="checkOther3" value="" checked>
+                            <label for="checkOther3"></label> Show my email </h3>
+                        </div>
+                         <div class="squaredThree">
+                            
+                            <h3><input type="checkbox" name="optionsRadios" id="checkOther4" value="" checked>
+                            <label for="checkOther4"></label> Show my gender </h3>
+                        </div>
+                        <div class="col-md-12"><a class="" href="">UPDATE</a> </div>
                     
-                <div class="col-md-3 ">
-                    <div class="right first">
-                     <h3>TEST SERVERS</h3>
-                        <div class="server">
-                            <h2>TEAM FORTRESS 2 SERVER 1</h2>
-                            <h4>192.41.61.4:20612</h4>
-                            <a class="" href="">PLAY NOW</a>
-                            <div class="devider"></div> 
-                        </div>
-                        <div class="server">
-                            <h2>TEAM FORTRESS 2 SERVER 1</h2>
-                            <h4>192.41.61.4:20612</h4>
-                            <a class="" href="">PLAY NOW</a>
-                            <div class="devider"></div> 
-                        </div>
-                    </div>
-                    <div class="right second">
-                     <h3>ADDITIONAL</h3>
-                     <a class="" href="">SERVER LIST</a>
-                     <a class="" href="">MY CART</a>
-                    </div>
-                </div>
+                        
+                     </div>
+                </div>                
             </div>
         </div>
-    </div>
+    </section>
 
-</section>    
-    
     <!-- Featured Servers Section -->
     <section id="about" class="featured">
         <div class="container featured-section">
@@ -235,8 +244,8 @@
 
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game2">
-                   
-                       <div class="game-header">
+
+                    <div class="game-header">
                         <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
                         <button type="button" class="btn  btn-games"><img src="img/games/icongame2.png"> &nbsp; 655/800</button>
                     </div>
@@ -246,7 +255,7 @@
                         <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
                         <div class="game1-logo"></div>
                     </div>
-                  
+
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game3">
                     <div class="game-header">
@@ -343,7 +352,9 @@
                     <li><a href="">Sign up to our newsletter to get the latest news and offers.</a>
                     </li>
                 </ul>
-                <button class="links-btn newsletter"> <span class="links-blue"><input type="text" placeholder="Subscribe to our Newsletter" onfocus="this.placeholder = ''" name="email" required></span><a href=""><img src="img/icon/arroworange.png"></a></button>
+                <button class="links-btn newsletter"> <span class="links-blue"><input type="text" placeholder="Subscribe to our Newsletter" onfocus="this.placeholder = ''" name="email" required></span>
+                    <a href=""><img src="img/icon/arroworange.png"></a>
+                </button>
 
                 <li> </li>
                 <li class="links-social"><span class="link-line">-----------------------</span> &nbsp;&nbsp;&nbsp; SOCIAL NETWORK &nbsp;&nbsp; <span class="link-line">-----------------------</span>
@@ -394,10 +405,10 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    
+
     <!-- waypoints -->
     <script src="js/jquery.waypoints.min.js"></script>
-    
+
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
@@ -418,11 +429,11 @@
     <script src="js/progessbar.js"></script>
     <!-- Stats bar -->
     <script src="js/stat.js"></script>
-     <!-- Plugin for slide bar -->
+    <!-- Plugin for slide bar -->
     <script src="js/plugins.js"></script>
     <script src="js/sly.min.js"></script>
     <script src="js/forcecenter.js"></script>
-     <script src="js/animatedobjects.js"></script>
+    <script src="js/animatedobjects.js"></script>
 
 </body>
 

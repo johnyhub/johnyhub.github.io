@@ -1788,6 +1788,7 @@ margin-top: 6px;
    input::-webkit-input-placeholder{
     color: #758792;
 }
+
 .contactbox textarea {
         outline: none;
     resize: none;
@@ -2401,7 +2402,11 @@ section#ordergame{
     margin: 40px auto;
 }
 #ordergame .col-md-6, 
-#ordergame .col-md-12 {
+#ordergame .col-md-12,
+#ordergame .col-md-9,
+#ordergame .col-md-3,
+#ordergame .col-md-8,
+#ordergame .col-md-4{
     padding: 0 ;
 }
  #ordergame .left{
@@ -2587,6 +2592,48 @@ p.sign {
 #ordergame .right-second p.sign:hover {
     color: #FD8408;
     transition: .3s;
+}
+.profile .squaredThree {
+    margin-top: 5px;
+}
+.profile .right-first {
+    margin-top: 20px;
+}
+.profile .right-first a {
+    height: 35px;
+    width: 170px;
+    background: #0081FF;
+    border-radius: 50px;
+    display: block;
+    line-height: 35px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 45px auto 60px;
+}
+#ordergame.profile .right-second {
+    background: #1b1e21;
+    box-shadow: none;
+}
+#ordergame.profile .right-first h3 {
+   color: #505050;
+}
+#ordergame.profile .links-blue input {
+    width: 96%;
+    background: #1b1e21;
+}
+#ordergame.profile a.second.btn2 {
+    float: right;
+}
+section#ordergame.profile {
+    padding-bottom: 0;
+}
+section#ordergame.profile input:focus{
+    background: #1b1e21 !important;    
+}
+.recentnews ul{
+    list-style-image: url(../img/icon/cirkle.png);
 }
 /*checkbox*/
 .squaredThree {
