@@ -2724,6 +2724,94 @@ padding: 0;
     background: url(../img/icon/arrowrightwhite.png) no-repeat 90% 12px #FD8408 ; 
 }
 */
+section.terms {
+    background: url(../img/icon/contactelements.png) no-repeat 0% 18%;
+}
+#faq-box .terms-wrapper {
+    padding-left: 39px;
+    padding-top: 30px;
+}
+#faq-box .terms-wrapper p {
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: normal;
+    margin-bottom: 50px;
+    background: #1b1e21;
+}
+#faq-box .terms-wrapper h4{
+    font-size: 16px;
+    text-transform: none;
+}
+section.game-voice {
+    background: url(../img/background/server.png) no-repeat -1% -243%;
+}
+.game-voice .game-host {
+    padding: 0;
+}
+.game-voice .game-holder {
+    height: 510px;
+    width: 270px;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.game-voice .game-holder.game-four {
+margin-right: 0;    
+}
+ul.dropdown-menu.orderbox{border-radius: 10px;
+    margin-top: 0;
+    padding: 30px;
+    background-color: #1b1e21;
+    min-width: 220px;
+    left: -61px;
+    height: 110px;}
+ul.dropdown-menu.orderbox li{
+    padding: 3px;
+}
+ul.dropdown-menu.orderbox a{
+    padding: 0;
+}
+ul.dropdown-menu.orderbox li a img{
+    margin-right: 10px;
+}
+ul.dropdown-menu.orderbox li a:hover img{
+    transform: rotate(360deg);
+    transition: .3s;
+}
+.game-voice .fixed-btn a{
+    display: block;
+    position: fixed;
+    left: 0px;
+    top: 300px;
+    background: blue;
+    padding: 12px;
+    border-radius: 0 30px 30px 0;
+    z-index: 2;
+}
+.game-voice .fixed-btn a.second {
+    top:350px;
+}
+.game-voice .fixed-btn a span.first {
+     opacity:0;
+    clear: both;
+    height: 0;
+    padding: 0 8px;
+    overflow: hidden;
+    
+    
+} 
+.game-voice .fixed-btn a:hover span.first {
+     opacity:1;
+    height: 150px;
+    padding: 8px; 
+    -webkit-transition: all .3s ease .15s;
+    -moz-transition: all .3s ease .15s;
+    -o-transition: all .3s ease .15s;
+    -ms-transition: all .3s ease .15s;
+    transition: all .3s ease .15s;
+    
+    
+}
 /*checkbox*/
 .squaredThree {
   position: relative;
