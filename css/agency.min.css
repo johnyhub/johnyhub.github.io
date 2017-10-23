@@ -2773,45 +2773,90 @@ ul.dropdown-menu.orderbox a{
 }
 ul.dropdown-menu.orderbox li a img{
     margin-right: 10px;
+    
 }
 ul.dropdown-menu.orderbox li a:hover img{
     transform: rotate(360deg);
     transition: .3s;
 }
+.game-voice .fixed-btn a img {
+    margin-top: -6px;
+    margin-right: 20px;
+    margin-left: 11px;
+}
 .game-voice .fixed-btn a{
     display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
     position: fixed;
     left: 0px;
     top: 300px;
-    background: blue;
+    background: #141619;
+    box-shadow: 2px 2px 22px #141619;
     padding: 12px;
     border-radius: 0 30px 30px 0;
     z-index: 2;
+    height: 60px;
+    width: 75px;
+    line-height: 39px;
+    overflow: hidden;
+    color: #ffffff;
 }
 .game-voice .fixed-btn a.second {
-    top:350px;
+    top:370px;
 }
 .game-voice .fixed-btn a span.first {
-     opacity:0;
-    clear: both;
-    height: 0;
-    padding: 0 8px;
-    overflow: hidden;
-    
-    
+     display: inline-block; 
 } 
-.game-voice .fixed-btn a:hover span.first {
-     opacity:1;
-    height: 150px;
-    padding: 8px; 
-    -webkit-transition: all .3s ease .15s;
-    -moz-transition: all .3s ease .15s;
-    -o-transition: all .3s ease .15s;
-    -ms-transition: all .3s ease .15s;
-    transition: all .3s ease .15s;
-    
-    
+.game-voice .fixed-btn a:hover {
+    background: #0081FF;
+    box-shadow: 2px 2px 22px #141619;
+    display: inline-block;
+    width: 264px !important;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
 }
+.game-voice .fixed-btn a:hover span {
+   transition: 0.3s;
+}
+.game-voice .game-holder .game-inner {
+    width: 270px;
+}
+.game-voice .game-holder:hover {
+    background: #fc8408;
+    transition: 0.3s;
+}
+.game-voice .game-holder:hover .game-inner {
+    background: #fc8408;
+    transition: 0.3s;
+}
+.game-voice .game-holder .game-inner button {
+   color: #ffffff;
+}
+.game-voice .game-holder:hover .game-inner button {
+    background: #141619;
+    transition: 0.3s;
+}
+.game-voice .game-holder:hover .game-inner h4 {
+    color: #ffc78d;
+    transition: 0.3s
+}
+.game-voice .game-holder:hover .game-logo {
+    padding: 0;
+}
+.game-voice .game-holder:hover .game-logo p{
+    visibility: visible;
+    line-height: 1.2;
+}
+.game-voice .game-holder .game-logo p {
+    background: url(../img/icon/check.png) no-repeat 90% 6px;
+    text-align: left;
+    padding-left: 10%;
+    color: #ffc78d;
+    visibility: hidden;
+}
+
 /*checkbox*/
 .squaredThree {
   position: relative;
