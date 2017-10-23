@@ -2856,7 +2856,131 @@ ul.dropdown-menu.orderbox li a:hover img{
     color: #ffc78d;
     visibility: hidden;
 }
-
+.game-voice .game-holder .game-logo p.head {
+    font-size: 16px;
+    color: #fff;
+    background: none;
+    text-align: center;
+    padding: 0
+}
+section.game-voice2 {
+    background: url(../img/background/Server6.png) no-repeat 10px 293% #0F81FD;
+}
+.game-voice.game-voice2 .game-holder{
+    border: 3px solid #fff;
+    background: #0f81fd;
+}
+.game-voice.game-voice2 .game-holder .game-inner{
+    width: 100%;
+    background: #0f81fd;
+}
+.game-voice.game-voice2 .game-holder .game-inner button{
+    background-color: #14161a;
+    box-shadow: 2px 2px 22px #14161a;
+}
+.game-voice.game-voice2 .game-holder .game-inner button:hover{
+    background-color: #FD8408;
+    transition: .3s;
+    box-shadow: none;
+}
+.game-voice.game-voice2 .game-holder .game-inner h4{
+    color:#8dc4ff;
+}
+.game-voice.game-voice2 .game-holder .game-inner h2{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 33px;
+    margin-top: 0;
+}
+.game-voice.game-voice2 .game-holder .game-inner h5{
+    font-size: 16px;
+    text-transform: none;
+    color: #8dc4ff;
+    font-weight: normal;
+        margin-bottom: 38px;
+}
+.game-voice.game-voice2 .game-holder .game-inner small{
+    color:#8dc4ff;
+}
+.game-voice.game-voice2 .game-holder .game-logo img {
+    width: 67%;
+}
+.game-voice.game-voice2 .game-holder .game-logo {
+    padding-top: 20px;
+}
+.game-voice.game-voice2 .search .header h2{
+    font-size: 30px;
+    text-transform: none;
+    color: #fff;
+    margin-top: 5px;
+}
+.game-voice.game-voice2 .search {
+    height: 232px;
+    border: 3px solid #fff;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 44px 50px;
+        background: #0f81fd;
+}
+.game-voice.game-voice2 .search .buttons {
+    text-align: right;
+}
+.game-voice.game-voice2 .search .buttons button{
+    background: #14161b;
+    border-radius: 50px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 10px
+}
+.game-voice.game-voice2 .search input{
+    width: 79%;
+    display: inline-block;
+    background: #0f81fd;
+    outline: none;
+    border: none;
+}
+.game-voice.game-voice2 .search .gender {
+    display: inline-block;
+    width: 20%;
+}
+.game-voice.game-voice2 .search select.form-control{
+    background: #0f81fd;
+    border: none;
+    box-shadow: none;
+    /* display: inline-block; */
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 75%;
+}
+.game-voice.game-voice2 .search input::-webkit-input-placeholder{
+    font-size: 14;
+    font-weight: bold;
+    color: #fff;
+}
+.game-voice.game-voice2 .search div.links-btn.newsletter{
+    padding: 10px 30px 10px 40px;
+    border: 2px solid #87C0FF
+}
+.game-voice.game-voice2 .search a.btn2{
+    width: 100%;
+    display: block;
+    background: #fff;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    /* padding: 10px 30px 10px 40px; */
+    border-radius: 50px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.game-voice.game-voice2 .search .second {
+    margin-top: 30px;
+}
 /*checkbox*/
 .squaredThree {
   position: relative;
