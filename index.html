@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>NEO - Game Server</title>
-<link rel="icon" href="img/Logo.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="img/Logo.png" type="image/gif" sizes="16x16">
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -44,7 +44,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>  
+                    <span class="sr-only">Toggle navigation</span>
                 </button>
                 <a class="navbar-brand page-scroll animated  jackInTheBox" href="#page-top"><img src="img/logos/Logo.png" style="margin-top: -24px;"></a>
             </div>
@@ -62,16 +62,16 @@
                         <a class="dropdown-toggle order" data-toggle="dropdown" href="order.html">Order <br><img src="img/logos/Arrow.png">
             
           </a>
-<!--
-                        <ul class="dropdown-menu">
-                            <li><a href="#">MY CHART</a></li>
-                            <li><a href="#">WEB PANEL</a></li>
-                            <li><a href="#">GAME PANEL</a></li>
-                            <li><a href="#">MY ACCOUNT</a></li>
-                            <li><a href="#">LOG OUT</a></li>
+                        <ul class="dropdown-menu orderbox">
+                            <li>
+                                <a href="gameandvoice.html#contact-box" class="page-scroll"> <img src="img/icon/cloudicon.png">GAME & VOICE</a>
+                            </li>
+                            <li>
+                                <a href="gameandvoice.html#contact-box2" class="page-scroll"><img src="img/icon/gameicon.png">WEB & DOMAINS</a>
+                            </li>
+
 
                         </ul>
--->
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Forum</a>
@@ -110,7 +110,7 @@
                                 <a href="profile.html"><img src="img/icon/Iconuser.png" style="margin-right:25px">MY ACCOUNT</a>
                             </li>
                             <li>
-                                <a href="#"><img src="img/icon/Iconlogout.png" style="margin-right:25px"><span class="red">LOG OUT</span></a>
+                                <a href="#" data-toggle="modal" data-target="#myModal3"><img src="img/icon/Iconlogout.png" style="margin-right:25px"><span class="red">LOG OUT</span></a>
                             </li>
                         </ul>
                     </li>
@@ -121,9 +121,9 @@
         <!-- /.container-fluid -->
     </nav>
     <!-- carousel -->
-    <div id="myCarousel"  class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="indocators-controls-btn">
-            <div class="container" >
+            <div class="container">
                 <!-- Indicators -->
                 <!-- Left and right controls -->
                 <div class="col-md-5 col-sm-5 bottom-btn-left">
@@ -134,8 +134,8 @@
                 <div class="col-md-2 col-sm-2 bottom-indicator-arrows">
                     <div class="carousel-indicators-wrapper">
                         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                         <img src="img/icon/arrowleft.png">
-<!--                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+                            <img src="img/icon/arrowleft.png">
+                            <!--                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
                             <span class="sr-only">Previous</span>
                         </a>
                         <ol class="carousel-indicators">
@@ -155,7 +155,7 @@
                     <a class="btn-black btn-icon report" href="" data-toggle="modal" data-target="#myModal">REPORT A PROBLEM</a>
                     <a class="btn-black btn-icon star" href="">LATEST NEWS</a>
                     <img src="img/icon/Robot.png">
-                    
+
                 </div>
             </div>
         </div>
@@ -183,7 +183,7 @@
                 </div>
             </div>
 
-<!--
+            <!--
             <div class="item">
                 <img src="img/ov3.png" alt="#" width="100%" height="500">
                 <div class="carousel-caption">
@@ -198,67 +198,188 @@
         </div>
 
     </div>
-    
-    <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
-          <P>Got a problem?</P>
-          <h4 class="modal-title">REPORT A BUG</h4>
+
+    <!-- Modal Report a bug-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <P>Got a problem?</P>
+                    <h4 class="modal-title">REPORT A BUG</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>We are here to help you</h3>
+                    <div class="modal-wraper">
+                        <div class="left">
+                            <p>Your email: <span class="orange-text">*</span> </p>
+                            <button class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="text" placeholder="" name="email" required=""></span>
+                                <a href=""></a>
+                            </button>
+                            <p>What is the problem?</p>
+                            <button class="links-btn newsletter textfield"><span class="links-blue"><img src="img/icon/contacticontext.png"><textarea type="text" placeholder="Type your message...." onfocus="this.placeholder = ''" name="message" required=""></textarea></span>
+                                <a href=""></a>
+                            </button>
+                            <a class="orderbtn report-btn" href=""> REPORT</a>
+                        </div>
+                        <div class="right">
+                            <p>Take a screenshot: <span class="orange-text">*</span></p>
+                            <button class="links-btn newsletter textfield"><span class="links-blue"><textarea type="image" placeholder="" onfocus="this.placeholder = ''" name="message" required=""></textarea></span>
+                                <a href=""></a>
+                            </button>
+                            <a class="" href="" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">TAKE A SCREENSHOT</a>
+                            <a class="orderbtn report-btn" type="button" data-dismiss="modal"> CLOSE</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
         </div>
-        <div class="modal-body">
-         <h3>We are here to help you</h3>
-           <div class="modal-wraper">
-            <div class="left">
-                <p>Your email: <span class="orange-text">*</span> </p>
-            <button class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="text" placeholder="" name="email" required=""></span><a href=""></a></button>
-            <p>What is the problem?</p>
-            <button class="links-btn newsletter textfield"><span class="links-blue"><img src="img/icon/contacticontext.png"><textarea type="text" placeholder="Type your message...." onfocus="this.placeholder = ''" name="message" required=""></textarea></span><a href=""></a></button>
-            <a class="orderbtn report-btn" href=""> REPORT</a> 
-            </div>
-            <div class="right">
-                <p>Take a screenshot: <span class="orange-text">*</span></p>
-            <button class="links-btn newsletter textfield"><span class="links-blue"><textarea type="image" placeholder="" onfocus="this.placeholder = ''" name="message" required=""></textarea></span><a href=""></a></button>
-            <a class="" href="">TAKE A SCREENSHOT</a>
-            <a class="orderbtn report-btn" type="button" data-dismiss="modal"> CLOSE</a>
-            </div>
-            </div>
-            
-            
-        
-        </div>
-      </div>
-      
     </div>
-  </div>
-   <!-- Modal End-->
+    <!-- Modal End-->
+    <!-- Modal Screen Shot-->
+    <div class="modal fade modal2" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!--          <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>-->
+                    <h4 class="modal-title">OPTIONS</h4>
+                </div>
+                <div class="modal-body">
+
+                    <a class="" href="">TAKE A SCREENSHOT</a>
+                    <a class="btn2" type="button" data-dismiss="modal"> CANCEL</a>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Modal End-->
+    <!-- Modal log in-->
+    <div class="modal fade modal3" id="myModal3" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <div class="col-md-6 reg" data-dismiss="modal" data-toggle="modal" data-target="#myModal4">
+                        <p>You need an account?</p>
+                        <h4 class="modal-title">REGISTER</h4>
+                    </div>
+                    <div class="col-md-6 log" data-dismiss="modal" data-toggle="modal" data-target="#myModal3">
+                        <p>Already a user?</p>
+                        <h4 class="modal-title">LOG IN</h4>
+                    </div>
+
+                </div>
+                <div class="modal-body">
+                    <p>User name: </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="David_Snajder" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <p>Password: </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <a class="" type="button" data-dismiss="modal"> LOG IN </a>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Modal register-->
+    <div class="modal fade modal3 modal4" id="myModal4" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <div class="col-md-6 reg" data-dismiss="modal" data-toggle="modal" data-target="#myModal4">
+                        <p>You need an account?</p>
+                        <h4 class="modal-title">REGISTER</h4>
+                    </div>
+                    <div class="col-md-6 log" data-dismiss="modal" data-toggle="modal" data-target="#myModal3">
+                        <p>Already a user?</p>
+                        <h4 class="modal-title">LOG IN</h4>
+                    </div>
+
+                </div>
+                <div class="modal-body">
+                    <p>User name: <span class="orange-text">*</span></p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="David_Snajder" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <p>Email:<span class="orange-text">*</span> </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="text" placeholder="david@lk-net.com" onfocus="this.placeholder = ''" name="email" required=""></span></div>
+                   
+                       <div class="col-md-6 left">
+                        <p>Password:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                   
+                    <p>Captcha:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    </div>
+                    <div class="col-md-6 right">
+                        <p>Confirm Password:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                        <p>Captcha code: </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    </div>
+                     <p> <span class="captcha orange-text">Captcha is not valid. Please try again.</span></p>
+                     <div class="squaredThree">
+                            <h3><input type="checkbox" name="optionsRadios" id="checkOther" value="other">
+                            <label for="checkOther"></label> I've read and accept <span class="blue-text"> Terms and Conditions</span> </h3>
+                        </div>
+                        <a class="" type="button" data-dismiss="modal"> REGISTER NOW </a>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
     <!-- Buttons -->
 
     <!-- Services Section -->
-<section id="services" class="games">
-    <div class="container-fluid">
-        <div class="container">
-            <div class="col-md-6 leftin">
-                <p class="header-black"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; Quality servers for
-                    <br> &nbsp;&nbsp;&nbsp;&nbsp; awesome <span class="orange-text">prices</span>.</p>
+    <section id="services" class="games">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="col-md-6 leftin">
+                    <p class="header-black"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; Quality servers for
+                        <br> &nbsp;&nbsp;&nbsp;&nbsp; awesome <span class="orange-text">prices</span>.</p>
+                </div>
+                <div class="col-md-6 rightin">
+                    <div class="carousel-btn"><a class="orderbtn btn-white" href=""> GAME & VOICE HOSTING</a> <a class="orderbtn btn-white" href=""> WEB & DOMAIN HOSTING</a></div>
+                </div>
             </div>
-            <div class="col-md-6 rightin">
-                <div class="carousel-btn"><a class="orderbtn btn-white" href=""> GAME & VOICE HOSTING</a> <a class="orderbtn btn-white" href=""> WEB & DOMAIN HOSTING</a></div>
-            </div>
-        </div>
-        
-        
-        
-        
-        
 
-        <!-- Slide code-->
-        <div class="wrap">
-<!--
+
+
+
+
+
+            <!-- Slide code-->
+            <div class="wrap">
+                <!--
             <div class="controls center">
                <div class="game-holder scroll-left">
                             <div class="slider-prev">
@@ -269,336 +390,337 @@
                 <button class="btn next">next <i class="icon-chevron-right"></i></button>
             </div>
 -->
-            
-          
 
-            <div class="frame leftin" id="forcecentered" style="overflow: hidden;">
-                <ul class="clearfix" style="-webkit-transform: translateZ(0px) translateX(0px); width: 6840px;">
-                    
-                    <li class="scroll">
-                         <div class="controls center">
-               <div class="game-holder scroll-left">
-                            <div class="slider-prev">
-                                <p class="btn next1">Scroll<br />to the left</p>
-                            </div>
-                        </div>
-<!--
+
+
+                <div class="frame leftin" id="forcecentered" style="overflow: hidden;">
+                    <ul class="clearfix" style="-webkit-transform: translateZ(0px) translateX(0px); width: 6840px;">
+
+                        <li class="scroll">
+                            <div class="controls center">
+                                <div class="game-holder scroll-left">
+                                    <div class="slider-prev">
+                                        <p class="btn next1">Scroll
+                                            <br />to the left</p>
+                                    </div>
+                                </div>
+                                <!--
                 <button class="btn prev"><img src="img/icon/arrowleft.png"></button>
                 <button class="btn next">next <i class="icon-chevron-right"></i></button>
 -->
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="game-holder game-one">
+                                <div class="game-logo">
+                                    <img src="img/games/ARKLOGO940.png" width="100%">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder game-three">
+                                <div class="game-logo">
+                                    <img src="img/games/game2small.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder game-four">
+                                <div class="game-logo">
+                                    <img src="img/games/GTA_V_Logo_Transparent.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder game-one">
+                                <div class="game-logo">
+                                    <img src="img/games/ARKLOGO940.png" width="100%">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder game-three">
+                                <div class="game-logo">
+                                    <img src="img/games/game2small.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder game-four">
+                                <div class="game-logo">
+                                    <img src="img/games/GTA_V_Logo_Transparent.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder game-one">
+                                <div class="game-logo">
+                                    <img src="img/games/ARKLOGO940.png" width="100%">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder game-three">
+                                <div class="game-logo">
+                                    <img src="img/games/game2small.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder game-four">
+                                <div class="game-logo">
+                                    <img src="img/games/GTA_V_Logo_Transparent.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-holder">
+                                <div class="game-logo">
+                                    <img src="img/games/Game.png">
+                                </div>
+                                <div class="game-inner">
+                                    <h4>STARTING FROM</h4>
+                                    <p>0.3€
+                                        <br><small>per slot</small></p>
+
+                                    <button>ORDER NOW</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+
+
+
             </div>
-                    </li>
-                      
-                       <li>
-                        <div class="game-holder game-one">
-                            <div class="game-logo">
-                                <img src="img/games/ARKLOGO940.png" width="100%">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder game-three">
-                            <div class="game-logo">
-                                <img src="img/games/game2small.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder game-four">
-                            <div class="game-logo">
-                                <img src="img/games/GTA_V_Logo_Transparent.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder game-one">
-                            <div class="game-logo">
-                                <img src="img/games/ARKLOGO940.png" width="100%">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder game-three">
-                            <div class="game-logo">
-                                <img src="img/games/game2small.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder game-four">
-                            <div class="game-logo">
-                                <img src="img/games/GTA_V_Logo_Transparent.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-<li>
-                        <div class="game-holder game-one">
-                            <div class="game-logo">
-                                <img src="img/games/ARKLOGO940.png" width="100%">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder game-three">
-                            <div class="game-logo">
-                                <img src="img/games/game2small.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder game-four">
-                            <div class="game-logo">
-                                <img src="img/games/GTA_V_Logo_Transparent.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="game-holder">
-                            <div class="game-logo">
-                                <img src="img/games/Game.png">
-                            </div>
-                            <div class="game-inner">
-                                <h4>STARTING FROM</h4>
-                                <p>0.3€
-                                    <br><small>per slot</small></p>
-
-                                <button>ORDER NOW</button>
-                            </div>
-                        </div>
-                    </li>
-                    
-
-                </ul>
-            </div>
-
-            
-            
 
         </div>
-        
-    </div>
 
 
 
-</section>
+    </section>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
@@ -680,38 +802,38 @@
                 <div class="item">
                     <div id="stat1">
                     </div>
-                    
-                        <div class="stat-title">
-                            <p>SATISFIED CLIENTS</p>
-                        </div>
+
+                    <div class="stat-title">
+                        <p>SATISFIED CLIENTS</p>
+                    </div>
                 </div>
                 <div class="item">
                     <div id="stat2">
                     </div>
-                        <div class="stat-title">
-                            <p>GAMING SERVERS</p>
-                        </div>
+                    <div class="stat-title">
+                        <p>GAMING SERVERS</p>
+                    </div>
                 </div>
                 <div class="item">
                     <div id="stat3">
                     </div>
-                        <div class="stat-title">
-                            <p>TEAM SPEAK 3 SERVERS</p>
-                        </div>
+                    <div class="stat-title">
+                        <p>TEAM SPEAK 3 SERVERS</p>
+                    </div>
                 </div>
                 <div class="item">
                     <div id="stat4">
                     </div>
-                        <div class="stat-title">
-                            <p>WEB HOSTING SERVERS</p>
-                        </div>
+                    <div class="stat-title">
+                        <p>WEB HOSTING SERVERS</p>
+                    </div>
                 </div>
                 <div class="item">
                     <div id="stat5">
                     </div>
-                        <div class="stat-title">
-                            <p>REGISTERED DOMAIN NAMES</p>
-                        </div>
+                    <div class="stat-title">
+                        <p>REGISTERED DOMAIN NAMES</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -747,8 +869,8 @@
 
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game2">
-                   
-                       <div class="game-header">
+
+                    <div class="game-header">
                         <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
                         <button type="button" class="btn  btn-games"><img src="img/games/icongame2.png"> &nbsp; 655/800</button>
                     </div>
@@ -758,7 +880,7 @@
                         <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
                         <div class="game1-logo"></div>
                     </div>
-                  
+
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game3">
                     <div class="game-header">
@@ -855,7 +977,9 @@
                     <li><a href="">Sign up to our newsletter to get the latest news and offers.</a>
                     </li>
                 </ul>
-                <button class="links-btn newsletter"> <span class="links-blue"><input type="text" placeholder="Subscribe to our Newsletter" onfocus="this.placeholder = ''" name="email" required></span><a href=""><img src="img/icon/arroworange.png"></a></button>
+                <button class="links-btn newsletter"> <span class="links-blue"><input type="text" placeholder="Subscribe to our Newsletter" onfocus="this.placeholder = ''" name="email" required></span>
+                    <a href=""><img src="img/icon/arroworange.png"></a>
+                </button>
 
                 <li> </li>
                 <li class="links-social"><span class="link-line">-----------------------</span> &nbsp;&nbsp;&nbsp; SOCIAL NETWORK &nbsp;&nbsp; <span class="link-line">-----------------------</span>
@@ -906,10 +1030,10 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    
+
     <!-- waypoints -->
     <script src="js/jquery.waypoints.min.js"></script>
-    
+
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
@@ -930,11 +1054,11 @@
     <script src="js/progessbar.js"></script>
     <!-- Stats bar -->
     <script src="js/stat.js"></script>
-     <!-- Plugin for slide bar -->
+    <!-- Plugin for slide bar -->
     <script src="js/plugins.js"></script>
     <script src="js/sly.min.js"></script>
     <script src="js/forcecenter.js"></script>
-     <script src="js/animatedobjects.js"></script>
+    <script src="js/animatedobjects.js"></script>
 
 </body>
 

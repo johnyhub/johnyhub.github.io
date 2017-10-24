@@ -1735,11 +1735,13 @@ section#contact:-ms-input-placeholder {
 section#contact .text-danger {
     color: #e74c3c
 }
+#contact-box2 .container,
 #contact-box .container,
 div.container.faq-content {
  background: url(../img/icon/contactelements.png) no-repeat 43% 27%;
 }
-section#contact-box {
+section#contact-box,
+section#contact-box2{
     padding-bottom: 40px;
 } 
 .contactbox {
@@ -2316,6 +2318,144 @@ color: #505050;
 }
 button:focus {
     outline: none;
+}
+.modal2 .modal-dialog{
+    width: 293px;
+    
+    height: 196px;
+    margin-bottom: 0;
+    text-align: center;
+    bottom: 0;
+    right: 5%;
+    position: fixed;
+}
+.modal2 h4.modal-title{
+    font-size: 18px;
+    font-weight: 300;
+}
+.modal2 .modal-header {
+    border: none;
+    padding: 30px ;
+}
+.modal2 .modal-body {
+    padding: 0
+}
+.modal2 .modal-body a{
+    height: 36px;
+    width: 233px;
+    margin: 0 auto 20px auto;
+    background: #0F81FD;
+    border-radius: 50px;
+    display: block;
+    line-height: 36px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.modal2 .modal-body a.btn2{
+    background: #1b1e21;
+    border: 2px solid;
+    line-height: 32px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.modal2 .modal-body a.btn2:hover{
+    box-shadow: none;
+    background: #ffffff;
+    color: black;
+    transition: 0.3s;
+    border: 2px solid #ffffff;    
+}
+.modal2 .modal-content {
+    background: #202223;
+}
+.modal3 .modal-content{
+    max-width: 750px;
+    max-height: 460px;
+}
+.modal3 .modal-header {
+    padding: 0;
+}
+.modal3 .modal-header .reg{
+    padding: 25px;
+    border-top-left-radius: 7px;
+    cursor: pointer;
+}
+.modal3 .modal-header .log{
+    padding: 25px;
+    background: #fd8408;
+    border-top-right-radius: 7px;
+    cursor: pointer;
+}
+.modal3 .modal-header .close {
+    margin-top: -27px;
+}
+.modal3 .modal-body {
+    padding-top: 20px;
+    padding-bottom: 30px
+}
+.modal3 .modal-body a{
+    font-size: 14px;
+    background: transparent;
+    border: 2px solid;
+    padding: 18px 10px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50px;
+    max-width: 273px;
+    margin: 30px auto 0 auto;
+    font-weight: bold;
+}
+.modal3 .modal-body a:hover{
+    border: 2px solid #fefefe;
+    color: #1b1e21;
+    background: #ffffff;
+    box-shadow: none;
+}
+.modal3 .modal-body p{
+    color: #505050;
+    margin-top: 10px;
+}
+
+.modal3 .modal-body div.links-btn{
+    height: 50px;
+    line-height: 40px
+}
+.modal3 .modal-body img{
+    margin-top: -3px;
+}
+.modal3.modal4 .modal-header .log{
+    padding: 25px;
+    border-top-left-radius: 7px;
+    cursor: pointer;
+    background: none;
+}
+.modal3.modal4 .modal-header .reg{
+    padding: 25px;
+    background: #fd8408;
+    border-top-right-radius: 7px;
+    cursor: pointer;
+}
+.modal3.modal4 div.squaredThree {
+    float: none;
+    margin-top: 0;
+}
+.modal3.modal4 div.squaredThree h3{
+    letter-spacing: 1px
+}
+.modal3.modal4 div.squaredThree label{
+    margin-top: -4px;
+}
+.modal3.modal4 .captcha {
+    line-height: 4;
+}
+.modal3 .modal-body .left {
+    padding-left: 0;
+}
+.modal3 .modal-body .right {
+    padding-right: 0;
 }
 section#ordergame{
     padding-bottom: 40px;
