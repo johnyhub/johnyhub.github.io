@@ -106,7 +106,7 @@
                                 <a href="profile.html"><img src="img/icon/Iconuser.png" style="margin-right:25px">MY ACCOUNT</a>
                             </li>
                             <li>
-                                <a href="#"><img src="img/icon/Iconlogout.png" style="margin-right:25px"><span class="red">LOG OUT</span></a>
+                                <a href="#" data-toggle="modal" data-target="#myModal3"><img src="img/icon/Iconlogout.png" style="margin-right:25px"><span class="red">LOG OUT</span></a>
                             </li>
                         </ul>
                     </li>
@@ -116,6 +116,162 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+    <!-- Modal Report a bug-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <P>Got a problem?</P>
+                    <h4 class="modal-title">REPORT A BUG</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>We are here to help you</h3>
+                    <div class="modal-wraper">
+                        <div class="left">
+                            <p>Your email: <span class="orange-text">*</span> </p>
+                            <button class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="text" placeholder="" name="email" required=""></span>
+                                <a href=""></a>
+                            </button>
+                            <p>What is the problem?</p>
+                            <button class="links-btn newsletter textfield"><span class="links-blue"><img src="img/icon/contacticontext.png"><textarea type="text" placeholder="Type your message...." onfocus="this.placeholder = ''" name="message" required=""></textarea></span>
+                                <a href=""></a>
+                            </button>
+                            <a class="orderbtn report-btn" href=""> REPORT</a>
+                        </div>
+                        <div class="right">
+                            <p>Take a screenshot: <span class="orange-text">*</span></p>
+                            <button class="links-btn newsletter textfield"><span class="links-blue"><textarea type="image" placeholder="" onfocus="this.placeholder = ''" name="message" required=""></textarea></span>
+                                <a href=""></a>
+                            </button>
+                            <a class="" href="" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">TAKE A SCREENSHOT</a>
+                            <a class="orderbtn report-btn" type="button" data-dismiss="modal"> CLOSE</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal End-->
+    <!-- Modal Screen Shot-->
+    <div class="modal fade modal2" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!--          <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>-->
+                    <h4 class="modal-title">OPTIONS</h4>
+                </div>
+                <div class="modal-body">
+
+                    <a class="" href="">TAKE A SCREENSHOT</a>
+                    <a class="btn2" type="button" data-dismiss="modal"> CANCEL</a>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Modal End-->
+    <!-- Modal log in-->
+    <div class="modal fade modal3" id="myModal3" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <div class="col-md-6 reg" data-dismiss="modal" data-toggle="modal" data-target="#myModal4">
+                        <p>You need an account?</p>
+                        <h4 class="modal-title">REGISTER</h4>
+                    </div>
+                    <div class="col-md-6 log" data-dismiss="modal" data-toggle="modal" data-target="#myModal3">
+                        <p>Already a user?</p>
+                        <h4 class="modal-title">LOG IN</h4>
+                    </div>
+
+                </div>
+                <div class="modal-body">
+                    <p>User name: </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="David_Snajder" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <p>Password: </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <a class="" type="button" data-dismiss="modal"> LOG IN </a>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Modal register-->
+    <div class="modal fade modal3 modal4" id="myModal4" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <div class="col-md-6 reg" data-dismiss="modal" data-toggle="modal" data-target="#myModal4">
+                        <p>You need an account?</p>
+                        <h4 class="modal-title">REGISTER</h4>
+                    </div>
+                    <div class="col-md-6 log" data-dismiss="modal" data-toggle="modal" data-target="#myModal3">
+                        <p>Already a user?</p>
+                        <h4 class="modal-title">LOG IN</h4>
+                    </div>
+
+                </div>
+                <div class="modal-body">
+                    <p>User name: <span class="orange-text">*</span></p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="David_Snajder" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <p>Email:<span class="orange-text">*</span> </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="text" placeholder="david@lk-net.com" onfocus="this.placeholder = ''" name="email" required=""></span></div>
+                   
+                       <div class="col-md-6 left">
+                        <p>Password:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                   
+                    <p>Captcha:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    </div>
+                    <div class="col-md-6 right">
+                        <p>Confirm Password:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                        <p>Captcha code: </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    </div>
+                     <p> <span class="captcha orange-text">Captcha is not valid. Please try again.</span></p>
+                     <div class="squaredThree">
+                            <h3><input type="checkbox" name="optionsRadios" id="checkOther" value="other">
+                            <label for="checkOther"></label> I've read and accept <span class="blue-text"> Terms and Conditions</span> </h3>
+                        </div>
+                        <a class="" type="button" data-dismiss="modal"> REGISTER NOW </a>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
     <!-- carousel -->
     <section id="order-box">
     <div class="container leftin">

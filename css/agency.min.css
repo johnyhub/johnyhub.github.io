@@ -2394,7 +2394,8 @@ button:focus {
     padding-top: 20px;
     padding-bottom: 30px
 }
-.modal3 .modal-body a{
+.modal3 .modal-body a,
+.modal5 .modal-body a {
     font-size: 14px;
     background: transparent;
     border: 2px solid;
@@ -2408,7 +2409,8 @@ button:focus {
     margin: 30px auto 0 auto;
     font-weight: bold;
 }
-.modal3 .modal-body a:hover{
+.modal3 .modal-body a:hover,
+.modal5 .modal-body a:hover{
     border: 2px solid #fefefe;
     color: #1b1e21;
     background: #ffffff;
@@ -2456,6 +2458,44 @@ button:focus {
 }
 .modal3 .modal-body .right {
     padding-right: 0;
+}
+.modal5 .modal-wraper  {
+    min-height: 0;
+}
+.modal5 .modal-wraper p {
+    font-size: 18px;
+}
+.modal5 .modal-body {
+    padding-bottom: 30px;
+}
+.modal5 .modal-dialog {
+    max-width: 750px;
+    max-height: 456px;
+}
+.modal6 h4.modal-title {
+    color: #06ff23;
+}
+.modal6 .modal-wraper a {
+    margin-top: 40px !important;
+}
+.modal6 .modal-body {
+    padding-bottom: 40px;
+}
+.modal7 h4.modal-title {
+    color: #ff3e3e;
+}
+.modal8 .modal-wraper p:nth-of-type(2) {
+    font-size: 14px;
+}
+.modal8 .modal-wraper div.links-btn{
+    height: 50px;
+    line-height: 36px;
+}
+.modal8 h4.modal-title {
+    color: #fff;
+}
+.white-text {
+    color: #fff;
 }
 section#ordergame{
     padding-bottom: 40px;
