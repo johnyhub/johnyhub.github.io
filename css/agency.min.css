@@ -939,6 +939,19 @@ fieldset[disabled] .btn-xl:hover {
     color: #fed136;
     background-color: #fff
 }
+.icon-small
+{
+    height:18px;
+    margin:0;
+	padding:0;
+}
+
+.icon-medium
+{
+    height:22px;
+	margin:0;
+	padding:0;
+}
 .navbar-custom {
     background-color: #222;
     border-color: transparent
@@ -1022,6 +1035,35 @@ ul.dropdown-menu.coment li a:focus
 }
 .dropdown-menu.coment img {
     width: 20px;
+}
+li.dropdown.lang  {
+    height: 60px;
+    background: transparent;
+    border-radius: 50px;
+    border: 2px solid #877774;
+    line-height: 60px;
+    float: right;
+}
+li.dropdown.dropdown-last {
+    float: right;
+}
+li.dropdown.lang a {
+    line-height: 26px;
+}
+.lang.open ul.dropdown-menu{
+    min-width: 119px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    padding-left: 16px;
+}
+.lang.open ul.dropdown-menu li,
+.lang.open ul.dropdown-menu li a{
+    padding: 0;
+}
+
+ul.nav.navbar-nav.navbar-left {
+    width: 80%;
 }
 .userbtn{
     background-color: #0081FF;
@@ -1250,7 +1292,13 @@ a:visited.dropdown-toggle.userbtn{
     background-color: transparent;
 }
 li.dropdown-last {
-    margin-left: 170px;
+    padding: 0;
+    height: 60px;
+}
+.dropdown-last a.dropdown-toggle.userbtn {
+    height: 100%;
+    padding: 11px;
+    margin-right: -20px
 }
 @media (min-width:768px) {
     .navbar-custom {
@@ -1607,13 +1655,13 @@ footer ul.quicklinks {
     .carousel-btn{
         margin: 0 17%;
     }
-    #services .carousel-btn {
+     .carousel-btn {
         margin: 0;
         padding: 0 100px;
     }
 }
 @media (max-width:655px) {
-    #services .carousel-btn {
+     .carousel-btn {
         padding: 0 0;
     }
     .games .carousel-btn .orderbtn {
@@ -1644,6 +1692,94 @@ footer ul.quicklinks {
     padding: 0 1% 60px;
 }
 }
+@media (max-width:420px){
+    li.lang, 
+    li.dropdown-last {
+        display: none;
+    }
+.carousel-caption h1 {
+    font-size: 30px;
+}
+.carousel-caption h4 {
+    font-size: 20px;
+}
+.carousel-caption img {
+    width: 100%;
+}
+.carousel-btn {
+    font-size: 11px;
+    padding: 20% 5% 0;
+}
+    .carousel-btn a.orderbtn {
+        padding: 10px !important;
+        margin: 5px;
+    }    
+    .indocators-controls-btn {
+        bottom: -10%;
+    }
+    .header-black {
+        font-size: 21px;
+    }
+    a.orderbtn.btn-white {
+    text-align: center;
+}
+    section#services {
+        padding: 40px0 20px;
+    }
+    #services .carousel-btn {
+        padding: 0 10%;
+    }
+    #portfolio .blue-list li a{
+    font-size: 10px;
+    opacity: 0.9;    
+    }
+    section#portfolio{
+        padding: 40px 0;
+        background: url(../img/background/elementsblue.png) no-repeat -42% 3% #0F81FD;
+    } 
+    section.statmap {
+        padding: 40px 0px 10px; 
+    }
+    .blue-section-text,
+    .blue-section-text2{
+        padding-left: 22px;
+    }
+    section.statmap .carousel-btn {
+    font-size: 11px;
+    padding: 0% 20% 3%;
+}
+    .statmap-right {
+        height: 189px;
+    }
+    section#about {
+        background: url(../img/background/elementsorange.png) no-repeat 100% 0 #fff;
+    }
+    #about p.featured-text {
+        font-size: 23px;
+        padding-top: 20px;
+    }
+    #about .portfolio-section2 {
+        text-align: center;
+        padding-top: 55px;
+    }
+    .featured-section {
+        padding-bottom: 60px;
+    }
+    #about .game-header {
+        text-align: center;
+    }
+    #about .game-footer,
+    #about .game-header,
+    #about .game-server {
+    padding: 0 6% 19%;
+}
+    #team .latest,
+    #team .news{
+        padding: 0 10px
+    }
+    
+    
+}
 @media (min-width:1200px) {
     .timeline>li {
         min-height: 170px
@@ -1662,6 +1798,7 @@ footer ul.quicklinks {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px
     }
+    
 }
 .team-member {
     text-align: center;
