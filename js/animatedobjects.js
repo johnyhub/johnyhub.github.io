@@ -21,12 +21,7 @@ $(document).ready(function() {
                               {
             offset: '70%'
         });
-    $('.controls').waypoint(function() {
-            $('.controls').addClass('animated5 bounceInRight');
-        },                          
-                              {
-            offset: '70%'
-        });
+
     
     
     $('.fadeup').waypoint(function() {
@@ -44,15 +39,15 @@ $(document).ready(function() {
                               {
             offset: '70%'
         });
-    $('.featured-game1').waypoint(function() {
-            $('.featured-game1').addClass('animated fadeInLeft');
-         $('.featured-game2').addClass('animated fadeInUp');
-         $('.featured-game3').addClass('animated fadeInDown');
-         $('.featured-game4').addClass('animated fadeInRight');
-        },                          
-                              {
-            offset: '70%'
-        });
+//    $('.featured-game1').waypoint(function() {
+//            $('.featured-game1').addClass('animated fadeInLeft');
+//         $('.featured-game2').addClass('animated fadeInUp');
+//         $('.featured-game3').addClass('animated fadeInDown');
+//         $('.featured-game4').addClass('animated fadeInRight');
+//        },                          
+//                              {
+//            offset: '70%'
+//        });
     
     
     

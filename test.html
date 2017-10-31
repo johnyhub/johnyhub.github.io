@@ -122,6 +122,10 @@
     </nav>
     <!-- carousel -->
     <section id="order-box">
+    <div class="container" >
+  <h1>PIE CHART ZA NEO SERVERS</h1>
+  <div class="chart" data-percent="60">841</div>
+</div>
     <div class="container">
   <h2>Modal Example</h2>
   <!-- Trigger the modal with a button -->
@@ -390,7 +394,21 @@
     <script src="js/plugins.js"></script>
     <script src="js/sly.min.js"></script>
     <script src="js/forcecenter.js"></script>
-     <script src="js/animatedobjects.js"></script>
+    <script src="js/animatedobjects.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+    <script>
+        $(function() {
+  $('.chart').easyPieChart({
+    scaleColor: false,
+    lineWidth: 10,
+    lineCap: 'round',
+    barColor: '#fc800c',
+    trackColor:	"#5a646a",
+    size: 130,
+    animate: 3500
+  });
+});
+    </script>
 
 </body>
 

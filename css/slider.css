@@ -93,7 +93,7 @@
 .controls {
     margin: 0;
     text-align: center;
-    visibility: hidden;
+    visibility: visible;
     z-index: 1;
     padding: 0;
     position: absolute;
