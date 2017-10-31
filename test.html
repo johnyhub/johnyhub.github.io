@@ -124,7 +124,34 @@
     <section id="order-box">
     <div class="container" >
   <h1>PIE CHART ZA NEO SERVERS</h1>
-  <div class="chart" data-percent="60">841</div>
+  <style>
+      div.chart {
+          height: 130px;
+          width: 130px;
+          display: inline-block;
+          position: relative;
+          margin-right: 7%;
+      }
+      span.count {
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+  
+      canvas {
+          box-shadow: 0px 0px 55px #0F81Fd;
+    border-radius: 100px;
+      }
+        
+  </style>
+  <div class="chart" data-percent="60"><span class="count">841</span></div>
+  <div class="chart" data-percent="90"><span class="count">1523</span></div>
+  <div class="chart" data-percent="15"><span class="count">392</span></div>
+  <div class="chart" data-percent="45"><span class="count">249</span></div>
+  <div class="chart" data-percent="50"><span class="count">97</span></div>
 </div>
     <div class="container">
   <h2>Modal Example</h2>
@@ -402,14 +429,24 @@
     scaleColor: false,
     lineWidth: 10,
     lineCap: 'round',
-    barColor: '#fc800c',
+    barColor: '#0F81FD',
     trackColor:	"#5a646a",
     size: 130,
     animate: 3500
   });
 });
+        $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
     </script>
-
 </body>
 
 </html>

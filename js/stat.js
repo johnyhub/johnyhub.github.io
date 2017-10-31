@@ -5,6 +5,32 @@ $(document).ready(function () {
         var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
         if (scrollTop >= 2400 && fired === false) {
+           
+            $(function() {
+  $('.chart').easyPieChart({
+    scaleColor: false,
+    lineWidth: 10,
+    lineCap: 'round',
+    barColor: '#0F81FD',
+    trackColor:	"#5a646a",
+    size: 130,
+    animate: 3500
+  });
+});
+        $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+            fired = true;
+        }
+    });
+});
+            
+            
 
             // progressbar.js@1.0.0 version is used
             // Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
