@@ -14,14 +14,14 @@ $(document).ready(function () {
     barColor: '#0F81FD',
     trackColor:	"#5a646a",
     size: 130,
-    animate: 3500
+    animate: 8000
   });
 });
         $('.count').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
-        duration: 4000,
+        duration: 8000,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now));
