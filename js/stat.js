@@ -5,8 +5,8 @@ $(document).ready(function () {
         var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
         if (scrollTop >= 2400 && fired === false) {
-           
-            $(function() {
+//controls za easyPie            
+$(function() {
   $('.chart').easyPieChart({
     scaleColor: false,
     lineWidth: 10,
@@ -25,11 +25,11 @@ $(document).ready(function () {
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now));
-            fired = true;
+            fired = true; // Only one ciklus
         }
     });
 });
-            
+//controls za easyPie END            
             
 
             // progressbar.js@1.0.0 version is used

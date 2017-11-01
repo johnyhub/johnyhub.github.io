@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>NEO - Game Server</title>
-<link rel="icon" href="img/Logo.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="img/Logo.png" type="image/gif" sizes="16x16">
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -44,7 +44,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>  
+                    <span class="sr-only">Toggle navigation</span>
                 </button>
                 <a class="navbar-brand page-scroll animated  jackInTheBox" href="index.html"><img src="img/logos/Logo.png" style="margin-top: -24px;"></a>
             </div>
@@ -62,7 +62,7 @@
                         <a class="dropdown-toggle order" data-toggle="dropdown" href="order.html">Order <br><img src="img/logos/Arrow.png">
             
           </a>
-<!--
+                        <!--
                         <ul class="dropdown-menu">
                             <li><a href="#">MY CHART</a></li>
                             <li><a href="#">WEB PANEL</a></li>
@@ -122,90 +122,110 @@
     </nav>
     <!-- carousel -->
     <section id="order-box">
-    <div class="container" >
-  <h1>PIE CHART ZA NEO SERVERS</h1>
-  <style>
-      div.chart {
-          height: 130px;
-          width: 130px;
-          display: inline-block;
-          position: relative;
-          margin-right: 7%;
-      }
-      span.count {
-    position: absolute;
-    color: #fff;
-    font-size: 32px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-  
-      canvas {
-          box-shadow: 0px 0px 55px #0F81Fd;
-    border-radius: 100px;
-      }
-        
-  </style>
-  <div class="chart" data-percent="60"><span class="count">841</span></div>
-  <div class="chart" data-percent="90"><span class="count">1523</span></div>
-  <div class="chart" data-percent="15"><span class="count">392</span></div>
-  <div class="chart" data-percent="45"><span class="count">249</span></div>
-  <div class="chart" data-percent="50"><span class="count">97</span></div>
-</div>
-    <div class="container">
-  <h2>Modal Example</h2>
-  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+        <div class="container">
+            <h1>PIE CHART ZA NEO SERVERS</h1>
+            <style>
+                div.chart {
+                    height: 130px;
+                    width: 130px;
+                    display: inline-block;
+                    position: relative;
+                    margin-right: 7%;
+                }
+                
+                span.count {
+                    position: absolute;
+                    color: #fff;
+                    font-size: 32px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                
+                canvas {
+                    box-shadow: 0px 0px 55px #0F81Fd;
+                    border-radius: 100px;
+                }
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
-          <P>Got a problem?</P>
-          <h4 class="modal-title">REPORT A BUG</h4>
+            </style>
+            <div class="chart" data-percent="60"><span class="count">841</span></div>
+            <div class="chart" data-percent="90"><span class="count">1523</span></div>
+            <div class="chart" data-percent="15"><span class="count">392</span></div>
+            <div class="chart" data-percent="45"><span class="count">249</span></div>
+            <div class="chart" data-percent="50"><span class="count">97</span></div>
         </div>
-        <div class="modal-body">
-         <h3>We are here to help you</h3>
-           <div class="modal-wraper">
-            <div class="left">
-                <p>Your email: <span class="orange-text">*</span> </p>
-            <button class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="text" placeholder="" name="email" required=""></span><a href=""></a></button>
-            <p>What is the problem?</p>
-            <button class="links-btn newsletter textfield"><span class="links-blue"><img src="img/icon/contacticontext.png"><textarea type="text" placeholder="Type your message...." onfocus="this.placeholder = ''" name="message" required=""></textarea></span><a href=""></a></button>
-            <a class="orderbtn report-btn" href=""> REPORT</a> 
-            </div>
-            <div class="right">
-                <p>Take a screenshot: <span class="orange-text">*</span></p>
-            <button class="links-btn newsletter textfield"><span class="links-blue"><textarea type="image" placeholder="" onfocus="this.placeholder = ''" name="message" required=""></textarea></span><a href=""></a></button>
-            <a class="" href="">TAKE A SCREENSHOT</a>
-            <a class="orderbtn report-btn" type="button" data-dismiss="modal"> CLOSE</a>
-            </div>
-            </div>
-            
-            
-        
-        </div>
-<!--
+        <li class="dropdown lang">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img id="imgNavSel" src="http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif" alt="..." class="img-thumbnail icon-small">&nbsp;&nbsp;<span id="lanNavSel">Male</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+
+                <li>
+                    <a id="navDeu" href="#" class="language"> <img id="imgNavDeu" src="http://www.roemheld.de/IT/Data/Images/Address/Deutschland.gif" alt="..." class="img-thumbnail icon-small">&nbsp;&nbsp;<span id="lanNavDeu">Female</span></a>
+                </li>
+
+                <li>
+                    <a id="navEng" href="#" class="language"><img id="imgNavEng" src="http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif" alt="..." class="img-thumbnail icon-small">&nbsp;&nbsp;<span id="lanNavEng">Male</span></a>
+                </li>
+            </ul>
+        </li>
+        <div class="container">
+            <h2>Modal Example</h2>
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                            <P>Got a problem?</P>
+                            <h4 class="modal-title">REPORT A BUG</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h3>We are here to help you</h3>
+                            <div class="modal-wraper">
+                                <div class="left">
+                                    <p>Your email: <span class="orange-text">*</span> </p>
+                                    <button class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="text" placeholder="" name="email" required=""></span>
+                                        <a href=""></a>
+                                    </button>
+                                    <p>What is the problem?</p>
+                                    <button class="links-btn newsletter textfield"><span class="links-blue"><img src="img/icon/contacticontext.png"><textarea type="text" placeholder="Type your message...." onfocus="this.placeholder = ''" name="message" required=""></textarea></span>
+                                        <a href=""></a>
+                                    </button>
+                                    <a class="orderbtn report-btn" href=""> REPORT</a>
+                                </div>
+                                <div class="right">
+                                    <p>Take a screenshot: <span class="orange-text">*</span></p>
+                                    <button class="links-btn newsletter textfield"><span class="links-blue"><textarea type="image" placeholder="" onfocus="this.placeholder = ''" name="message" required=""></textarea></span>
+                                        <a href=""></a>
+                                    </button>
+                                    <a class="" href="">TAKE A SCREENSHOT</a>
+                                    <a class="orderbtn report-btn" type="button" data-dismiss="modal"> CLOSE</a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <!--
         <div class="modal-footer">
          <a class="orderbtn report-btn" href=""> REPORT</a><a class="orderbtn report-btn" href=""> REPORT</a>
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
 -->
-      </div>
-      
-    </div>
-  </div>
-  
-</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
 
 
-</section>    
-    
+    </section>
+
     <!-- Featured Servers Section -->
     <section id="about" class="featured">
         <div class="container featured-section">
@@ -234,8 +254,8 @@
 
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game2">
-                   
-                       <div class="game-header">
+
+                    <div class="game-header">
                         <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
                         <button type="button" class="btn  btn-games"><img src="img/games/icongame2.png"> &nbsp; 655/800</button>
                     </div>
@@ -245,7 +265,7 @@
                         <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
                         <div class="game1-logo"></div>
                     </div>
-                  
+
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game3">
                     <div class="game-header">
@@ -342,7 +362,9 @@
                     <li><a href="">Sign up to our newsletter to get the latest news and offers.</a>
                     </li>
                 </ul>
-                <button class="links-btn newsletter"> <span class="links-blue"><input type="text" placeholder="Subscribe to our Newsletter" onfocus="this.placeholder = ''" name="email" required></span><a href=""><img src="img/icon/arroworange.png"></a></button>
+                <button class="links-btn newsletter"> <span class="links-blue"><input type="text" placeholder="Subscribe to our Newsletter" onfocus="this.placeholder = ''" name="email" required></span>
+                    <a href=""><img src="img/icon/arroworange.png"></a>
+                </button>
 
                 <li> </li>
                 <li class="links-social"><span class="link-line">-----------------------</span> &nbsp;&nbsp;&nbsp; SOCIAL NETWORK &nbsp;&nbsp; <span class="link-line">-----------------------</span>
@@ -393,10 +415,10 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    
+
     <!-- waypoints -->
     <script src="js/jquery.waypoints.min.js"></script>
-    
+
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
@@ -417,7 +439,7 @@
     <script src="js/progessbar.js"></script>
     <!-- Stats bar -->
     <script src="js/stat.js"></script>
-     <!-- Plugin for slide bar -->
+    <!-- Plugin for slide bar -->
     <script src="js/plugins.js"></script>
     <script src="js/sly.min.js"></script>
     <script src="js/forcecenter.js"></script>
@@ -425,27 +447,28 @@
     <script src="js/jquery.easypiechart.js"></script>
     <script>
         $(function() {
-  $('.chart').easyPieChart({
-    scaleColor: false,
-    lineWidth: 10,
-    lineCap: 'round',
-    barColor: '#0F81FD',
-    trackColor:	"#5a646a",
-    size: 130,
-    animate: 3500
-  });
-});
-        $('.count').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 4000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});
+            $('.chart').easyPieChart({
+                scaleColor: false,
+                lineWidth: 10,
+                lineCap: 'round',
+                barColor: '#0F81FD',
+                trackColor: "#5a646a",
+                size: 130,
+                animate: 3500
+            });
+        });
+        $('.count').each(function() {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function(now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+
     </script>
 </body>
 
