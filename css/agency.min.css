@@ -1743,11 +1743,19 @@ footer ul.quicklinks {
     .triangle img {
         display: none;
     }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #f8f8f8;
+}
+    .navbar-fixed-top .navbar-collapse {
+    min-height: 320px;
+    background: url(../img/background/elements.png) 136% -67% ;
+}
     li.dropdown.lang {
     float: left;
     padding: 15px;
     box-shadow: none;
     }
+    
 .carousel-caption h1 {
     font-size: 30px;
 }
