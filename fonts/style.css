@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'neoservers';
+  src:  url('../fonts/neoservers.eot?vgs6rb');
+  src:  url('../fonts/neoservers.eot?vgs6rb#iefix') format('embedded-opentype'),
+    url('../fonts/neoservers.ttf?vgs6rb') format('truetype'),
+    url('../fonts/neoservers.woff?vgs6rb') format('woff'),
+    url('../fonts/neoservers.svg?vgs6rb#neoservers') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'neoservers' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1px;
+  margin-right: 10px;
+  font-size: 18px;
+  vertical-align: middle;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-stop:before {
+  content: "\e900";
+   }
+.icon-repeat:before {
+  content: "\e901";
+}
+.icon-plugins:before {
+  content: "\e902";
+}
+.icon-console:before {
+  content: "\e903";
+}
+.icon-wallet:before {
+  content: "\e904";
+}
+.icon-user:before {
+  content: "\e905";
+}
+.icon-up-small:before {
+  content: "\e906";
+}
+.icon-upload:before {
+  content: "\e907";
+}
+.icon-time:before {
+  content: "\e908";
+}
+.icon-support:before {
+  content: "\e909";
+}
+.icon-settings:before {
+  content: "\e90a";
+}
+.icon-servers:before {
+  content: "\e90b";
+}
+.icon-right-small:before {
+  content: "\e90c";
+}
+.icon-restart:before {
+  content: "\e90d";
+}
+.icon-plus:before {
+  content: "\e90e";
+}
+.icon-news:before {
+  content: "\e90f";
+}
+.icon-newfolder:before {
+  content: "\e910";
+}
+.icon-minus:before {
+  content: "\e911";
+}
+.icon-mail:before {
+  content: "\e912";
+}
+.icon-lock:before {
+  content: "\e913";
+}
+.icon-left-small:before {
+  content: "\e914";
+}
+.icon-ip:before {
+  content: "\e915";
+}
+.icon-help:before {
+  content: "\e916";
+}
+.icon-flag:before {
+  content: "\e917";
+}
+.icon-files:before {
+  content: "\e918";
+}
+.icon-file:before {
+  content: "\e919";
+}
+.icon-dropdown:before {
+  content: "\e91a";
+}
+.icon-config:before {
+  content: "\e91b";
+}
+.icon-close:before {
+  content: "\e91c";
+}
+.icon-check:before {
+  content: "\e91d";
+}
+.icon-calendar:before {
+  content: "\e91e";
+}
+.icon-billing:before {
+  content: "\e91f";
+}
+.icon-back:before {
+  content: "\e920";
+}
+.support-number {
+    background: #fc8408;
+    padding: 2px 6px;
+    border-radius: 100px;
+    margin-left: 5px;
+}
+.panel-game {
+    height: 200px;
+    line-height: 200px;
+}
+.panel-logo img {
+width: 100%    
+}
+.panel-logo {
+    background: #505050;
+}
+#ordergame .panel-text1 {
+    padding: 25px 0 0 30px;
+}
+.green-text {
+    color: greenyellow;
+}
+.panel-text1 p {
+    font-size: 14px;
+    color: #505050;
+    font-weight: normal;
+    padding-top: 0;
+    text-align: left;
+    line-height: 1;
+}
+.panel-text1 h3 {
+    color: #758792;
+    margin: 0 0 17px 0;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    text-align: left;
+    line-height: 1;
+}
+#ordergame .panel-price {
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+#ordergame .panel-price a {
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: #FD8408;
+    display: block;
+    box-shadow: 2px 2px 50px black;
+    border-radius: 50px;
+    max-width: 160px;
+    max-height: 35px;
+    padding: 8px 0;
+    line-height: 1;
+    text-align: center;
+    float: right;
+    width: 100%;
+    margin-top: 25px;
+}
+#ordergame .panel-price h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: #4c4c4c;
+    margin-top: 30px;
+}
+#ordergame .panel-price h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+}
+#ordergame .panel-price h5 {
+    font-size: 12px;
+    text-transform: lowercase;
+    margin: 0;
+}
+
+#ordergame .gamepanel a.second.btn2 {
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+    display: block;
+    float: left;
+    width: 48%;
+    text-transform: uppercase;
+    max-width: 270px;
+    margin: 60px 10px 250px 0 !important;
+    box-shadow: 2px 2px 50px black;
+    border-radius: 50px;
+    padding: 20px 40px;
+    background: #202223;
+    border: 2px solid;
+    padding: 18px 38px;
+    text-align: center
+}

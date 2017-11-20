@@ -2811,6 +2811,20 @@ section#ordergame{
     line-height: 70px;
     text-align: center;
 }
+#ordergame .many-wrapper2 .order-many-btn {
+    width: 16.6%;
+    height: 50px;
+    line-height: 50px;
+}
+#ordergame .many-wrapper2 .order-many-btn:last-child {
+    border: none;
+}
+#ordergame .many-wrapper2 .order-many-btn a {
+    font-size: 12px;
+}
+#ordergame .many-wrapper2 .order-many-btn img {
+    fill:red;
+}
 #ordergame .order-many-btn:hover {
     background: #fb8408;
     transition: .3s;
@@ -2824,7 +2838,24 @@ section#ordergame{
     padding: 0;
     box-shadow: 2px 2px 22px black;
     border-radius: 7px;
+    background: #202223
 }
+#ordergame .many-wrapper.header {
+    height: 50px;
+    line-height: 50px;
+    background: #1b1e21;
+    box-shadow: 2px 2px 22px #0c0d0d;
+}
+#ordergame .many-wrapper.header h2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+}
+
 .order-many-btn:first-child {
     border-radius: 7px 0 0 7px;
 }
