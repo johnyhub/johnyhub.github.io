@@ -493,6 +493,12 @@ background: #fc8311;
 {
     line-height: 1.2;
 }
+.stat-title p:hover {
+    color: #FD8408;
+    transition: 0.3s;
+    cursor: default;
+}
+
 
 /*NEW PIE SHART */
 div.chart {
@@ -511,7 +517,7 @@ div.chart {
 }
   
       canvas {
-          box-shadow: 0px 0px 55px #0F81Fd;
+
     border-radius: 100px;
       }
 /*NEW PIE SHART END*/
@@ -1086,6 +1092,17 @@ li.dropdown.lang a {
     box-shadow: none;
     border: none;
     padding-left: 16px;
+}
+.lang.open ul.dropdown-menu {
+    min-width: 119px;
+    background: #1b1e21;
+    box-shadow: none;
+    border: none;
+    padding-left: 16px;
+    border-radius: 10px;
+    margin-top: 11px;
+    margin-left: -12px;
+    padding-right: 35px;
 }
 .lang.open ul.dropdown-menu li,
 .lang.open ul.dropdown-menu li a{
@@ -3126,15 +3143,17 @@ p.sign {
     margin: 45px auto 60px;
 }
 #ordergame.profile .right-second {
-    background: #1b1e21;
-    box-shadow: none;
+    background: #202223;   
+}
+#ordergame.profile .right-second-pad {
+    padding-right: 20px;
 }
 #ordergame.profile .right-first h3 {
    color: #505050;
 }
 #ordergame.profile .links-blue input {
     width: 96%;
-    background: #1b1e21;
+   
 }
 #ordergame.profile a.second.btn2 {
     float: right;
@@ -3159,9 +3178,9 @@ section#ordergame.profile .form-control{
     font-size: 14px;
     /* line-height: 1.42857143; */
     color: #748691;
-    background-color: #1b1e21;
+    background-color: #202223;
     background-image: none;
-    border: 1px solid #1b1e21;
+    border: 1px solid #202223;
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);

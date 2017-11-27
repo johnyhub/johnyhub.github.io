@@ -143,6 +143,9 @@ width: 100%
 .panel-logo {
     background: #505050;
 }
+.panel-logo:hover {
+    background: #007ffc;
+}
 #ordergame .panel-text1 {
     padding: 25px 0 0 30px;
 }
