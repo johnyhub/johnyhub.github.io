@@ -228,6 +228,10 @@ width: 100%
     padding: 18px 38px;
     text-align: center
 }
+#ordergame .gamepanel a.second.btn2.support-btn {
+    max-width: 164px;
+    float: left;
+}
 #ordergame .gamepanel a.second.btn2:hover {
     background: #fff;
     color: black;
@@ -414,6 +418,43 @@ span.icon-help.rejected {
 .panel-text1.amount h3 {
         font-size: 24px;
     color: #fff;
-    
-
+}
+a.arhive {
+ color: #4f4f4f;   
+}
+a.arhive:hover {
+ color: #fff;
+ transition: 0.3s;
+}
+a.arhive span{
+margin: 0;
+font-size: 22px;
+}
+a.ip-btn {
+    width: 85%;
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+    margin-right: 10px;
+    box-shadow: 2px 2px 50px black;
+    border-radius: 50px;
+    background: #202223;
+    border: 2px solid;
+    padding: 7px 0px;
+    text-align: center;
+    color: #fff;
+}
+a.ip-btn:hover {
+    background: #fff;
+    color: black;
+    border: 2px solid #fff;
+}
+#ordergame .panel-news-right-btn.iplog-last {
+    margin-bottom: 150px;
+}
+#ordergame.support .panel-text1 a {
+    color: #758792;
+}
+#ordergame.support .panel-text1 a:hover {
+    color: #FD8408;
 }
