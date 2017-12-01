@@ -142,6 +142,7 @@ width: 100%
 }
 .panel-logo {
     background: #505050;
+    border-radius: 7px 0 0 7px;
 }
 .panel-logo:hover {
     background: #007ffc;
