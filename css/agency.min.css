@@ -71,6 +71,9 @@ a:hover {
     color: #FD8408;
     transition: 0.3s
 }
+.white-text {
+    color: #fff !important;
+}
 .orange-text{
     color: #FD8408 !important;
 }
