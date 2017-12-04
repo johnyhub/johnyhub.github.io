@@ -76,7 +76,7 @@ a:hover {
 }
 
 .blue-text{
-    color: #0E5EE1;
+    color: #0E5EE1 !important;
 }
 .black-text {
     color: black;
@@ -2936,6 +2936,8 @@ section#ordergame{
     padding: 8px 0;
     margin: 40px auto;
 }
+#ordergame .col-md-5, 
+#ordergame .col-md-7, 
 #ordergame .col-md-6, 
 #ordergame .col-md-12,
 #ordergame .col-md-9,
