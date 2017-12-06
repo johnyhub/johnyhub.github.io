@@ -77,9 +77,14 @@ a:hover {
 .orange-text{
     color: #FD8408 !important;
 }
-
+.grey-text{
+    color: #758792 !important;
+}
 .blue-text{
     color: #0E5EE1 !important;
+}
+.yelow-text{
+    color: #E9B002 !important;
 }
 .black-text {
     color: black;

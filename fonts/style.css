@@ -629,3 +629,64 @@ a.newfolder {
     color: #626f76;
     font-weight: bold;
 }
+a.root:hover,
+a.upload:hover,
+a.newfolder:hover{
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#ordergame .panel-game.server-mods.console.ftp {
+    padding: 0;
+}
+#ordergame .ftp .panel-text1 {
+    padding: 0;
+}
+#ordergame .panel-game.server-mods.console.ftp .panel-text1 h3{
+    height: 61px;
+    border-bottom: 1px solid #333333;
+    border-right: 1px solid #333333;
+    line-height: 61px;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+#ordergame .panel-game.server-mods.console.ftp .panel-text1 .folders{
+    height: 25px;
+    border-bottom: 1px solid #333333;
+    border-right: 1px solid #333333;
+    padding: 0;
+    line-height: 25px;
+    padding-left: 10px;
+    text-align: left;
+}
+#ordergame .panel-game.server-mods.console.ftp .panel-text1 .folders a.folder{
+    color: #0081ff;
+    font-size: 12px;
+    font-weight: bold;
+}
+#ordergame .panel-game.server-mods.console.ftp .panel-text1 .folders a.folder span{
+    margin-right: 5px;
+    font-size: 12px;
+}
+#ordergame .panel-game.server-mods.console.ftp .panel-text1 .folders p{
+    font-size: 12px;
+    line-height: 25px;
+}
+#ordergame .panel-game.server-mods.console.ftp .panel-text1 .folders a.folder.last.orange-text {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.files, .files-1, .files-2 {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.files {
+    max-width: 40%;
+}
+.files-1 {
+    max-width: 10%;
+}.files-2 {
+    max-width: 20%;
+}
