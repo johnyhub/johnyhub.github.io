@@ -615,6 +615,12 @@ a.root {
     color: #6e7c84;
     font-weight: bold;
 }
+a.root span {
+    margin-left: 10px;
+}
+a.root.second {
+    margin-left: 0;
+} 
 a.upload {
     position: absolute;
     top: 0px;
@@ -689,4 +695,20 @@ a.newfolder:hover{
     max-width: 10%;
 }.files-2 {
     max-width: 20%;
+}
+.col-md-12.many-wrapper.panel-game.server-mods.setings .panel-text1 p {
+    text-align: center;
+}
+.col-md-12.many-wrapper.panel-game.server-mods.setings {
+    border: 3px solid #2B2D2E;
+}
+#ordergame .setings-pading {
+    padding-right: 10px;
+}
+#ordergame .setings-pading2 {
+    padding-left: 10px;
+}
+#ordergame div.setings-li-item{
+    width: 20%;
+    float: left;
 }
