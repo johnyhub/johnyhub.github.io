@@ -534,7 +534,8 @@ a.stop {
 footer.server-footer {
     margin-top: 80px;
 }
-#ordergame.support .panel-text1 a.graph-btn {
+#ordergame.support .panel-text1 a.graph-btn,
+#ordergame a.panel-setings-btn{
     position: absolute;
     top: 30px;
     right: 20px;
@@ -711,4 +712,42 @@ a.newfolder:hover{
 #ordergame div.setings-li-item{
     width: 20%;
     float: left;
+}
+#ordergame a.panel-setings-btn {
+    position: relative;
+}
+#ordergame.support .panel-text1 a.graph-btn.autorestart{
+    height: 34px;
+    right: 170px;
+}
+#ordergame.support .panel-text1 a.graph-btn.btn2.autorestart {
+    right: 0;
+}
+p.autorestart {
+    text-align: right;
+}
+.modal-body .day p{
+    border: 1px solid #272b30;
+    border-radius: 20px;
+    padding: 12px;
+}
+.modal-body .day p:hover{
+    border: 1px solid white;
+    color: #fff;
+    transition: 0.3s;
+}
+.modal-body .day {
+      width: 14%;
+    float: left;
+    padding: 3px;
+}
+.col-md-12.days-wraper {
+    padding: 0;
+}
+.modal3 .modal-body p.clear {
+    clear: both;
+}
+.border {
+    border: 1px solid #fff !important;
+    color: #fff !important;
 }

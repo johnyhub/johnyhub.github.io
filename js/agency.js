@@ -105,3 +105,7 @@ $(document).ready(function(){
 		});
 });
 
+$("p.days").on('click', function() {
+    $(this).toggleClass("border");
+});
+

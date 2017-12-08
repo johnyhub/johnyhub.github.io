@@ -331,7 +331,8 @@
                    <a href="gamepanel-news-serverinfo-admin.html"> <span aria-hidden="true" data-icon="e905;" class="icon-user"></span>ADMIN & SLOTS</a> 
                    <a href="gamepanel-news-serverinfo-console.html" > <span aria-hidden="true" data-icon="e903;" class="icon-console"></span>CONSOLE</a> 
                    <a href="gamepanel-news-serverinfo-ftp.html"> <span aria-hidden="true" data-icon="e918;" class="icon-files"></span>WEB FTP</a> 
-                   <a href="gamepanel-news-serverinfo-setings.html" class="orange-text"> <span aria-hidden="true" data-icon="e90b;" class="icon-servers"></span>SETINGS</a> 
+                   <a href="gamepanel-news-serverinfo-autorestart.html" class="orange-text"> <span aria-hidden="true" data-icon="e90a;" class="icon-settings"></span>AUTORESTART</a> 
+                   <a href="gamepanel-news-serverinfo-setings.html" > <span aria-hidden="true" data-icon="e90a;" class="icon-settings"></span>SETTINGS</a> 
                   
              </div>
              <div class="col-md-12 many-wrapper header">
@@ -345,93 +346,36 @@
             </div>
              <div class="col-md-9 panel-employees-right">
             <div class="col-md-12 many-wrapper header">
-               <h2>SETINGS</h2>
+               <h2>SERVER MODS</h2>
                <a href="gamepanel-news-serverinfo-autorestart.html" class="restart"> <span aria-hidden="true" data-icon="e90d;" class="icon-restart"></span>Restart</a>
                <a class="stop"><span aria-hidden="true" data-icon="e900;" class="icon-stop"></span>Stop</a>
             </div>
-            <div class="col-md-12 many-wrapper panel-game server-mods setings">
+            <div class="col-md-12 many-wrapper panel-game server-mods">
             
              <div class="col-md-12 panel-text1">
-           
-                                <p>Server name<span class="orange-text">*</span></p>
-                               <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="Neo Servers-Team Fortress" onfocus="this.placeholder = ''" name="name" required=""></span></div>
-                           
+           <p>Autorestart</p>
+                                <h3 >05:00h every day</h3>
+                           <a href="" class="graph-btn autorestart">REMOVE</a>
+                            <a href="" class="graph-btn btn2 autorestart">INSTALL</a>
             </div>
             
             
                  </div>
-                  <div class="col-md-12">
-                  <div class="col-md-5 setings-pading">
-                 <div class="col-md-12 many-wrapper panel-game server-mods">
-            
-             <div class="col-md-12 panel-text1">
-           <p>Rcon password:</p>
-                                <h3 class="orange-text">Show password</h3>
-                                <p>Server password:</p>
-                                <h3 class="grey-text">No password. <span class="orange-text">Set one</span></h3>
-                                
-                          
-            </div>
-            
-            
-                 </div>
-                 </div>
-                  <div class="col-md-7" setings-pading2>
-                 <div class="col-md-12 many-wrapper panel-game server-mods">
-            
-             <div class="col-md-12 panel-text1">
-           <p>Server config:</p>
-                                 <h3 class="grey-text">Server cfg. <span class="orange-text">Change</span></h3>
-                                <p>Server map:</p>
-                                <h3 class="grey-text">de_dust2</h3>
-                                
-                          
-            </div>
-            
-            
-                 </div>
-                 </div>
-                 </div>
-                 <div class="col-md-12 many-wrapper panel-game server-mods ">
-            
-             <div class="col-md-12 panel-text1">
-           <div class="setings-li-item">
-               <p>SVP max:</p>
-                <h3 class="grey-text">333.</h3>
-                <p>Trick rate:</p>
-                <h3 class="grey-text">333.</h3>
-           </div>
-                                        <div class="setings-li-item">
-               <p>sv_gravity:</p>
-                <h3 class="grey-text">800.</h3>
-                <p>mp_frindlyfire:</p>
-                <h3 class="grey-text">0.</h3>
-           </div>
-                                        <div class="setings-li-item">
-               <p>mp_freezetime:</p>
-                <h3 class="grey-text">5.</h3>
-                <p>mp_startmoney map:</p>
-                <h3 class="grey-text">800.</h3>
-           </div>
-                                        <div class="setings-li-item">
-               <p>mp_timelimit:</p>
-                <h3 class="grey-text">20.</h3>
-                <p>mp_maxrounds:</p>
-                <h3 class="grey-text">0.<span class="orange-text">Edit</span></h3>
-           </div>
-                                        <div class="setings-li-item">
-               <p>mp_buytime:</p>
-                <h3 class="grey-text">0.75.</h3>
-                
-           </div>
-                                         
-            </div>
-            
-            
-                 </div>
-            <a href="" class="panel-setings-btn">DISABLED</a>     
                  
+                 <div class="col-md-12 many-wrapper panel-game server-mods">
             
+             <div class="col-md-12 panel-text1">
+           <p class="autorestart">Last restart: 13.03.2018 at 04:30h</p>
+                                
+            </div>         
+            
+                 </div>
+                    <div class="col-md-12 panel-text1">
+           <a href="#" data-toggle="modal" data-target="#myModal9">weekly</a>
+              
+            </div>
+                 
+           
           
             </div>
                       
@@ -443,7 +387,119 @@
             
         </div>
     </section>
+                  <!-- Modal weekly-->
+    <div class="modal fade modal3" id="myModal9" role="dialog">
+        <div class="modal-dialog">
 
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <div class="col-md-6 reg" data-dismiss="modal" data-toggle="modal" data-target="#myModal10">
+                        <p>Repeat</p>
+                        <h4 class="modal-title">DAILY</h4>
+                    </div>
+                    <div class="col-md-6 log" data-dismiss="modal" data-toggle="modal" data-target="#myModal9">
+                        <p>Repeat</p>
+                        <h4 class="modal-title">WEEKLY</h4>
+                    </div>
+
+                </div>
+                <div class="modal-body">
+                    <p>From: </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/calendaricon.png"><input type="text" placeholder="8/15/2017" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <p>At: </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/time.png"><input type="text" placeholder="09:00am" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                     <div class="col-md-6 left">
+                        <p>Every:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/reload.png"><input type="text" placeholder="2 Weeks" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                   
+                    
+                    </div>
+                    <div class="col-md-6 right">
+                        <p>Duration:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/country.png"><input type="text" placeholder="Forever" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                        
+                    </div>
+                     <br>
+                      <p>Days:</p>
+                      <div class="col-md-12 days-wraper">
+                      <div class="day"><p class="days">S</p></div>
+                       <div class="day"><p class="days">M</p></div>
+                           <div class="day"><p class="days">T</p></div>
+                            <div class="day"><p class="days">W</p></div>
+                             <div class="day"><p class="days">T</p></div>
+                              <div class="day"><p class="days">F</p></div>
+                               <div class="day"><p class="days">S</p></div>
+                           
+                      </div>
+                      <div class="col-md-12">
+                    <a class="" type="button" data-dismiss="modal"> SET TIME </a>
+                    </div>
+ <p class="clear"></p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div> 
+     <!-- Modal end -->
+    
+   <!-- Modal weekly-->
+    <div class="modal fade modal3" id="myModal10" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <div class="col-md-6 reg" data-dismiss="modal" data-toggle="modal" data-target="#myModal10">
+                        <p>Repeat</p>
+                        <h4 class="modal-title">DAILY</h4>
+                    </div>
+                    <div class="col-md-6 log" data-dismiss="modal" data-toggle="modal" data-target="#myModal9">
+                        <p>Repeat</p>
+                        <h4 class="modal-title">WEEKLY</h4>
+                    </div>
+
+                </div>
+                <div class="modal-body">
+                    <p>From: </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/calendaricon.png"><input type="text" placeholder="8/15/2017" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <p>At: </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/time.png"><input type="text" placeholder="09:00am" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                     <div class="col-md-6 left">
+                        <p>Every:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/reload.png"><input type="text" placeholder="1 Day" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                   
+                    
+                    </div>
+                    <div class="col-md-6 right">
+                        <p>Duration:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/country.png"><input type="text" placeholder="Forever" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                        
+                    </div>
+                     <br>
+                      
+                      <div class="col-md-12">
+                    <a class="" type="button" data-dismiss="modal"> SET TIME </a>
+                    </div>
+ <p class="clear"></p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div> 
+     <!-- Modal end -->
     
 
     <footer class="server-footer">
