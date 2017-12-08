@@ -751,3 +751,39 @@ p.autorestart {
     border: 1px solid #fff !important;
     color: #fff !important;
 }
+
+.unstyled {
+    -webkit-appearance: none;
+}
+.unstyled::-webkit-inner-spin-button{
+/*.unstyled::-webkit-calendar-picker-indicator {*/
+    display: none;
+    -webkit-appearance: none;
+}
+
+/*Media Query for phone*/
+@media (max-width:420px){
+.panel-game {
+    height: auto;
+    line-height: 200px;
+}    
+    #ordergame .many-wrapper.header{
+        min-height: 50px;
+    }
+
+    #ordergame .gamepanel .many-wrapper.panel-game{
+        padding-bottom: 80px
+    }
+    #ordergame .gamepanel a.second.btn2{
+        font-size: 12px;
+    margin: 60px 4px 162px 0 !important;
+        
+    }
+    #ordergame .panel-news-right, #ordergame .panel-employees-right {
+    padding-left: 0px;
+}
+    
+}
+
+
+

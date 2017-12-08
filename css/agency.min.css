@@ -1755,220 +1755,7 @@ footer ul.quicklinks {
     padding: 0 1% 60px;
 }
 }
-@media (max-width:420px){
-    #services .frame ul {
-        margin: 0;
-    }
-    li.dropdown.dropdown-last {
-    position: absolute;
-    top: 62px;
-    right: 30px;
-    }
-    ul.dropdown-menu.coment {
-        padding: 0 0 0 4px;
-    }
-    .triangle img {
-        display: none;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #f8f8f8;
-}
-    .navbar-fixed-top .navbar-collapse {
-    min-height: 320px;
-    background: url(../img/background/elements.png) 136% -67% ;
-}
-    li.dropdown.lang {
-    float: left;
-    padding: 15px;
-    box-shadow: none;
-    }
-    
-.carousel-caption h1 {
-    font-size: 30px;
-}
-.carousel-caption h4 {
-    font-size: 20px;
-}
-.carousel-caption img {
-    width: 100%;
-}
-.carousel-btn {
-    font-size: 11px;
-    padding: 20% 5% 0;
-}
-    .carousel-btn a.orderbtn {
-        padding: 10px !important;
-        margin: 5px;
-    }    
-    .indocators-controls-btn {
-        bottom: -10%;
-    }
-    .header-black {
-        font-size: 21px;
-    }
-    a.orderbtn.btn-white {
-    text-align: center;
-}
-    section#services {
-        padding: 40px0 20px;
-    }
-    #services .carousel-btn {
-        padding: 0 10%;
-    }
-    #portfolio .blue-list li a{
-    font-size: 10px;
-    opacity: 0.9;    
-    }
-    section#portfolio{
-        padding: 40px 0;
-        background: url(../img/background/elementsblue.png) no-repeat -42% 3% #0F81FD;
-    } 
-    section.statmap {
-        padding: 40px 0px 10px; 
-    }
-    .blue-section-text,
-    .blue-section-text2{
-        padding-left: 22px;
-    }
-    section.statmap .carousel-btn {
-    font-size: 11px;
-    padding: 0% 20% 3%;
-}
-    .statmap-right {
-        height: 189px;
-    }
-    section#about {
-        background: url(../img/background/elementsorange.png) no-repeat 100% 0 #fff;
-    }
-    #about p.featured-text {
-        font-size: 23px;
-        padding-top: 20px;
-    }
-    #about .portfolio-section2 {
-        text-align: center;
-        padding-top: 55px;
-    }
-    .featured-section {
-        padding-bottom: 60px;
-    }
-    #about .game-header {
-        text-align: center;
-    }
-    #about .game-footer,
-    #about .game-header,
-    #about .game-server {
-    padding: 0 6% 19%;
-}
-    #team .latest,
-    #team .news{
-        padding: 0 10px
-    }
-    #contact-box .contactbox {
-        padding: 10px 10px 25px;
-        margin: 0;
-    }    
-    #contact-box .contactbox input,
-    #contact-box .contactbox textarea{
-        width: 90%;
-    }
-    #contact-box.game-voice .game-holder,
-    #contact-box2.game-voice.game-voice2 .game-holder{
-    margin: 15px auto 15px;
-}
-    #contact-box.game-voice div.fixed-btn {
-        display: none;
-    }
-    section#contact-box2 {
-        padding-top: 40px;
-        box-shadow: 0px 18px 0px #248dff;
-    }
-    #contact-box2.game-voice.game-voice2 .search {
-    height: 400px;
-    border: 3px solid #fff;
-    margin-top: 20px;
-    border-radius: 7px;
-    padding: 30px 0;
-    background: #0f81fd;
-}
-    #contact-box2.game-voice.game-voice2 .search .buttons {
-    text-align: center;
-}
-    #contact-box2.game-voice.game-voice2 .search .buttons button {
-    font-size: 10px;
-    margin: 4px 0;
-    }
-    #contact-box2.game-voice.game-voice2 .search input {
-    width: 70%;
-    text-align: right;
-    font-size: 18px;
-    color: #fff;
-    padding-right: 6px;
-    }
-    #contact-box2.game-voice.game-voice2 .search input::-webkit-input-placeholder {
-        font-size: 13px;
-        padding-right: 6px;
-    }
-    #contact-box2.game-voice.game-voice2 .search select.form-control {
-        width: 60px;
-        padding: 0;
-    }
-    #contact-box2.game-voice.game-voice2 .search a.btn2 {
-    width: 100%;
-    margin-top: 20px;
-    }
-    #ordergame .many-wrapper {
-        min-height: 143px;
-    }
-    #ordergame .leftin .order-many-btn {
-        width: 33%;
-    }
-    #ordergame .leftin .order-many-user{
-        width: 100%;
-        border-top: 1px solid #2B3035;
-        padding: 0;
-    }
-    #ordergame .leftin .order-game-inner {
-    border-radius: 7px;
-    padding: 0 0 5px;
-    min-height: auto;
-}
-    #ordergame .leftin .order-game-left-second .order-game-inner {
-    padding: 15px 0 23px 30px;
-    background: #202223;
-    border-radius: 0 0 7px 7px;
-}
-    #ordergame .right .right-first .total-price {
-    padding: 0; 
-    }
-    #ordergame .leftin .left,
-    #ordergame .leftin .right{
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
-    }
-    #ordergame .right .right-second {
-    padding: 20px 10px;
-    }
-    #ordergame .squaredThree {
-        margin-top: 40px
-    }
-    #ordergame .right-second a.second.btn2,
-    #ordergame .right-second a.second {
-        font-size: 10px;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-    #ordergame.profile .right-second {
-    padding: 20px 0;
-    }
-    #ordergame.profile .right-second .links-blue input,
-    section#ordergame.profile .right-second .gender{
-    width: 87%;
-    }
-    #ordergame.profile .right-first {
-        margin-bottom: 15px;
-    }
-}
+
 @media (min-width:1200px) {
     .timeline>li {
         min-height: 170px
@@ -3810,4 +3597,224 @@ img::-moz-selection {
 
 .btn-icon.report {
     background: url(../img/icon/Iconreport.png) 22px no-repeat #1B1E21;
+}
+/*media qeuery for mobile */
+@media (max-width:420px){
+    #services .frame ul {
+        margin: 0;
+    }
+    li.dropdown.dropdown-last {
+    position: absolute;
+    top: 62px;
+    right: 30px;
+    }
+    ul.dropdown-menu.coment {
+        padding: 0 0 0 4px;
+    }
+    .triangle img {
+        display: none;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #f8f8f8;
+}
+    .navbar-fixed-top .navbar-collapse {
+    min-height: 320px;
+    background: url(../img/background/elements.png) 136% -67% ;
+}
+    li.dropdown.lang {
+    float: left;
+    padding: 15px;
+    box-shadow: none;
+    }
+    
+.carousel-caption h1 {
+    font-size: 30px;
+}
+.carousel-caption h4 {
+    font-size: 20px;
+}
+.carousel-caption img {
+    width: 100%;
+}
+.carousel-btn {
+    font-size: 11px;
+    padding: 20% 5% 0;
+}
+    .carousel-btn a.orderbtn {
+        padding: 10px !important;
+        margin: 5px;
+    }    
+    .indocators-controls-btn {
+        bottom: -10%;
+    }
+    .header-black {
+        font-size: 21px;
+    }
+    a.orderbtn.btn-white {
+    text-align: center;
+}
+    section#services {
+        padding: 40px0 20px;
+    }
+    #services .carousel-btn {
+        padding: 0 10%;
+    }
+    #portfolio .blue-list li a{
+    font-size: 10px;
+    opacity: 0.9;    
+    }
+    section#portfolio{
+        padding: 40px 0;
+        background: url(../img/background/elementsblue.png) no-repeat -42% 3% #0F81FD;
+    } 
+    section.statmap {
+        padding: 40px 0px 10px; 
+    }
+    .blue-section-text,
+    .blue-section-text2{
+        padding-left: 22px;
+    }
+    section.statmap .carousel-btn {
+    font-size: 11px;
+    padding: 0% 20% 3%;
+}
+    .statmap-right {
+        height: 189px;
+    }
+    section#about {
+        background: url(../img/background/elementsorange.png) no-repeat 100% 0 #fff;
+    }
+    #about p.featured-text {
+        font-size: 23px;
+        padding-top: 20px;
+    }
+    #about .portfolio-section2 {
+        text-align: center;
+        padding-top: 55px;
+    }
+    .featured-section {
+        padding-bottom: 60px;
+    }
+    #about .game-header {
+        text-align: center;
+    }
+    #about .game-footer,
+    #about .game-header,
+    #about .game-server {
+    padding: 0 6% 19%;
+}
+    #team .latest,
+    #team .news{
+        padding: 0 10px
+    }
+    #contact-box .contactbox {
+        padding: 10px 10px 25px;
+        margin: 0;
+    }    
+    #contact-box .contactbox input,
+    #contact-box .contactbox textarea{
+        width: 90%;
+    }
+    #contact-box.game-voice .game-holder,
+    #contact-box2.game-voice.game-voice2 .game-holder{
+    margin: 15px auto 15px;
+}
+    #contact-box.game-voice div.fixed-btn {
+        display: none;
+    }
+    section#contact-box2 {
+        padding-top: 40px;
+        box-shadow: 0px 18px 0px #248dff;
+    }
+    #contact-box2.game-voice.game-voice2 .search {
+    height: 400px;
+    border: 3px solid #fff;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 30px 0;
+    background: #0f81fd;
+}
+    #contact-box2.game-voice.game-voice2 .search .buttons {
+    text-align: center;
+}
+    #contact-box2.game-voice.game-voice2 .search .buttons button {
+    font-size: 10px;
+    margin: 4px 0;
+    }
+    #contact-box2.game-voice.game-voice2 .search input {
+    width: 70%;
+    text-align: right;
+    font-size: 18px;
+    color: #fff;
+    padding-right: 6px;
+    }
+    #contact-box2.game-voice.game-voice2 .search input::-webkit-input-placeholder {
+        font-size: 13px;
+        padding-right: 6px;
+    }
+    #contact-box2.game-voice.game-voice2 .search select.form-control {
+        width: 60px;
+        padding: 0;
+    }
+    #contact-box2.game-voice.game-voice2 .search a.btn2 {
+    width: 100%;
+    margin-top: 20px;
+    }
+    #ordergame .many-wrapper {
+        min-height: 143px;
+    }
+    #ordergame .leftin .order-many-btn {
+        width: 33%;
+    }
+    #ordergame .leftin .order-many-user{
+        width: 100%;
+        border-top: 1px solid #2B3035;
+        padding: 0;
+    }
+    #ordergame .leftin .order-game-inner {
+    border-radius: 7px;
+    padding: 0 0 5px;
+    min-height: auto;
+}
+    #ordergame .leftin .order-game-left-second .order-game-inner {
+    padding: 15px 0 23px 30px;
+    background: #202223;
+    border-radius: 0 0 7px 7px;
+}
+    #ordergame .right .right-first .total-price {
+    padding: 0; 
+    }
+    #ordergame .leftin .left,
+    #ordergame .leftin .right{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+    #ordergame .right .right-second {
+    padding: 20px 10px;
+    }
+    #ordergame .squaredThree {
+        margin-top: 40px
+    }
+    #ordergame .right-second a.second.btn2,
+    #ordergame .right-second a.second {
+        font-size: 10px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #ordergame.profile .right-second {
+    padding: 20px 0;
+    }
+    #ordergame.profile .right-second .links-blue input,
+    section#ordergame.profile .right-second .gender{
+    width: 87%;
+    }
+    #ordergame.profile .right-first {
+        margin-bottom: 15px;
+    }
+    
+    #ordergame .many-wrapper2 .order-many-btn {
+        width: 49.6%;
+    }
+    
 }
