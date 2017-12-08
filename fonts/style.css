@@ -777,12 +777,21 @@ p.autorestart {
     #ordergame .gamepanel a.second.btn2{
         font-size: 12px;
     margin: 60px 4px 162px 0 !important;
-        
+        max-height: 54px;
+    padding: 16px;
+    }
+    #ordergame .gamepanel a.second.btn2.long{
+        padding: 16px 0;
     }
     #ordergame .panel-news-right, #ordergame .panel-employees-right {
     padding-left: 0px;
 }
-    
+    #ordergame .gamepanel .billing-btn a.second.btn2{
+        padding: 10px 0;
+    }
+    #ordergame.billings .many-wrapper {
+        padding-bottom: 10px
+    }
 }
 
 
