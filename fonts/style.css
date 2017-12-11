@@ -531,6 +531,9 @@ a.stop {
 .panel-game.ftp{
     height: 151px;
 }
+#ordergame .panel-game.ftp{
+    padding: 20px;
+}
 footer.server-footer {
     margin-top: 80px;
 }
@@ -792,6 +795,117 @@ p.autorestart {
     #ordergame.billings .many-wrapper {
         padding-bottom: 10px
     }
+    #ordergame .many-wrapper.permission-check {
+        min-height: 381px;
+    }
+    #ordergame .panel-employees-right small.permission {
+    top: 35px;
+    }
+    #ordergame .many-wrapper.permission-check .squaredThree {
+    margin: 25px 0;
+    width: 50%;
+}
+    #ordergame.iplog .billing-left.category {
+        min-height: 100px;
+        padding-bottom: 0;
+    }
+    #ordergame.iplog .many-wrapper{
+        padding-bottom: 20px;
+    }
+    #ordergame a.stop {
+    top: -16px;
+    right: 22px;
+    }
+    #ordergame a.restart {top: 10px;
+    right: 4px;
+    }
+    #ordergame.serverinfo .panel-logo.serverinfo{
+        min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 7px;
+    }
+    #ordergame.serverinfo .gamepanel .many-wrapper.panel-game.ftp {
+        min-height: 246px;
+    padding: 20px 20px;        
+    }
+    #ordergame.support .panel-text1 a.graph-btn, #ordergame a.panel-setings-btn {
+        max-width: 132px;
+    }
+    #ordergame .panel-game.server-mods {
+        padding-right: 0;
+    }
+    #ordergame.admin .privilages {
+        padding-top: 80px;
+    }
+    #ordergame.admin .many-wrapper.permission-check.admin {
+    padding: 0px 20px;
+    }
+    #ordergame.admin .gamepanel .many-wrapper.panel-game {
+        padding-bottom: 150px;
+    }
+    #ordergame.support .panel-text1 a.graph-btn.btn2.admin.main {
+    position: relative;
+    float: none;
+    margin: 0 auto;    
+    }
+    #ordergame .panel-text1.permisions {
+        padding: 0;
+    }
+    #ordergame.support .panel-text1 a.graph-btn.autorestart {
+    height: 34px;
+    right: 193px;
+    top: 100px;
+}
+    #ordergame.support .panel-text1 a.graph-btn.btn2.autorestart {
+    right: 20px;
+}
+    #ordergame.autorestart .panel-game.server-mods.mods2 {
+        min-height: auto;
+        padding: 0 20px 20px;
+    }
+    #ordergame.autorestart .panel-game.server-mods.mods2 p.autorestart{
+        text-align: left
+    }
+    #ordergame.ftp-file .many-wrapper.header {
+    min-height: 85px;
+}
+    a.upload, a.newfolder {
+        top:30px;
+    }
+    #ordergame.setings .panel-text1{
+        padding: 20px;
+    }
+    #ordergame div.setings-li-item {
+    width: 50%;
+    float: right;
+}
+    #ordergame.setings .gamepanel .many-wrapper.panel-game {
+        padding-bottom: 0px;
+    }
+    #ordergame .setings-pading {
+    padding-right: 0px;
+}
+    #ordergame.setings .many-wrapper.panel-game.server-mods.setings2{
+       min-height: 360px;
+       margin-bottom: 100px;
+    }
+    #ordergame.setings a.panel-setings-btn {
+        margin-top: -100px;
+    }
+    #ordergame.arhive .many-wrapper,
+    #ordergame.ticket .many-wrapper,
+    #ordergame.support .many-wrapper {
+    padding-bottom: 10px;
+    padding-top: 1px;
+}
+    #ordergame.arhive .gamepanel a.second.btn2.support-btn,
+    #ordergame.support .gamepanel a.second.btn2.support-btn{
+        height: 54px;
+        line-height: 30px;
+    }
+    
+
 }
 
 
