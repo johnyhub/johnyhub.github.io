@@ -53,4 +53,7 @@ $(document).ready(function() {
     
     });
 
-
+// select2.js
+$(document).ready(function() {
+    $('.js-example-basic-single').select2();
+});

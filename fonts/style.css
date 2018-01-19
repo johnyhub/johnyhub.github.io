@@ -778,6 +778,39 @@ p.autorestart {
     -webkit-appearance: none;
 }
 
+/*style for select2*/
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 95% !important;
+    text-align: center;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #1e1b24;
+    border: 1px solid #1e1b24;
+    border-radius: 4px;
+    outline: none;
+}
+.select2-dropdown {
+    background-color: #1e1b24;
+    border: 1px solid #1e1b24;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #1e1b24;
+    background: #1e1b24;
+    outline: none;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #1e1b24;
+    color: #5997fb;
+}
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #1e1b24;
+}
+
 /*Media Query for phone*/
 @media (max-width:420px){
 .panel-game {

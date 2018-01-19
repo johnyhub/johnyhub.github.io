@@ -1903,6 +1903,22 @@ a:hover.report-btn {
     box-shadow: 2px 2px 22px #FD8408;
     transition: 0.3sS;
 }
+.wallet a.orderbtn.report-btn {
+    width: 50%;
+    margin: 20px 10px !important;
+    float: left;
+}
+.wallet .billing-btns {
+    padding: 60px 50px 90px;
+}
+.modal-wraper.pin.wallet {
+    padding-top: 0;
+    margin-top: -20px;
+}
+.modal8 .modal-wraper.pin.wallet p {
+    font-size: 18px;
+    margin-top: 20px
+}
  .contactbox .textfield img {
      vertical-align: top;
 margin-top: 6px;
