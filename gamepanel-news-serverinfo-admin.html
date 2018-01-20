@@ -22,7 +22,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
 
-
+ <!-- select2.js-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
     <!-- Theme CSS -->
    
     <link href="css/agency.min.css" rel="stylesheet">
@@ -362,7 +363,7 @@
                 </div>
                  <div class="col-md-5 panel-text1"> 
                  <a href="" class="graph-btn btn2">REMOVE</a>
-                 <a href="" class="graph-btn btn2 admin">EDIT</a>
+                 <a href="#" data-toggle="modal" data-target="#myModal9" class="graph-btn btn2 admin">EDIT</a>
                 </div>
             
             
@@ -380,7 +381,7 @@
                 </div>
                  <div class="col-md-5 panel-text1"> 
                  <a href="" class="graph-btn btn2">REMOVE</a>
-                 <a href="" class="graph-btn btn2 admin">EDIT</a>
+                 <a href="#" data-toggle="modal" data-target="#myModal9" class="graph-btn btn2 admin">EDIT</a>
                 </div>
                  <div class="col-md-12 panel-text1 privilages"> 
                 <p>Privilages</p>
@@ -421,7 +422,7 @@
                  
                  
                <div class="col-md-12 panel-text1 permisions">    
-           <a href="" class="graph-btn btn2 admin main">ADD PERMISIONS</a>
+           <a href=" " class="graph-btn btn2 admin main" href="#" data-toggle="modal" data-target="#myModal8">ADD PERMISIONS</a>
                      </div>
             </div>
                       
@@ -433,8 +434,122 @@
             </div>
         </div>
     </section>
-
     
+<!-- Modal Permisions-->
+    <div class="modal modal5 modal6 modal8 fade" id="myModal8" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <p>Add new</p>
+                    <h4 class="modal-title">ADMIN PRIVILEGES</h4>
+                </div>
+                <div class="modal-body">
+                    
+                    <div class="modal-wraper pin wallet">
+                       
+                          
+                                <p>Admin type:</p>
+                                <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><select class="js-example-basic-single" name="state">
+  <option value="AL">Clasic</option>
+    ...
+  <option value="WY">Master</option>
+                                    <option value="WY">Profesionl</option>
+</select></span>
+                        </div>
+                        <p>Admin Nickname:</p>
+                                <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="No nickname" onfocus="this.placeholder ='889'" name="name" required=""></span>
+                        </div>
+                         <p>Password:</p>
+                                <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="************" onfocus="this.placeholder ='889'" name="name" required=""></span>
+                        </div>
+                        <p>Privileges:</p>
+                                <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><select class="js-example-basic-single" name="state">
+  <option value="AL">Admin</option>
+    ...
+  <option value="WY">User</option>
+                                    <option value="WY">Guest</option>
+</select></span>
+                        </div>
+                         <p>Comment:</p>
+                        <div class="links-btn newsletter textfield permisions"><span class="links-blue"><img src="img/icon/contacticontext.png"><textarea type="text" placeholder="Type your message...." onfocus="this.placeholder = ''" name="message" required=""></textarea></span></div>
+                           <div class="billing-btns">
+                          <a class="orderbtn report-btn" type="button" data-dismiss="modal"> ADD ADMIN</a>
+                            <a class="orderbtn report-btn" type="button" data-dismiss="modal"> CANCEL</a>
+                               </div>
+                          
+                        
+                        
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal End-->
+    
+    <!-- Modal admin edit-->
+    <div class="modal modal5 modal6 modal8 fade" id="myModal9" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <p>Edit</p>
+                    <h4 class="modal-title">ADMIN PRIVILEGES</h4>
+                </div>
+                <div class="modal-body">
+                    
+                    <div class="modal-wraper pin wallet">
+                       
+                          
+                                <p>Admin type:</p>
+                                <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><select class="js-example-basic-single" name="state">
+  <option value="AL">Clasic</option>
+    ...
+  <option value="WY">Master</option>
+                                    <option value="WY">Profesionl</option>
+</select></span>
+                        </div>
+                        <p>Admin Nickname:</p>
+                                <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="John Smith" onfocus="this.placeholder ='889'" name="name" required=""></span>
+                        </div>
+                         <p>Password:</p>
+                                <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="************" onfocus="this.placeholder ='889'" name="name" required=""></span>
+                        </div>
+                        <p>Privileges:</p>
+                                <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><select class="js-example-basic-single" name="state">
+  <option value="AL">Admin</option>
+    ...
+  <option value="WY">User</option>
+                                    <option value="WY">Guest</option>
+</select></span>
+                        </div>
+                         <p>Comment:</p>
+                        <div class="links-btn newsletter textfield permisions"><span class="links-blue"><img src="img/icon/contacticontext.png"><textarea type="text" placeholder="Type your message...." onfocus="this.placeholder = ''" name="message" required=""></textarea></span></div>
+                           <div class="billing-btns">
+                          <a class="orderbtn report-btn" type="button" data-dismiss="modal"> UPDATE</a>
+                            <a class="orderbtn report-btn" type="button" data-dismiss="modal"> CANCEL</a>
+                               </div>
+                          
+                        
+                        
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal End-->
 
     <footer class="server-footer">
         <div class="container">
@@ -486,7 +601,10 @@
     <script src="js/plugins.js"></script>
     <script src="js/sly.min.js"></script>
     <script src="js/forcecenter.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
     <script src="js/animatedobjects.js"></script>
+     <script src="js/select2comand.js"></script>
+
 
 </body>
 
