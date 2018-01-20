@@ -22,11 +22,13 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
 
-
+     <!-- select2.js-->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/slider.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -398,37 +400,41 @@
                     <div class="col-md-12 right-second">
                         <h2>BILLING INFORMATION</h2>
                         <p>Your name: <span class="orange-text">*</span> </p>
-                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="David" onfocus="this.placeholder = ''" name="name" required=""></span>
+                        <div class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="David" onfocus="this.placeholder = ''" name="name" required=""></span>
                             <a href=""></a>
-                        </button>
+                        </div>
                         <p>Your lastname: <span class="orange-text">*</span> </p>
-                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="Snajder" onfocus="this.placeholder = ''" name="name" required=""></span>
+                        <div class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="Snajder" onfocus="this.placeholder = ''" name="name" required=""></span>
                             <a href=""></a>
-                        </button>
+                        </div>
                         <p>Payment Method: <span class="orange-text">*</span> </p>
-                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="Credit Card" name="text" required="" onfocus="this.placeholder = ''"></span>
-                            <a href=""></a>
-                        </button>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><select class="js-example-basic-single" name="state">
+  <option value="AL">Clasic</option>
+    ...
+  <option value="WY">Master</option>
+                                    <option value="WY">Profesionl</option>
+</select></span>
+                        </div>
                         <p>Credit Card: <span class="orange-text">*</span> </p>
-                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/promoicon.png"><input type="text" placeholder="" name="text" required="" onfocus="this.placeholder = ''"></span>
+                        <div class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/promoicon.png"><input type="text" placeholder="" name="text" required="" onfocus="this.placeholder = ''"></span>
                             <a href=""></a>
-                        </button>
+                        </div>
                         <div class="col-md-6 two">
                             <p>Expiry month:<span class="orange-text">*</span> </p>
-                            <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/calendaricon.png"><input type="text" placeholder="" name="text" required="" onfocus="this.placeholder = ''"></span>
+                            <div class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/calendaricon.png"><input type="text" placeholder="" name="text" required="" onfocus="this.placeholder = ''"></span>
                                 <a href=""></a>
-                            </button>
+                            </div>
                         </div>
                         <div class="col-md-6 two">
                             <p>Expiry year:<span class="orange-text">*</span> </p>
-                            <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/calendaricon.png"><input type="text" placeholder="" name="text" required="" onfocus="this.placeholder = ''"></span>
+                            <div class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/calendaricon.png"><input type="text" placeholder="" name="text" required="" onfocus="this.placeholder = ''"></span>
                                 <a href=""></a>
-                            </button>
+                            </div>
                         </div>
                         <p>Security code<span class="orange-text">*</span> </p>
-                        <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="" name="text" required="" onfocus="this.placeholder = ''"></span>
+                        <div class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="" name="text" required="" onfocus="this.placeholder = ''"></span>
                             <p class="sign">?</p>
-                        </button>
+                        </div>
                         <div class="squaredThree">
                             <h3><input type="checkbox" name="optionsRadios" id="checkOther" value="other">
                             <label for="checkOther"></label> I've read and accept <span class="blue-text"> Terms and Conditions</span> </h3>
@@ -664,8 +670,9 @@
     <script src="js/plugins.js"></script>
     <script src="js/sly.min.js"></script>
     <script src="js/forcecenter.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
     <script src="js/animatedobjects.js"></script>
-
+     <script src="js/select2comand.js"></script>
 </body>
 
 </html>

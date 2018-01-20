@@ -966,8 +966,17 @@ p.autorestart {
     }
   .select2-container {
     width: 80% !important;
+          max-width: 167px;
 } 
-
+    .modal.in .modal-dialog {
+        padding-right: 20px;
+    }
+.wallet a.orderbtn.report-btn {
+    width: 100%;
+    margin: -37px 0 61px !important;
+    float: left;
+}
+    
 }
 
 
