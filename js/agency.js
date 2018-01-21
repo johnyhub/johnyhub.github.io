@@ -40,7 +40,7 @@ $('html').on('click', '.backToTop', function(e) {
 // language //
 $(document).ready(function(){
         var itaImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Italien.gif";
-    	var engImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif";
+    	var engImgLink = "url(../img/Grossbritanien.png)";
 		var deuImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Deutschland.gif";
 		var fraImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Frankreich.gif";
 
