@@ -195,7 +195,7 @@ ul.blue-list  {
 .game-holder {
     height: 100%;
     width: 100%;
-    background: url(../img/games/solder.png) no-repeat center center;
+    background: url(../img/games/solder.jpg) no-repeat center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -203,21 +203,21 @@ ul.blue-list  {
     border-radius: 5px 
 }
 .game-one {
-    background: url(../img/games/game4small.png) no-repeat center center;
+    background: url(../img/games/game4small.jpg) no-repeat center center;
      -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;   
 }
 .game-three {
-    background: url(../img/games/game3small.png) no-repeat center center;
+    background: url(../img/games/game3small.jpg) no-repeat center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;   
 }
 .game-four {
-    background: url(../img/games/game1small.png) no-repeat center center;
+    background: url(../img/games/game1small.jpg) no-repeat center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -365,23 +365,23 @@ button.btn.next1:hover {
 }
 
 .screen-img1 {
-    background-image: url(../img/background/screenimage1.png);
+    background-image: url(../img/);
     background-size: 100% 100%;
 }
 .screen-img2 {
-    background-image: url(../img/background/server2.jpg);
+    background-image: url(../img/);
     background-size: 100% 100%;
 }
 .screen-img3 {
-    background-image: url(../img/background/server3.jpg);
+    background-image: url(../img/);
     background-size: 100% 100%;
 }
 .screen-img4 {
-    background-image: url(../img/background/server4.jpg);
+    background-image: url(../img/);
     background-size: 100% 100%;
 }
 .screen-img5 {
-    background-image: url(../img/background/server5.jpg);
+    background-image: url(../img/);
     background-size: 100% 100%;
 }
 
@@ -395,7 +395,7 @@ button.btn.next1:hover {
     padding: 120px 0 110px 0;
 }
 .statmap-right {
-    background-image: url(../img/background/worldmap.png);
+    background-image: url(../img/map-image.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 343px;
@@ -580,7 +580,7 @@ div.chart {
     visibility: visible;
 }
 .featured-game1 {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game1.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game1.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -618,7 +618,7 @@ div.chart {
 }
 
 .featured-game2 {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game2.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game2.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -629,7 +629,7 @@ div.chart {
 
 
 .featured-game3 {
-    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game3.png);
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game3.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -641,7 +641,7 @@ div.chart {
 
 
 .featured-game4 {
-    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game4.png);
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game4.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -2130,7 +2130,7 @@ section#order-box {
     padding-top: 10px;
 }
 .order-game-right {
-    background: url(../img/games/orderheader.png) no-repeat center center;
+    background: url(../img/games/orderheader.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
