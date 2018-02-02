@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NEO - Game Server</title>
+<link rel="icon" href="img/Logo.png" type="image/gif" sizes="16x16">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>  
+                </button>
+                <a class="navbar-brand page-scroll animated  jackInTheBox" href="index.html"><img src="img/logos/Logo.png" style="margin-top: -24px;"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle order" data-toggle="dropdown" href="order.html">Order <br><img src="img/logos/Arrow.png">
+            
+          </a>
+                         <ul class="dropdown-menu orderbox">
+                            <li><a href="gameandvoice.html"> <img src="img/icon/cloudicon.png">GAME & VOICE</a></li>
+                            <li><a href="gameandvoice.html#web"><img src="img/icon/gameicon.png">WEB & DOMAINS</a></li>
+                           
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Forum</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="contact.html">Contact us</a>
+                    </li>
+
+                    <li class="dropdown dropdown-last">
+
+                        <a class="dropdown-toggle userbtn" data-toggle="dropdown" href="#">
+                            <div class="userimg"><img src="img/icon/iconuser2.png">
+                                <div class="userimg-number"><span class="notif">2</span>
+                                </div>
+                            </div>
+                            <span class="user-name">
+                            DAVID SNAJDER &nbsp;
+                            <img src="img/logos/Arrow.png"> &nbsp;
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu coment">
+                            <li class="triangle"></li>
+                            <li>
+                                <a href="ordergame.html"><img src="img/icon/Iconchart.png" style="margin-right:25px">MY CART<img src="img/background/dropdownarrow.png" style=" width:auto; position: absolute;top: -11px;right: 4px;"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon/Iconweb.png" style="margin-right:25px">WEB PANEL
+                                    <div class="panel-number"><span class="panel-number-in">2</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon/icongame.png" style="margin-right:25px">GAME PANEL</a>
+                            </li>
+                            <li>
+                                <a href="profile.html"><img src="img/icon/Iconuser.png" style="margin-right:25px">MY ACCOUNT</a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="modal" data-target="#myModal3"><img src="img/icon/Iconlogout.png" style="margin-right:25px"><span class="red">LOG OUT</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Modal Report a bug-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <P>Got a problem?</P>
+                    <h4 class="modal-title">REPORT A BUG</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>We are here to help you</h3>
+                    <div class="modal-wraper">
+                        <div class="left">
+                            <p>Your email: <span class="orange-text">*</span> </p>
+                            <button class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="text" placeholder="" name="email" required=""></span>
+                                <a href=""></a>
+                            </button>
+                            <p>What is the problem?</p>
+                            <button class="links-btn newsletter textfield"><span class="links-blue"><img src="img/icon/contacticontext.png"><textarea type="text" placeholder="Type your message...." onfocus="this.placeholder = ''" name="message" required=""></textarea></span>
+                                <a href=""></a>
+                            </button>
+                            <a class="orderbtn report-btn" href=""> REPORT</a>
+                        </div>
+                        <div class="right">
+                            <p>Take a screenshot: <span class="orange-text">*</span></p>
+                            <button class="links-btn newsletter textfield"><span class="links-blue"><textarea type="image" placeholder="" onfocus="this.placeholder = ''" name="message" required=""></textarea></span>
+                                <a href=""></a>
+                            </button>
+                            <a class="" href="" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">TAKE A SCREENSHOT</a>
+                            <a class="orderbtn report-btn" type="button" data-dismiss="modal"> CLOSE</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal End-->
+    <!-- Modal Screen Shot-->
+    <div class="modal fade modal2" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!--          <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>-->
+                    <h4 class="modal-title">OPTIONS</h4>
+                </div>
+                <div class="modal-body">
+
+                    <a class="" href="">TAKE A SCREENSHOT</a>
+                    <a class="btn2" type="button" data-dismiss="modal"> CANCEL</a>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Modal End-->
+    <!-- Modal log in-->
+    <div class="modal fade modal3" id="myModal3" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <div class="col-md-6 reg" data-dismiss="modal" data-toggle="modal" data-target="#myModal4">
+                        <p>You need an account?</p>
+                        <h4 class="modal-title">REGISTER</h4>
+                    </div>
+                    <div class="col-md-6 log" data-dismiss="modal" data-toggle="modal" data-target="#myModal3">
+                        <p>Already a user?</p>
+                        <h4 class="modal-title">LOG IN</h4>
+                    </div>
+
+                </div>
+                <div class="modal-body">
+                    <p>User name: </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="David_Snajder" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <p>Password: </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <a class="" type="button" data-dismiss="modal"> LOG IN </a>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Modal register-->
+    <div class="modal fade modal3 modal4" id="myModal4" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <div class="col-md-6 reg" data-dismiss="modal" data-toggle="modal" data-target="#myModal4">
+                        <p>You need an account?</p>
+                        <h4 class="modal-title">REGISTER</h4>
+                    </div>
+                    <div class="col-md-6 log" data-dismiss="modal" data-toggle="modal" data-target="#myModal3">
+                        <p>Already a user?</p>
+                        <h4 class="modal-title">LOG IN</h4>
+                    </div>
+
+                </div>
+                <div class="modal-body">
+                    <p>User name: <span class="orange-text">*</span></p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonuser.png"><input type="text" placeholder="David_Snajder" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    <p>Email:<span class="orange-text">*</span> </p>
+                    <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/contacticonmail.png"><input type="text" placeholder="david@lk-net.com" onfocus="this.placeholder = ''" name="email" required=""></span></div>
+                   
+                       <div class="col-md-6 left">
+                        <p>Password:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                   
+                    <p>Captcha:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    </div>
+                    <div class="col-md-6 right">
+                        <p>Confirm Password:<span class="orange-text">*</span> </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                        <p>Captcha code: </p>
+                        <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="***********" onfocus="this.placeholder = ''" name="name" required=""></span></div>
+                    </div>
+                     <p> <span class="captcha orange-text">Captcha is not valid. Please try again.</span></p>
+                     <div class="squaredThree">
+                            <h3><input type="checkbox" name="optionsRadios" id="checkOther" value="other">
+                            <label for="checkOther"></label> I've read and accept <span class="blue-text"> Terms and Conditions</span> </h3>
+                        </div>
+                        <a class="" type="button" data-dismiss="modal"> REGISTER NOW </a>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    <!-- carousel -->
+    <section id="order-box">
+    <div class="container leftin">
+        <div class="col-md-12 leftin contact-header">
+            <p class="header-black"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; Order <span class="orange-text">Team Fortress 2</span> Server
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-12 order-game-header">
+                <div class="col-md-3 order-game-left">
+                    <div class="order-game-inner">
+                        <img src="img/games/Game.png">
+                        <p>TEAM FORTRESS 2</p>
+                        <a class="" href="">GAME INFO</a>
+                    </div>
+
+                </div>
+                <div class="col-md-9 order-game-right">
+
+                </div>
+            </div>
+            <div class="col-md-12 order-game-second">
+                <div class="col-md-9">
+                    <div class="left">
+                    <h3>ORDER A SERVER</h3>
+                    <p>Server name: <span class="orange-text">*</span> </p>
+                    <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/contacticonsub.png"><input type="text" placeholder="NEO Server - Team Fortress 2" onfocus="this.placeholder = ''" name="name" required=""></span>
+                        <a href=""></a>
+                    </button>
+                    <p>Number of slots: <span class="orange-text">*</span> </p>
+                    <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/slotsicon.png"><input type="text" placeholder="24" name="email" required="" onfocus="this.placeholder = ''"></span>
+                        <a href=""></a>
+                    </button>
+                    <p>Term: <span class="orange-text">*</span> </p>
+                    <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/termicon.png"><input type="text" placeholder="1 Month" name="text" required="" onfocus="this.placeholder = ''"></span>
+                        <a href=""></a>
+                    </button>
+                      <p>Promo code: </p>
+                    <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/promoicon.png"><input type="text" placeholder="" name="text" required="" onfocus="this.placeholder = ''"></span>
+                        <a href=""></a>
+                    </button>
+                      <p>Payment Method: <span class="orange-text">*</span> </p>
+                    <button class="links-btn newsletter"> <span class="links-blue"><img src="img/icon/payicon.png"><input type="text" placeholder="PayPal" name="text" required="" onfocus="this.placeholder = ''"></span>
+                        <a href=""></a>
+                    </button>
+                    <div class="order-buttons">
+                   
+                    <a class="" href="">PUT IN MY CHART</a> 
+                    <a class="btn2" href="">CANCEL</a>
+                
+                    <div class="order-price">
+                    <h2> TOTAL PRICE</h2>
+                        <h4>7.2€</h4>
+                        <h5>per month</h5>
+                    </div>
+                        </div>
+                </div>
+                    </div>
+                    
+                <div class="col-md-3 ">
+                    <div class="right first">
+                     <h3>TEST SERVERS</h3>
+                        <div class="server">
+                            <h2>TEAM FORTRESS 2 SERVER 1</h2>
+                            <h4>192.41.61.4:20612</h4>
+                            <a class="" href="">PLAY NOW</a>
+                            <div class="devider"></div> 
+                        </div>
+                        <div class="server">
+                            <h2>TEAM FORTRESS 2 SERVER 1</h2>
+                            <h4>192.41.61.4:20612</h4>
+                            <a class="" href="">PLAY NOW</a>
+                            <div class="devider"></div> 
+                        </div>
+                    </div>
+                    <div class="right second">
+                     <h3>ADDITIONAL</h3>
+                     <a class="" href="">SERVER LIST</a>
+                     <a class="" href="">MY CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>    
+    
+    <!-- Featured Servers Section -->
+    <section id="about" class="featured">
+        <div class="container featured-section">
+            <div class="col-md-6 portfolio-section">
+                <p class="featured-text"><img src="img/icon/Iconarow1.png" alt=""> &nbsp; Featured Servers.</p>
+                <p class="blue-section-text featured-text2">Take a look at these servers hosted on our machines</p>
+            </div>
+            <div class="col-md-6 portfolio-section2">
+                <a class="featured-btn" href=""><img src="img/icon/iconserverlist.png"> &nbsp; VIEW SERVER LIST</a>
+
+            </div>
+        </div>
+        <div class="conainer-fluid">
+            <div class="col-md-12 featured-games-section">
+                <div class="col-md-3 col-sm-6 col-xs-12 games-hover featured-games featured-game1">
+                    <div class="game-header">
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame2.png"> &nbsp; 655/800</button>
+                    </div>
+                    <div class="game-server"><img src="img/games/United-Kingdom.png"> <span class="number-orange"> #3</span> DanskpoplifeRP [DK]|DrugLabs| Customobs|Whitelisted|
+                    </div>
+                    <div class="game-footer">
+                        <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
+                        <div class="game1-logo"></div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game2">
+                   
+                       <div class="game-header">
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame2.png"> &nbsp; 655/800</button>
+                    </div>
+                    <div class="game-server"><img src="img/games/United-Kingdom.png"> <span class="number-orange"> #3</span> DanskpoplifeRP [DK]|DrugLabs| Customobs|Whitelisted|
+                    </div>
+                    <div class="game-footer">
+                        <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
+                        <div class="game1-logo"></div>
+                    </div>
+                  
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game3">
+                    <div class="game-header">
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame2.png"> &nbsp; 655/800</button>
+                    </div>
+                    <div class="game-server"><img src="img/games/United-Kingdom.png"> <span class="number-orange"> #3</span> DanskpoplifeRP [DK]|DrugLabs| Customobs|Whitelisted|
+                    </div>
+                    <div class="game-footer">
+                        <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
+                        <div class="game1-logo"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 featured-games featured-game4">
+                    <div class="game-header">
+                        <button type="button" class="btn  btn-games"><img src="img/games/icongame1.png"> &nbsp; FREEROAM</button>
+                        <button type="button" class="btn btn-games red"><img src="img/games/icongame2.png"> &nbsp; OFFLINE</button>
+                    </div>
+                    <div class="game-server"><img src="img/games/United-Kingdom.png"> <span class="number-orange"> #3</span> DanskpoplifeRP [DK]|DrugLabs| Customobs|Whitelisted|
+                    </div>
+                    <div class="game-footer">
+                        <button type="button" class="btn btn-games btn-games-play"> PLAY NOW &nbsp; <img src="img/games/Arrow.png"> </button>
+                        <div class="game1-logo"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Links Section -->
+    <section id="team" class="links-section">
+        <div class="container links-section-wraper">
+            <div class="col-md-4 col-xs-12">
+                <h3>QUICK LINKS</h3>
+                <div class="col-md-6 col-xs-6 links">
+                    <ul>
+                        <li><a href="">About us</a>
+                        </li>
+                        <li><a href="">Forum</a>
+                        </li>
+                        <li><a href="">Knowledge base</a>
+                        </li>
+                        <li><a href="">Payment</a>
+                        </li>
+                        <li><a href="">Privacy Policy</a>
+                        </li>
+                        <li><a href="">Terms &amp; Conditions</a>
+                        </li>
+                        <li><a href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-xs-6 links">
+                    <ul>
+                        <li><a href="">Game Hosting</a>
+                        </li>
+                        <li><a href="">Web Hosting</a>
+                        </li>
+                        <li><a href="">TeamSpeak3</a>
+                        </li>
+                        <li><a href="">VPS Servers</a>
+                        </li>
+                        <li><a href="">Domain Names</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 links latest">
+                <h3>LATEST NEWS</h3>
+                <ul>
+                    <li class=""><a href="">Game panel update #5</a>
+                    </li>
+                    <li><a href="">We've updete GamePanel again with..</a>
+                    </li>
+                    <li><a href=""><span class="ivan">Ivan Savic</span> <span class="links-small">3 hours ago</span></a>
+                    </li>
+                    <li class="link-line">-----------------------</li>
+
+                    <li class=""><a href="">VPS Servers not available for ordering</a>
+                    </li>
+                    <li><a href="">We are pleased to inform all of our custumers</a>
+                    </li>
+                    <li><a href=""><span class="blue-text">David Snajder</span> <span class="links-small">21.05.2017</span></a>
+                    </li>
+                    <li class="link-line">-----------------------</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 links news">
+                <h3>NEWSLETTER</h3>
+                <ul>
+                    <li><a href="">Sign up to our newsletter to get the latest news and offers.</a>
+                    </li>
+                </ul>
+                <button class="links-btn newsletter"> <span class="links-blue"><input type="text" placeholder="Subscribe to our Newsletter" onfocus="this.placeholder = ''" name="email" required></span><a href=""><img src="img/icon/arroworange.png"></a></button>
+
+                <li> </li>
+                <li class="links-social"><span class="link-line">-----------------------</span> &nbsp;&nbsp;&nbsp; SOCIAL NETWORK &nbsp;&nbsp; <span class="link-line">-----------------------</span>
+                </li>
+                <li class="links-social-btn"><a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"> </i></a>
+                    <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                </li>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12 col-xs-12 payment">
+                    <h4 class="text-center">PAYMENT METHODS</h4>
+                </div>
+                <div class="col-md-6 col-xs-12 text-right payment">
+                    <img src="img/logos/leftpay.png">
+                </div>
+                <div class="col-md-6 col-xs-12 payment ">
+                    <img src="img/logos/rightpay.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 copyright-section copy-two">
+                    <span class="copyright">Copyright &copy; 2017 <img src="img/logos/logofoter.png"> - Ultimate Hosting Solution. Designed by David Snajder </span>
+                </div>
+                <div class="col-md-12 copyright-section copy-one">
+                    <span class="copyright">Copyright &copy; 2017 <img src="img/logos/logofoter.png"> - Ultimate Hosting Solution. Designed by David Snajder </span>
+                </div>
+                <div class="col-md-12 copyright-section copy-main">
+                    <span class="copyright">Copyright &copy; 2017 <img src="img/logos/logofoter.png"> - Ultimate Hosting Solution. Designed by David Snajder </span>
+                </div>
+                <div class="col-md-12">
+                    <a class="text-center backToTop">Back To Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    
+    <!-- waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+    <!-- Screen change backgroound -->
+    <script src="js/screenbackground.js"></script>
+
+    <!-- Plugin for stats bar -->
+    <script src="js/progessbar.js"></script>
+    <!-- Stats bar -->
+    <script src="js/stat.js"></script>
+     <!-- Plugin for slide bar -->
+    <script src="js/plugins.js"></script>
+    <script src="js/sly.min.js"></script>
+    <script src="js/forcecenter.js"></script>
+     <script src="js/animatedobjects.js"></script>
+
+</body>
+
+</html>
