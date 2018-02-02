@@ -176,13 +176,20 @@ width: 100%
     padding-right: 30px;
     padding-top: 15px;
 }
-#ordergame .panel-price a {
-    color: #ffffff;
-    font-weight: bold;
+
+#ordergame .panel-price a:hover { color: #ffffff;
+  
     transition: 0.3s;
     background-color: #FD8408;
+/*    box-shadow: 0px 2px 13px #FD8408;*/
+}
+    #ordergame .panel-price a {
+    color: #4a4a4a;
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: #fefefe;
     display: block;
-    box-shadow: 0px 2px 13px #FD8408;
+    /* box-shadow: 0px 2px 13px #fdfdfd; */
     border-radius: 50px;
     max-width: 160px;
     max-height: 35px;
@@ -193,6 +200,7 @@ width: 100%
     width: 100%;
     margin-top: 25px;
 }
+
 #ordergame .panel-price h6{
     font-size: 16px;
     font-weight: bold;
@@ -514,9 +522,15 @@ a.stop {
     right: 20px;
     color: #fd8408;
 }
+a.start {
+     position: absolute;
+    top: 0px;
+    right: 190px;
+    color: #58b856;
+}
 .panel-logo.serverinfo {
     height: 100%;
-    background: url(../img/games/serverinfo.png);
+    background: url(../img/games/serverinfo.jpg);
 }
 #ordergame .serverinfo-ftp {
     padding-right: 10px;
@@ -563,9 +577,9 @@ footer.server-footer {
 }
 #ordergame.support .panel-text1 a.graph-btn.btn2:hover,
 #ordergame.support .panel-text1 a.graph-btn.btn2.admin:hover{
-    background: #fff;
-    color: black;
-    border: 2px solid #fff;
+    background: #e07d23;
+    color: #f9f8f8;
+    border: 2px solid #de7c23;
 }
 #ordergame .panel-game.server-mods {
     height: auto;
@@ -575,12 +589,12 @@ footer.server-footer {
 #ordergame .panel-game.server-mods .panel-text1 h3{
 line-height: 2
 }
-#ordergame.support .panel-text1 a.graph-btn.btn2.admin{
+#ordergame.support .panel-text1 a.graph-btn.btn2.admin {
     background: #202223;
     border: 2px solid #fff;
     right: 188px;
-    max-height: 31px;
-    padding: 7px 0;
+    max-height: 35px;
+    padding: 9px 0;
 }
 #ordergame .many-wrapper.permission-check.admin {
     padding: 0;
@@ -764,6 +778,52 @@ p.autorestart {
     -webkit-appearance: none;
 }
 
+/*style for select2*/
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 95% !important;
+    text-align: center;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #1B1E21;
+    border: 1px solid #1B1E21;
+    border-radius: 4px;
+    outline: none;
+}
+.select2-dropdown {
+    background-color: #1B1E21;
+    border: 2px solid #272d2f;
+    border-radius: 30px;
+    /* width: 492px; */
+    max-width: 558px;
+    top: 11px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #1B1E21;
+    background: #1B1E21;
+    outline: none;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #1B1E21;
+    color: #5997fb;
+}
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #1B1E21;
+}
+.select2-results__options {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 40px;
+}
+.links-btn.newsletter.textfield.permisions {
+    height: 99%;
+}
+
 /*Media Query for phone*/
 @media (max-width:420px){
 .panel-game {
@@ -904,8 +964,19 @@ p.autorestart {
         height: 54px;
         line-height: 30px;
     }
+  .select2-container {
+    width: 80% !important;
+          max-width: 167px;
+} 
+    .modal.in .modal-dialog {
+        padding-right: 20px;
+    }
+.wallet a.orderbtn.report-btn {
+    width: 100%;
+    margin: -37px 0 61px !important;
+    float: left;
+}
     
-
 }
 
 

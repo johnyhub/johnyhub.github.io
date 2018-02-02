@@ -22,14 +22,16 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
 
-
     <!-- Theme CSS -->
-   
+    <!-- select2.js-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
     <link href="css/agency.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/slider.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
      <link href="fonts/style.css" rel="stylesheet">
     
+   
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -328,7 +330,7 @@
                  <p><span aria-hidden="true" data-icon="e91f;" class="icon-billing"></span><br>
                  BALANCE:</p>
                  <h1 class="blue-text">56.60$</h1>
-                   <a> <span aria-hidden="true" data-icon="e90e;" class="icon-plus"></span>ADD MONEY TO YOUR WALLET</a> 
+                   <a  href="#" data-toggle="modal" data-target="#myModal8"> <span aria-hidden="true" data-icon="e90e;" class="icon-plus"></span>ADD MONEY TO YOUR WALLET</a> 
              </div>
              <div class="col-md-12 many-wrapper header">
                 <h2>CAYEGORY</h2>
@@ -453,15 +455,58 @@
            
              <div class="col-md-12 panel-news-right-btn billing-btn">
        
-              <a class="second btn2" href="">ADD MONEY TO YOUR WALLET</a>
+              <a class="second btn2" href="#" data-toggle="modal" data-target="#myModal8">ADD MONEY TO YOUR WALLET</a>
                  </div>
-                  
+               
         </div>
                     
             
         </div>
     </section>
+<!-- Modal Wallet-->
+    <div class="modal modal5 modal6 modal8 fade" id="myModal8" role="dialog">
+        <div class="modal-dialog">
 
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Close <span>&times;</span></button>
+                    <p>Add money to your</p>
+                    <h4 class="modal-title">WALLET</h4>
+                </div>
+                <div class="modal-body">
+                    
+                    <div class="modal-wraper pin wallet">
+                       
+                          
+                                <p>Payment method:</p>
+                                <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><select class="js-example-basic-single" name="state">
+  <option value="AL">Visa Electron</option>
+    ...
+  <option value="WY">Master</option>
+                                    <option value="WY">American Express</option>
+</select></span>
+                        </div>
+                        <p>Ammount:</p>
+                                <div class="links-btn newsletter email"> <span class="links-blue"><img src="img/icon/lockicon.png"><input type="text" placeholder="" onfocus="this.placeholder ='889'" name="name" required=""></span>
+                        </div>
+                           <div class="billing-btns">
+                          <a class="orderbtn report-btn" type="button" data-dismiss="modal"> ADD MONEY</a>
+                            <a class="orderbtn report-btn" type="button" data-dismiss="modal"> CLOSE</a>
+                               </div>
+                          
+                        
+                        
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal End-->
     
 
     <footer>
@@ -514,7 +559,9 @@
     <script src="js/plugins.js"></script>
     <script src="js/sly.min.js"></script>
     <script src="js/forcecenter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
     <script src="js/animatedobjects.js"></script>
+     <script src="js/select2comand.js"></script>
 
 </body>
 

@@ -195,7 +195,7 @@ ul.blue-list  {
 .game-holder {
     height: 100%;
     width: 100%;
-    background: url(../img/games/solder.png) no-repeat center center;
+    background: url(../img/games/solder.jpg) no-repeat center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -203,21 +203,21 @@ ul.blue-list  {
     border-radius: 5px 
 }
 .game-one {
-    background: url(../img/games/game4small.png) no-repeat center center;
+    background: url(../img/games/game4small.jpg) no-repeat center center;
      -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;   
 }
 .game-three {
-    background: url(../img/games/game3small.png) no-repeat center center;
+    background: url(../img/games/game3small.jpg) no-repeat center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;   
 }
 .game-four {
-    background: url(../img/games/game1small.png) no-repeat center center;
+    background: url(../img/games/game1small.jpg) no-repeat center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -365,23 +365,23 @@ button.btn.next1:hover {
 }
 
 .screen-img1 {
-    background-image: url(../img/background/screenimage1.png);
+    background-image: url(../img/);
     background-size: 100% 100%;
 }
 .screen-img2 {
-    background-image: url(../img/background/server2.jpg);
+    background-image: url(../img/);
     background-size: 100% 100%;
 }
 .screen-img3 {
-    background-image: url(../img/background/server3.jpg);
+    background-image: url(../img/);
     background-size: 100% 100%;
 }
 .screen-img4 {
-    background-image: url(../img/background/server4.jpg);
+    background-image: url(../img/);
     background-size: 100% 100%;
 }
 .screen-img5 {
-    background-image: url(../img/background/server5.jpg);
+    background-image: url(../img/);
     background-size: 100% 100%;
 }
 
@@ -395,7 +395,7 @@ button.btn.next1:hover {
     padding: 120px 0 110px 0;
 }
 .statmap-right {
-    background-image: url(../img/background/worldmap.png);
+    background-image: url(../img/map-image.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 343px;
@@ -580,7 +580,7 @@ div.chart {
     visibility: visible;
 }
 .featured-game1 {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game1.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game1.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -618,7 +618,7 @@ div.chart {
 }
 
 .featured-game2 {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game2.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game2.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -629,7 +629,7 @@ div.chart {
 
 
 .featured-game3 {
-    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game3.png);
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game3.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -641,7 +641,7 @@ div.chart {
 
 
 .featured-game4 {
-    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game4.png);
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/games/game4.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -771,6 +771,11 @@ font-size: 16px;
 .news ul li:active{
     list-style-image: none;
     margin-left: 0;
+}
+.links.news a:hover {
+    color: #505050;
+    transition: none;
+    cursor: text;
 }
 
 .links-blue-active a,
@@ -1865,7 +1870,7 @@ section#contact-box2{
     margin: 60px 20% 0;
     box-shadow: 2px 8px 30px black;
 }
-.contactbox button {
+.contactbox div {
     padding: 15px 30px;
     margin-bottom: 10px;
     border: 1px solid #272B30;
@@ -1889,6 +1894,30 @@ a.report-btn {
 a:hover.report-btn {
     box-shadow: 2px 2px 22px #FD8408;
     transition: 0.3sS
+}
+.pin a.orderbtn.report-btn.confirm {
+    background-color: #FD8408;
+    border: solid #FD8408;
+}
+.pin a.orderbtn.report-btn.confirm:hover {
+    box-shadow: 2px 2px 22px #FD8408;
+    transition: 0.3sS;
+}
+.wallet a.orderbtn.report-btn {
+    width: 50%;
+    margin: 20px 10px !important;
+    float: left;
+}
+.wallet .billing-btns {
+    padding: 60px 50px 90px;
+}
+.modal-wraper.pin.wallet {
+    padding-top: 0;
+    margin-top: -20px;
+}
+.modal8 .modal-wraper.pin.wallet p {
+    font-size: 18px;
+    margin-top: 20px
 }
  .contactbox .textfield img {
      vertical-align: top;
@@ -2101,7 +2130,7 @@ section#order-box {
     padding-top: 10px;
 }
 .order-game-right {
-    background: url(../img/games/orderheader.png) no-repeat center center;
+    background: url(../img/games/orderheader.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2875,6 +2904,11 @@ section#ordergame{
     border: 1px solid #272B30;
     cursor: default;
 }
+#ordergame .links-btn.newsletter {
+    padding: 13px 30px;
+    margin-bottom: 10px;
+    max-height: 56px;
+}
 #ordergame .right-second input{
     background: #202223;
 }
@@ -2916,6 +2950,13 @@ color: #ffffff;
     transition: 0.3s;
     border: 2px solid #ffffff;
 }
+
+    #ordergame a.second.btn2.btn3 {
+    margin: 0 !important;
+    width: 100%;
+    max-width: 100%;
+}
+
 p.sign {
     float: right;
     margin: 0;
@@ -3018,6 +3059,11 @@ section#ordergame.profile .form-control{
     font-size: 16px;
     font-weight: bold;
 }
+img.newsarow {
+    width:  12px;
+    margin-top:  -5px;
+    margin-right: 7px;
+}
 .recentnews .news-wrapper p{
     margin: 0;
     font-size: 14px;
@@ -3035,7 +3081,7 @@ section#ordergame.profile .form-control{
 .recentnews .col-md-2{
 padding: 0;
 }
-.recentnews .news-wrapper a{   
+.recentnews .news-wrapper a.read{   
     color: #ffffff;
     font-weight: bold;
     background-color: #FD8408;
@@ -3049,8 +3095,15 @@ padding: 0;
     border-radius: 50px;
     padding: 7px;
 }
-.recentnews .news-wrapper a:hover{
+.recentnews .news-wrapper a.read:hover{
     box-shadow: 2px 2px 22px #FD8408;
+    transition: .3s;
+}
+a.newshead {
+    color: #fdfdfd;
+}
+a.newshead:hover {
+    color: #b9c5cd;
     transition: .3s;
 }
 /*
@@ -3598,6 +3651,52 @@ img::-moz-selection {
 .btn-icon.report {
     background: url(../img/icon/Iconreport.png) 22px no-repeat #1B1E21;
 }
+/*style for select2*/
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 95% !important;
+    text-align: center;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #202223;
+    border: 1px solid #202223;
+    border-radius: 4px;
+    outline: none;
+}
+.select2-dropdown {
+    background-color: #202223;
+    border: 2px solid #272d2f;
+    border-radius: 30px;
+    /* width: 492px; */
+    max-width: 558px;
+    top: 11px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #202223;
+    background: #202223;
+    outline: none;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #202223;
+    color: #5997fb;
+}
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #202223;
+}
+.select2-results__options {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 40px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #8598a2;
+}
+
 /*media qeuery for mobile */
 @media (max-width:420px){
     #services .frame ul {
@@ -3816,5 +3915,7 @@ img::-moz-selection {
     #ordergame .many-wrapper2 .order-many-btn {
         width: 49.6%;
     }
-    
+    .modal.in .modal-dialog {
+        padding-right: 20px;
+    } 
 }
