@@ -34,12 +34,18 @@ h6 {
     text-transform: uppercase;
     font-weight: 700
 }
+h3 {
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 2px solid #74d14c;
+    margin: 20px 12%;
+}
 .text-muted {
     color: #777
 }
 .text-primary,
 a {
-    color: #fed136
+    color: #d30f26
 }
 p {
     font-size: 14px;
@@ -345,6 +351,20 @@ ul.nav.navbar-nav.navbar-right {
     transition: 2s;
     opacity: .3;
 }
+.oglas {
+    border: 7px solid #a5a2a2;
+    overflow: hidden;
+    box-shadow: 2px 2px 22px white;
+}
+.mapa {
+    box-shadow: 2px 2px 22px;
+    border: 7px solid #f2af58;
+}
+.logo-mali {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 .phone-number {
     position: absolute;
     bottom: 0;
@@ -392,7 +412,7 @@ i.fa.fa-phone-square {
         
 }
 .about p, .rentacar p {
-    padding: 20px 0;
+    padding: 10px 20px 0px;
     font-weight: bold;
     font-size: 16px;
     color: #525252;
@@ -810,7 +830,7 @@ section#contact .text-danger {
 }
 footer {
     text-align: center;
-    background: #323232;
+    background: #b7b7b7;
     border-top: 1px solid #464646;
 }
 footer span.copyright {
