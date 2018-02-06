@@ -65,7 +65,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #fec503
+    color:#d30f26;
 }
 .img-centered {
     margin: 0 auto
@@ -387,15 +387,37 @@ ul.nav.navbar-nav.navbar-right {
     opacity: 0.8;
     transition: .3s
 }
-.phone-number a:hover i.fa.fa-phone-square{
+a.tel:hover i.fa.fa-phone-square,
+a.email:hover i.fa.fa-envelope{
    
     transform: rotate(360deg);
     transition: .6s;
 }
-i.fa.fa-phone-square {
+i.fa.fa-phone-square, .fa-envelope {
     color: #d30f26;
     margin-right: 10px;
     transition: 0.3s
+}
+.fa-facebook-square, .fa-instagram {
+    font-size: 46px;
+    color: #4862A3;
+    transition: 0.3s;
+}
+.fa-facebook-square:hover {
+    color: #00325e;
+    transition: 0.3s;
+}
+.fa-instagram {
+    color:#ec4c4c;
+    transition: 0.3s;
+}
+.fa-instagram:hover {
+    color:#990404;
+    transition: 0.3s;
+}
+a.tel, a.email {
+    font-size: 18px;
+    text-decoration: none;
 }
  .overlay {
     background: black;
