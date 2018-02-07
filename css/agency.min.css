@@ -152,7 +152,7 @@ fieldset[disabled] .btn-xl:hover {
     background-color: #fff
 }
 .navbar-custom {
-    background-color: #323232;
+    background-color: #ececec;
     border-color: transparent
 }
 .navbar-custom .navbar-brand {
@@ -1082,7 +1082,16 @@ img::-moz-selection {
 .contact img.contact-logo {
     padding: 0 15px;
 }
-    
+    a.navbar-brand.page-scroll img {
+    width: 80px;
+    margin-top: -28px;
+    transition: 0.3s;
+}   
+.affix a.navbar-brand.page-scroll img {
+    width: 80px;
+    margin-top: -28px;
+    transition: 0.3s;
+}   
     
     
     
