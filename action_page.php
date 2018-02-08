@@ -38,7 +38,7 @@ $headers[] = 'MIME-Version: 1.0';
 $headers[] = 'Content-type: text/html; charset=iso-8859-1';
 
 // Additional headers
-$headers[] = 'From: '.$first_name.' '.$last_name.' <'.$email.'>';
+$headers[] = 'From: '.$Ime.' '.$DatumRodjenja.' <'.$Adresa.'>';
 
 // Mail it
 mail($to, $subject, $message, implode("\r\n", $headers));
