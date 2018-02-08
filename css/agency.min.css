@@ -368,6 +368,7 @@ ul.nav.navbar-nav.navbar-right {
 .mapa {
     box-shadow: 2px 2px 22px;
     border: 7px solid #f2af58;
+    padding: 15px 0;
 }
 .logo-mali {
     position: absolute;
@@ -375,7 +376,7 @@ ul.nav.navbar-nav.navbar-right {
     right: 0;
 }
 .prijava {
-    padding: 10px 18%;
+    padding: 88px 18%;
 }
 .prijava p {
     display: inline-block;
@@ -1013,7 +1014,10 @@ img::-moz-selection {
 }
 @media (max-width:1200px){
 .prijava {
-        padding: 10px 10%;
+        padding: 132px 10%;
+    }
+    .mapa {
+        padding: 1px 0;
     }
 }
 @media (max-width:420px) {
