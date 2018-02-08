@@ -1132,7 +1132,10 @@ img::-moz-selection {
     display: block;
     margin: 0 auto;
     }
-
+    .navbar-header.page-scroll {
+        width: 100vw
+    }
+    
     
     
 }
