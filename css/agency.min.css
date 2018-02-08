@@ -1135,7 +1135,9 @@ img::-moz-selection {
     .navbar-header.page-scroll {
         width: 100vw
     }
-    
+    .part .left, .part .right {
+        height: 50px;
+    }
     
     
 }
