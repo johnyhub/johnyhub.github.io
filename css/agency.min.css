@@ -1127,6 +1127,11 @@ img::-moz-selection {
         display: block;
         margin: 0 auto;
     }
+    .prijava textarea {
+        max-width: 260px;
+    display: block;
+    margin: 0 auto;
+    }
 
     
     
