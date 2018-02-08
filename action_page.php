@@ -43,7 +43,7 @@ $headers[] = 'From: '.$Ime.' '.$DatumRodjenja.' <'.$Adresa.'>';
 // Mail it
 mail($to, $subject, $message, implode("\r\n", $headers));
 
-//header("Location: http://www.autopeka.rs/proba/success.html", true, 301);
+//header("Location: https://johnyhub.github.io/success.html", true, 301);
 header('Location: https://johnyhub.github.io/success.html');
 
 ?>
