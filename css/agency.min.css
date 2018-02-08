@@ -22,6 +22,13 @@ body {
     color: #D30F26;
     font-size: 18px;
 }
+.blue-text {
+    color: #4c96d7;
+}
+.red-text-big {
+    color: #ec4c4c;
+    font-size: larger;
+}
 .btn-primary,
 .btn-xl,
 h1,
@@ -1102,6 +1109,25 @@ img::-moz-selection {
     .copyright img {
         width: 50px;
     }    
+     .uslovi.about {
+      padding-top: 50px;  
+    }  
+    .prijava {
+    padding: 10px 0;
+}
+    .about .prijava p {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+    input, textarea, select {
+        display: block;
+        margin: 0 auto;
+    }
+
     
     
 }
