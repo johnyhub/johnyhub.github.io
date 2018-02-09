@@ -112,7 +112,7 @@ preuzimanja članske karte.</p>
                         <div class="kako animated animated fadeInUpBig">
                             <h3>PRIJAVA</h3>
                             <div class="mapa prijava">
-                                <form action="/action_page.php" method="POST">
+                                <form action="../proba/action_page.php" method="POST">
                                     <p>Ime i prezime:</p>
                                     <input type="text" name="Ime" value="" required="" oninvalid="this.setCustomValidity('Molimo vas da upišete vaše ime')" oninput="setCustomValidity('')">
                                     <br>
@@ -123,31 +123,31 @@ preuzimanja članske karte.</p>
                                         <input type="text" name="Adresa" value="" required="" oninvalid="this.setCustomValidity('Molimo vas da upišete vašu adresu')" oninput="setCustomValidity('')" >
                                         <br>                                        
                                    <p>Email: </p>
-                                        <input type="text" name="Email" value="" required="" oninvalid="this.setCustomValidity('Molimo vas da upišete vaš email')" oninput="setCustomValidity('')">
+                                        <input type="text" name="EmailAdresa" value="" required="" oninvalid="this.setCustomValidity('Molimo vas da upišete vaš email')" oninput="setCustomValidity('')">
                                         <br>
                                         <p>Kontakt telefon: </p>
-                                        <input type="text" name="Email" value="" required="" oninvalid="this.setCustomValidity('Molimo vas da upišete vaš kontakt telefon')" oninput="setCustomValidity('')">
+                                        <input type="text" name="Tel" value="" required="" oninvalid="this.setCustomValidity('Molimo vas da upišete vaš kontakt telefon')" oninput="setCustomValidity('')">
                                         <br>
                                         <p>Vaš status: </p>
-                                      <select name="status" class="padajuci" required="" data-bv-field="status" oninvalid="this.setCustomValidity('Molimo vas da izaberete vaš status')" oninput="setCustomValidity('')">
+                                      <select name="Status" class="padajuci" required="" data-bv-field="status" oninvalid="this.setCustomValidity('Molimo vas da izaberete vaš status')" oninput="setCustomValidity('')">
                                       <option value="">Izaberite: </option>
-                                      <option value="19">učenik (od 15 godina)</option>
-                                      <option value="18">student (do 26 godina)</option>
-                                <option value="20">nezaposlen (do 30 godina)</option>
+                                      <option value="učenik (od 15 godina)">učenik (od 15 godina)</option>
+                                      <option value="student (do 26 godina)">student (do 26 godina)</option>
+                                <option value="nezaposlen (do 30 godina)">nezaposlen (do 30 godina)</option>
                               <!--              <option value="stariji" >stariji (od 30 godina)</option> -->
                                     </select><i class="form-control-feedback" data-bv-icon-for="status" style="display: none;"></i>
                                     <br>
                                     <p>Sanitarna knjižica: </p>
-                                      <select name="status" class="padajuci" required="" data-bv-field="sanitarna" oninvalid="this.setCustomValidity('Molimo vas da upišete da li imate sanitarnu knjižicu')" oninput="setCustomValidity('')">
+                                      <select name="Sanit" class="padajuci" required="" data-bv-field="sanitarna" oninvalid="this.setCustomValidity('Molimo vas da upišete da li imate sanitarnu knjižicu')" oninput="setCustomValidity('')">
                                       <option value="">Izaberite: </option>
-                                      <option value="21">DA</option>
-                                      <option value="22">NE</option>
+                                      <option value="DA">DA</option>
+                                      <option value="NE">NE</option>
                                 
                     
                                     </select><i class="form-control-feedback" data-bv-icon-for="status" style="display: none;"></i>
                                     <br>
                                     <p class="napomene">Napomene:</p>
-                                        <textarea name="Text1" cols="43" rows="5" maxlength="125" placeholder="Ukoliko imate nešto da dodate, poslovi koji vas zanimaju itd.. upišite ovde(do 125 karaktera)"></textarea>
+                                        <textarea name="Napomene" cols="43" rows="5" maxlength="125" placeholder="Ukoliko imate nešto da dodate, poslovi koji vas zanimaju itd.. upišite ovde(do 125 karaktera)"></textarea>
 
                                         <br>
 		
